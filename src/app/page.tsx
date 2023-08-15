@@ -1,12 +1,19 @@
+import Contato from "@/components/Contato";
+import Inicio from "@/components/Inicio";
 import NavBar from "@/components/NavBar";
-import Pagina from "@/components/Pagina";
-
+import Projetos from "@/components/Projetos";
+import Serviços from "@/components/Serviços";
+import SobreNos from "@/components/SobreNos";
 
 export default function Home() {
   return (
     <div className="h-screen">
       <NavBar />
-      <Pagina />
+      <Inicio />
+      <SobreNos />
+      <Serviços />
+      <Projetos />
+      <Contato />
     </div>
   )
 }
