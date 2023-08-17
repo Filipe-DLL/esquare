@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import esquare from "@/assets/inicio//HORIZONTAL-AZUL.svg";
+import esquare from "@/assets/inicio/horizontal-azul.svg";
 import { ChevronsDown } from "lucide-react";
 import Botao from "./Botao";
 

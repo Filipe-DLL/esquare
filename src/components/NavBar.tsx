@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/assets/navBar//REDUZIDA-AZUL.svg";
+import logo from "@/assets/navBar/reduzida-azul.svg";
 
 export default function NavBar() {
   return (
