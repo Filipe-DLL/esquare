@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Botao from "./Botao";
+import Botao from "@/components/Botao";
 
 import image1 from "@/assets/sobreNos/img1.jpg";
 import image2 from "@/assets/sobreNos/img2.jpg";

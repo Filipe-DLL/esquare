@@ -1,0 +1,22 @@
+import Image, { StaticImageData } from "next/image";
+
+interface props {
+  titulo: string;
+  texto: string;
+  imagem: StaticImageData;
+}
+
+export default function ServicesPage(props: props) {
+  return (
+    <div id={props.titulo} className="p-16 flex items-center justify-center gap-10">
+      <Image src={props.imagem} alt="" width={400}
+        className="rounded-3xl shadow-default" />
+      <div className="flex flex-col items-start justify-center gap-4">
+        <h2 className="text-center text-2xl font-bold">{props.titulo}</h2>
+        <p className="font-medium text-base text-justify">
+          {props.texto}
+        </p>
+      </div>
+    </div>
+  )
+}

@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 import esquare from "@/assets/inicio/horizontal-azul.svg";
+import Botao from "@/components/Botao";
 import { ChevronsDown } from "lucide-react";
-import Botao from "./Botao";
 
 
 
@@ -12,18 +12,12 @@ export default function Inicio() {
       <div className="flex flex-col justify-between h-full">
         <div></div>
 
-        {/* logo */}
-        <Image src={esquare} alt="ESQUARE" className="mt-16" />
+        <Image src={esquare} alt="ESQUARE" />
 
-        {/* container */}
-        <div className="flex flex-col items-center gap-32">
 
-          {/* botao */}
+        <div className="flex flex-col items-center gap-32 mb-16">
           <Botao />
-
-          {/* seta */}
           <ChevronsDown size={55} />
-
         </div>
 
       </div>

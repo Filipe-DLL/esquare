@@ -17,16 +17,16 @@ export default function Projetos() {
 
         <div className="flex items-center justify-center gap-16">
           <Image src={projeto1} alt="" width={400}
-            className="rounded-3xl drop-shadow-md" />
+            className="rounded-3xl shadow-default" />
 
           <div className="flex flex-col items-start justify-center gap-6">
             <h2 className="font-extrabold">
               Titulo do Projeto
             </h2>
-            <p className="text-black font-medium">
+            <p className="text-black font-medium text-base">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis earum deleniti praesentium? Labore beatae, numquam eius nihil, enim perspiciatis, ullam minima expedita eaque cum dolorum accusantium magnam voluptate quis iure.
             </p>
-            <h3 className="flex flex-row font-semibold text-sky-600">
+            <h3 className="flex flex-row font-semibold text-sky-600 cursor-pointer">
               Learm More <ArrowRight className="text-sky-600"/>
             </h3>
           </div>
@@ -38,16 +38,16 @@ export default function Projetos() {
             <h2 className="font-extrabold">
               Titulo do Projeto
             </h2>
-            <p className="text-black font-medium">
+            <p className="text-black font-medium text-base">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis earum deleniti praesentium? Labore beatae, numquam eius nihil, enim perspiciatis, ullam minima expedita eaque cum dolorum accusantium magnam voluptate quis iure.
             </p>
-            <h3 className="flex flex-row font-semibold text-sky-600">
+            <h3 className="flex flex-row font-semibold text-sky-600 cursor-pointer">
               Learm More <ArrowRight className="text-sky-600"/>
             </h3>
           </div>
 
           <Image src={projeto2} alt="" width={400}
-            className="rounded-3xl drop-shadow-md" />
+            className="rounded-3xl shadow-default" />
 
         </div>
 
