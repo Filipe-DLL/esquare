@@ -10,22 +10,27 @@ interface props {
 export default function Iten(props: props) {
 
   return (
-    <div className={`relative h- flex flex-col items-center justify-center gap-8 h-full `} >
+    <div className="flex min-h-full flex-col items-center justify-between gap-8 2xl:w-2/5">
+      <h2 className="text-center text-lg font-extrabold text-zinc-50">
+        {props.titulo}
+      </h2>
 
-      <h2 className="text-center font-extrabold text-lg text-zinc-50">{props.titulo}</h2>
-
-      <div className="flex-1 ">
-        <div className="absolute left-4 top-16 w-16 h-16 rounded-full flex items-center justify-center bg-zinc-50 text-2xl font-bold">
+      <div className="relative">
+        <p className="absolute top-6 flex h-16 w-16 items-center justify-center rounded-full bg-zinc-50 text-2xl font-bold">
           {props.numero}
-        </div>
-        <Image src={props.imagem} alt="rounded" width={300} height={300}
-          className="rounded-full border-8 border-zinc-50" />
+        </p>
+        <Image
+          src={props.imagem}
+          alt="rounded"
+          width={300}
+          height={300}
+          className="rounded-full border-8 border-zinc-50 flex-1"
+        />
       </div>
 
-      <p className="w-80 text-base font-medium text-zinc-50 text-justify flex-1 ">
+      <p className="w-80 h-44 text-justify text-base font-medium text-zinc-50">
         {props.texto}
       </p>
-
     </div>
   )
 }
