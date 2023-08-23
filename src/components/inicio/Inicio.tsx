@@ -8,9 +8,9 @@ export default function Inicio() {
   return (
     <section
       id="Inicio"
-      className="flex h-screen w-full justify-center bg-bgHome"
+      className="flex h-screen w-full items-center justify-center bg-bgHome"
     >
-      <div className="flex h-full mx-10 flex-col items-center justify-between">
+      <div className="flex h-full w-full mx-10 flex-col items-center justify-between">
         <div></div>
 
         <Image src={esquare} alt="ESQUARE" />

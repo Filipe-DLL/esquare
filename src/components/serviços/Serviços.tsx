@@ -14,7 +14,7 @@ export default function Serviços() {
       </h1>
 
       {/* container */}
-      <div className="flex flex-wrap items-end justify-between gap-8 p-10">
+      <div className="flex flex-wrap items-end justify-center gap-8 p-10">
         <Serviço titulo="Projeto arquitetônico" imagem={arquitetonico} />
         <Serviço titulo="Projeto estrutural" imagem={arquitetonico} />
         <Serviço titulo="Projetos Hidrossanitário" imagem={arquitetonico} />
