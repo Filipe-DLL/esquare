@@ -7,12 +7,12 @@ export default function Footer() {
   return (
     <footer
       id="Footer"
-      className="mt-20 flex h-80 w-full flex-col items-center border-t-[1.25rem] border-azulIndigo bg-zinc-300 p-8"
+      className="mt-20 flex h-80 w-full flex-col items-center border-t-[1.25rem] border-azulIndigo bg-zinc-300 p-8 lg:h-full"
     >
       {/* container */}
-      <div className="flex items-start justify-center gap-12">
+      <div className="flex items-start justify-center gap-12 lg:flex-wrap lg:items-center md:flex-col md:w-full">
         {/* ESQUARE */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 lg:w-5/12 md:items-center">
           <Image src={esquare} alt="ESQUARE" width={200} />
           <p className="w-60 text-justify font-medium">
             A ESQUARE tem como missão encontrar as melhores soluções de
@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
 
         {/* Nossos Serviços */}
-        <div className="">
+        <div className="lg:w-5/12 md:items-center">
           <h2 className="mb-8 pt-2 text-xl font-extrabold">Nossos Serviços</h2>
           <ul className="list-disc pl-6 font-medium">
             <li>Projeto arquitetônico</li>
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         {/* Contatos */}
-        <div className="">
+        <div className="lg:w-5/12">
           <h2 className="mb-8 pt-2 text-xl font-extrabold">Contatos</h2>
           <div className="flex  flex-col gap-2 font-medium">
             <div className="flex items-center gap-4">
@@ -59,7 +59,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="">
+        <div className="lg:w-5/12">
           <h2 className="mb-8 pt-2 text-xl font-extrabold">Nossos Serviços</h2>
           <p className="font-medium">
             Rua Nome da Rua, Nº 888,

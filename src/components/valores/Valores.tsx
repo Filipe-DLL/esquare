@@ -1,4 +1,4 @@
-import Iten from '@/components/valores/Iten'
+import Item from '@/components/valores/Item'
 
 import cliente from '@/assets/valores/cliente.jpg'
 import etica from '@/assets/valores/etica.jpg'
@@ -9,22 +9,23 @@ export default function Valores() {
   return (
     <section
       id="Valores"
-      className="mt-20 flex h-[46rem] w-full flex-col items-center bg-azulPetrolio 2xl:h-full"
+      className="relative m-20 flex h-[46rem] w-full flex-col items-center bg-azulPetrolio 2xl:h-full 2xl:mb-20"
     >
       {/* Titulo */}
       <h1 className="m-8 flex items-center justify-center text-3xl font-black uppercase text-gray-50">
         Porque escolher a Esquare
       </h1>
 
+      {/* listra */}
+        <div
+          className="absolute bottom-[52%] h-2 w-4/6 rounded-full bg-zinc-50 opacity-100 2xl:opacity-0">
+        </div>
+
       {/* container */}
       <div className="relative flex h-full items-center justify-evenly w-full flex-wrap 2xl:gap-3 2xl:justify-center">
 
-        {/* listra */}
-        <div
-          className="absolute left-1/2 right-0 h-2 w-5/6 -translate-x-1/2 -translate-y-28 transform rounded-full bg-zinc-50 opacity-100 2xl:opacity-0">
-        </div>
 
-        <Iten
+        <Item
           titulo={'Satisfação do Cliente'}
           numero={1}
           imagem={cliente}
@@ -32,7 +33,7 @@ export default function Valores() {
             'Estamos sempre pensando no melhor para nossos clientes, de forma que eles tenham a melhor experiência com os nossos serviços.'
           }
         />
-        <Iten
+        <Item
           titulo={'Excelência'}
           numero={2}
           imagem={excelencia}
@@ -40,7 +41,7 @@ export default function Valores() {
             ' Buscando sempre trazer a melhor experiência e satisfação para nossos clientes, nossos métodos de trabalho estão em constante avaliação à procura de melhorias para entregar os melhores projetos para nossos clientes.'
           }
         />
-        <Iten
+        <Item
           titulo={'Ética'}
           numero={3}
           imagem={etica}
@@ -48,7 +49,7 @@ export default function Valores() {
             ' Temos como base do nosso trabalho o respeito para com os preceitos morais da nossa sociedade, bem como todas as leis que regem o nosso país, em especial às normas relativas à projetos e soluções de engenharia.'
           }
         />
-        <Iten
+        <Item
           titulo={'Inovação'}
           numero={4}
           imagem={inovaçao}

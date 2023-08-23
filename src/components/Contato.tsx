@@ -21,7 +21,7 @@ export default function Contato() {
           width="700"
           height="450"
           loading="lazy"
-          className="border:0 rounded-3xl shadow-default"
+          className="border:0 rounded-3xl shadow-default lg:w-5/6"
         ></iframe>
 
         {/* container */}

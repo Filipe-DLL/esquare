@@ -19,10 +19,10 @@ export default function QuemSomos() {
       </h1>
 
       {/* box */}
-      <div className="relative mt-6 flex h-[44rem] w-5/6 items-center justify-between gap-10 rounded-3xl bg-azulPetrolio p-8 text-gray-50">
+      <div className="relative my-6 flex h-[44rem] w-5/6 items-center justify-center gap-10 rounded-3xl bg-azulPetrolio p-8 text-gray-50 lg:h-full lg:px-20">
         {/* container */}
-        <div className="flex h-full flex-col justify-between">
-          <div className="flex items-center gap-12">
+        <div className="mb-8 flex h-full flex-col justify-between lg:gap-8 lg:w-5/6">
+          <div className="flex items-center gap-12 lg:flex-col">
             <Image
               src={image1}
               alt=""
@@ -37,7 +37,8 @@ export default function QuemSomos() {
               sonho de construir sua casa própria ou seu empreendimento.
             </p>
           </div>
-          <div className="flex items-center gap-12">
+
+          <div className="flex items-center gap-12 lg:flex-col">
             <Image
               src={image2}
               alt=""
@@ -52,7 +53,8 @@ export default function QuemSomos() {
               construção.
             </p>
           </div>
-          <div className="flex items-center gap-12">
+
+          <div className="flex items-center gap-12 lg:flex-col">
             <Image
               src={image3}
               alt=""
@@ -67,7 +69,7 @@ export default function QuemSomos() {
           </div>
         </div>
 
-        <div>
+        <div className='2xl:hidden'>
           <Image
             src={image4}
             alt=""

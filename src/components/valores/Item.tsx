@@ -7,11 +7,11 @@ interface props {
   numero: number
 }
 
-export default function Iten(props: props) {
+export default function Item(props: props) {
 
   return (
-    <div className="flex min-h-full flex-col items-center justify-between gap-8 2xl:w-2/5">
-      <h2 className="text-center text-lg font-extrabold text-zinc-50">
+    <div className="flex min-h-full flex-col items-center justify-between gap-10 2xl:w-2/5 md:w-full">
+      <h2 className="mt-8 -mb-6 text-center text-lg font-extrabold text-zinc-50">
         {props.titulo}
       </h2>
 
@@ -28,7 +28,7 @@ export default function Iten(props: props) {
         />
       </div>
 
-      <p className="w-80 h-44 text-justify text-base font-medium text-zinc-50">
+      <p className="mb-4 w-80 h-44 text-justify text-base font-medium text-zinc-50 lg:w-64 md:w-80">
         {props.texto}
       </p>
     </div>
