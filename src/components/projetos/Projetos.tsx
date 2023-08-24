@@ -33,9 +33,12 @@ export default function Projetos() {
               nihil, enim perspiciatis, ullam minima expedita eaque cum dolorum
               accusantium magnam voluptate quis iure.
             </p>
-            <h3 className="flex cursor-pointer flex-row font-semibold text-sky-600">
-              Learm More <ArrowRight className="text-sky-600" />
-            </h3>
+            <div className='group flex items-center justify-center text-sky-600  '>
+              <h3 className="flex cursor-pointer flex-row font-semibold group-hover:opacity-90 group-hover:text-sky-500">
+                Saber mais
+              </h3>
+              <ArrowRight className="text-sky-600 group-hover:opacity-90 group-hover:text-sky-500" />
+            </div>
           </div>
         </div>
 
@@ -48,9 +51,12 @@ export default function Projetos() {
               nihil, enim perspiciatis, ullam minima expedita eaque cum dolorum
               accusantium magnam voluptate quis iure.
             </p>
-            <h3 className="flex cursor-pointer flex-row font-semibold text-sky-600">
-              Learm More <ArrowRight className="text-sky-600" />
-            </h3>
+            <div className='group flex items-center justify-center text-sky-600  '>
+              <h3 className="flex cursor-pointer flex-row font-semibold group-hover:opacity-90 group-hover:text-sky-500">
+                Saber mais
+              </h3>
+              <ArrowRight className="text-sky-600 group-hover:opacity-90 group-hover:text-sky-500" />
+            </div>
           </div>
 
           <Image

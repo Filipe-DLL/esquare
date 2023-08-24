@@ -16,10 +16,11 @@ export default function Inicio() {
         <Image src={esquare} alt="ESQUARE" />
 
         <div className="mb-16 flex flex-col items-center gap-32">
-        <div className='w-96 h-10'>
+        <div className='w-96 h-14'>
           <Botao />
          </div>
-          <ChevronsDown size={55} />
+          <ChevronsDown size={55} 
+          className='animate-bounce'/>
         </div>
       </div>
     </section>

@@ -79,7 +79,7 @@ export default function QuemSomos() {
         </div>
 
         {/* Botão */}
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 transform">
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 transform w-96 h-14">
           <Botao />
         </div>
       </div>

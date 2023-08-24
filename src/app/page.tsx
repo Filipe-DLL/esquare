@@ -21,7 +21,7 @@ export default function Home() {
           src={whatsapp}
           height={75}
           alt="Solicite um orçamento via WhatsApp!"
-          className="fixed bottom-7 right-7 z-10 cursor-pointer"
+          className="fixed bottom-7 right-7 z-10 cursor-pointer hover:scale-110 hover:drop-shadow-md transition-all"
         />
       </Link>
 
