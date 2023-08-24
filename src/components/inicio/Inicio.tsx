@@ -8,7 +8,7 @@ export default function Inicio() {
   return (
     <section
       id="Inicio"
-      className="flex h-screen w-full items-center justify-center bg-bgHome"
+      className="flex h-screen w-full items-center justify-center bg-gray-50"
     >
       <div className="flex h-full w-full mx-10 flex-col items-center justify-between">
         <div></div>
@@ -16,7 +16,9 @@ export default function Inicio() {
         <Image src={esquare} alt="ESQUARE" />
 
         <div className="mb-16 flex flex-col items-center gap-32">
+        <div className='w-96 h-10'>
           <Botao />
+         </div>
           <ChevronsDown size={55} />
         </div>
       </div>

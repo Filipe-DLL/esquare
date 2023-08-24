@@ -22,7 +22,7 @@ export default function Projetos() {
           <Image
             src={projeto1}
             alt=""
-            className="rounded-3xl shadow-default w-96 xl:w-80 lg:w-96"
+            className="rounded-3xl shadow-md w-96 xl:w-80 lg:w-96"
           />
 
           <div className="flex flex-col items-start justify-center gap-6">
@@ -56,7 +56,7 @@ export default function Projetos() {
           <Image
             src={projeto2}
             alt=""
-            className="rounded-3xl shadow-default w-96 xl:w-80 lg:w-96"
+            className="rounded-3xl shadow-md w-96 xl:w-80 lg:w-96"
           />
         </div>
       </div>

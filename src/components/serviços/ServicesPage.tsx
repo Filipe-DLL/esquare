@@ -16,7 +16,7 @@ export default function ServicesPage(props: props) {
         src={props.imagem}
         alt=""
         width={400}
-        className="rounded-3xl shadow-default"
+        className="rounded-3xl shadow-md"
       />
       <div className="flex flex-col items-start justify-center gap-4">
         <h2 className="text-center text-2xl font-bold">{props.titulo}</h2>

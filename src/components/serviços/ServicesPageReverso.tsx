@@ -20,7 +20,7 @@ export default function ServicesPageReverso(props: props) {
         src={props.imagem}
         alt=""
         width={400}
-        className="rounded-3xl shadow-default"
+        className="rounded-3xl shadow-md"
       />
     </div>
   )

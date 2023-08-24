@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import logo from '@/assets/navBar/reduzida-azul.svg'
+import logo from '@/assets/navBar/reduzida-cinza.svg'
 
 export default function NavBar() {
   return (
-    <header className="sticky top-0 z-10 h-16 w-full bg-zinc-300 shadow-default">
+    <header className="sticky top-0 z-10 h-16 w-full bg-azulPetrolio">
       <div className="mx-20 h-full">
         <nav className="flex h-full flex-row items-center justify-between">
           {/* logo */}
@@ -19,7 +19,7 @@ export default function NavBar() {
           </Link>
 
           {/* navegação */}
-          <ul className="flex flex-row gap-9 font-bold">
+          <ul className="flex flex-row gap-9 font-bold text-gray-100">
             <li className="cursor-pointer">
               <Link href={'/#Início'}>Início</Link>
             </li>
