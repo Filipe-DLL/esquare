@@ -2,7 +2,7 @@ import { Instagram, Mail, PhoneCall } from 'lucide-react'
 
 import Botao from '@/components/Botao'
 
-export default function Contato() {
+export default function SectionContatos() {
   return (
     <section
       id="Contato"

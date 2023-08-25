@@ -5,7 +5,7 @@ import projeto2 from '@/assets/projetos/projeto2.jpg'
 
 import { ArrowRight } from 'lucide-react'
 
-export default function Projetos() {
+export default function SectionProjetos() {
   return (
     <section
       id="Projetos"
@@ -34,10 +34,10 @@ export default function Projetos() {
               accusantium magnam voluptate quis iure.
             </p>
             <div className='group flex items-center justify-center text-sky-600  '>
-              <h3 className="flex cursor-pointer flex-row font-semibold group-hover:opacity-90 group-hover:text-sky-500">
+              <h3 className="flex cursor-pointer flex-row font-semibold group-hover:opacity-90 group-hover:text-sky-500 transition-all">
                 Saber mais
               </h3>
-              <ArrowRight className="text-sky-600 group-hover:opacity-90 group-hover:text-sky-500" />
+              <ArrowRight className="text-sky-600 group-hover:opacity-90 group-hover:text-sky-500 transition-all" />
             </div>
           </div>
         </div>
@@ -52,10 +52,10 @@ export default function Projetos() {
               accusantium magnam voluptate quis iure.
             </p>
             <div className='group flex items-center justify-center text-sky-600  '>
-              <h3 className="flex cursor-pointer flex-row font-semibold group-hover:opacity-90 group-hover:text-sky-500">
+              <h3 className="flex cursor-pointer flex-row font-semibold group-hover:opacity-90 group-hover:text-sky-500 transition-all">
                 Saber mais
               </h3>
-              <ArrowRight className="text-sky-600 group-hover:opacity-90 group-hover:text-sky-500" />
+              <ArrowRight className="text-sky-600 group-hover:opacity-90 group-hover:text-sky-500 transition-all" />
             </div>
           </div>
 

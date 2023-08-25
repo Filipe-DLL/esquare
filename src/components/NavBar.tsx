@@ -20,19 +20,19 @@ export default function NavBar() {
 
           {/* navegação */}
           <ul className="flex flex-row gap-9 font-bold text-gray-100 ">
-            <li className="cursor-pointer hover:text-gray-400 hover:opacity-95">
+            <li className="cursor-pointer hover:text-gray-400 hover:opacity-95 transition-all">
               <Link href={'/#Início'}>Início</Link>
             </li>
-            <li className="cursor-pointer hover:text-gray-400 hover:opacity-95">
+            <li className="cursor-pointer hover:text-gray-400 hover:opacity-95 transition-all">
               <Link href={'/#QuemSomos'}>Quem Somos</Link>
             </li>
-            <li className="cursor-pointer hover:text-gray-400 hover:opacity-95">
+            <li className="cursor-pointer hover:text-gray-400 hover:opacity-95 transition-all">
               <Link href={'/#Serviços'}>Serviços</Link>
             </li>
-            <li className="cursor-pointer hover:text-gray-400 hover:opacity-95">
+            <li className="cursor-pointer hover:text-gray-400 hover:opacity-95 transition-all">
               <Link href={'/#Projetos'}>Projetos</Link>
             </li>
-            <li className="cursor-pointer hover:text-gray-400 hover:opacity-95">
+            <li className="cursor-pointer hover:text-gray-400 hover:opacity-95 transition-all">
               <Link href={'/#Contato'}>Contato</Link>
             </li>
           </ul>

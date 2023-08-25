@@ -6,7 +6,7 @@ interface props {
   texto: string,
 }
 
-export default function Item(props: props) {
+export default function ValoresItem(props: props) {
 
   return (
     <div className="flex min-h-full flex-col items-center justify-between gap-10 2xl:w-2/5 md:w-full">

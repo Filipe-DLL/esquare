@@ -30,43 +30,43 @@ export default function Footer() {
             <li>Projetos Hidrossanitário</li>
             <li>Projeto Elétrico</li>
             <li>
-              Prevenção e Combate à <br/>
+              Prevenção e Combate à <br />
               Incêndio (PPCI)
-          </li>
-          <li>Orçamento Caixa</li>
-        </ul>
-      </div>
+            </li>
+            <li>Orçamento Caixa</li>
+          </ul>
+        </div>
 
-      {/* Contatos */}
-      <div className="lg:w-5/12">
-        <h2 className="mb-8 text-xl font-extrabold">Contatos</h2>
-        <div className="flex  flex-col gap-2 font-medium">
-          <div className="flex items-center gap-4">
-            <Mail size={20} />
-            <h2 className="text-base">esquareengenharia@gmail.com</h2>
-          </div>
+        {/* Contatos */}
+        <div className="lg:w-5/12">
+          <h2 className="mb-8 text-xl font-extrabold">Contatos</h2>
+          <div className="flex  flex-col gap-2 font-medium">
+            <div className="flex items-center gap-4">
+              <Mail size={20} />
+              <h2 className="text-base">esquareengenharia@gmail.com</h2>
+            </div>
 
-          <div className="flex items-center gap-4">
-            <Instagram size={20} />
-            <h2 className="text-base">@esquareengenharia</h2>
-          </div>
+            <div className="flex items-center gap-4">
+              <Instagram size={20} />
+              <h2 className="text-base">@esquareengenharia</h2>
+            </div>
 
-          <div className="flex items-center gap-4">
-            <PhoneCall size={20} />
-            <h2 className="text-base">(88) 98888-8888</h2>
+            <div className="flex items-center gap-4">
+              <PhoneCall size={20} />
+              <h2 className="text-base">(88) 98888-8888</h2>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="lg:w-5/12">
-        <h2 className="mb-8 text-xl font-extrabold">Nossos Serviços</h2>
-        <p className="font-medium">
-          Rua Nome da Rua, Nº 888,
-          <br />
-          Bairro - Cidade - CE.
-        </p>
+        <div className="lg:w-5/12">
+          <h2 className="mb-8 text-xl font-extrabold">Nossos Serviços</h2>
+          <p className="font-medium">
+            Rua Nome da Rua, Nº 888,
+            <br />
+            Bairro - Cidade - CE.
+          </p>
+        </div>
       </div>
-    </div>
     </footer >
   )
 }
