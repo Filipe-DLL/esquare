@@ -11,6 +11,7 @@ import SectionProjetos from '@/components/SectionProjetos'
 import SectionQuemSomos from '@/components/SectionQuemSomos'
 import SectionServiços from '@/components/SectionServiços'
 import SectionValores from '@/components/SectionValores'
+import SectionInstagram from '@/components/SectionInstagram'
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
       <SectionServiços />
       <SectionProjetos />
       <SectionValores />
-      {/* <Instagram /> */}
+      <SectionInstagram />
       <SectionContatos />
       <Footer />
     </div>
