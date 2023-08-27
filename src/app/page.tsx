@@ -1,5 +1,6 @@
 import SectionContatos from '@/components/SectionContatos'
 import SectionInicio from '@/components/SectionInicio'
+import SectionInstagram from '@/components/SectionInstagram'
 import SectionProjetos from '@/components/SectionProjetos'
 import SectionQuemSomos from '@/components/SectionQuemSomos'
 import SectionServiços from '@/components/SectionServiços'
@@ -11,15 +12,13 @@ export default function Home() {
     <div className="animate__fadeIn animate__animated flex h-full flex-col items-center justify-center">
       <WhatsAppButton />
 
-      {/* <Header /> */}
       <SectionInicio />
       <SectionQuemSomos />
       <SectionServiços />
       <SectionProjetos />
       <SectionValores />
-      {/* <SectionInstagram /> */}
+      <SectionInstagram />
       <SectionContatos />
-      {/* <Footer /> */}
     </div>
   )
 }
