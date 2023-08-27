@@ -1,9 +1,10 @@
 import Image from 'next/image'
 
-import projeto1 from '@/assets/projetos/projeto1.jpg'
-import projeto2 from '@/assets/projetos/projeto2.jpg'
+import projeto1 from '@/assets/SectionProjetos/projeto1.jpg'
+import projeto2 from '@/assets/SectionProjetos/projeto2.jpg'
 
 import { ArrowRight } from 'lucide-react'
+import Link from 'next/link'
 
 export default function SectionProjetos() {
   return (
@@ -22,7 +23,7 @@ export default function SectionProjetos() {
           <Image
             src={projeto1}
             alt=""
-            className="rounded-3xl shadow-md w-96 xl:w-80 lg:w-96"
+            className="w-96 rounded-3xl shadow-md xl:w-80 lg:w-96"
           />
 
           <div className="flex flex-col items-start justify-center gap-6">
@@ -33,12 +34,14 @@ export default function SectionProjetos() {
               nihil, enim perspiciatis, ullam minima expedita eaque cum dolorum
               accusantium magnam voluptate quis iure.
             </p>
-            <div className='group flex items-center justify-center text-sky-600  '>
-              <h3 className="flex cursor-pointer flex-row font-semibold group-hover:opacity-90 group-hover:text-sky-500 transition-all">
-                Saber mais
-              </h3>
-              <ArrowRight className="text-sky-600 group-hover:opacity-90 group-hover:text-sky-500 transition-all" />
-            </div>
+            <Link href={'/projetos'}>
+              <div className="group flex items-center justify-center text-sky-600  ">
+                <h3 className="flex cursor-pointer flex-row font-semibold transition-all group-hover:text-sky-500 group-hover:opacity-90">
+                  Saber mais
+                </h3>
+                <ArrowRight className="text-sky-600 transition-all group-hover:text-sky-500 group-hover:opacity-90" />
+              </div>
+            </Link>
           </div>
         </div>
 
@@ -51,18 +54,20 @@ export default function SectionProjetos() {
               nihil, enim perspiciatis, ullam minima expedita eaque cum dolorum
               accusantium magnam voluptate quis iure.
             </p>
-            <div className='group flex items-center justify-center text-sky-600  '>
-              <h3 className="flex cursor-pointer flex-row font-semibold group-hover:opacity-90 group-hover:text-sky-500 transition-all">
-                Saber mais
-              </h3>
-              <ArrowRight className="text-sky-600 group-hover:opacity-90 group-hover:text-sky-500 transition-all" />
-            </div>
+            <Link href={'/projetos'}>
+              <div className="group flex items-center justify-center text-sky-600  ">
+                <h3 className="flex cursor-pointer flex-row font-semibold transition-all group-hover:text-sky-500 group-hover:opacity-90">
+                  Saber mais
+                </h3>
+                <ArrowRight className="text-sky-600 transition-all group-hover:text-sky-500 group-hover:opacity-90" />
+              </div>
+            </Link>
           </div>
 
           <Image
             src={projeto2}
             alt=""
-            className="rounded-3xl shadow-md w-96 xl:w-80 lg:w-96"
+            className="w-96 rounded-3xl shadow-md xl:w-80 lg:w-96"
           />
         </div>
       </div>

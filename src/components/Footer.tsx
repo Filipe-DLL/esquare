@@ -7,12 +7,12 @@ export default function Footer() {
   return (
     <footer
       id="Footer"
-      className="mt-20 flex h-80 w-full flex-col items-center justify-center bg-azulPetrolio text-gray-50 p-8 lg:h-full"
+      className="mt-20 flex h-80 w-full flex-col items-center justify-center bg-azulPetrolio p-8 text-gray-50 lg:h-full"
     >
       {/* container */}
-      <div className="flex items-start justify-center gap-24 lg:flex-wrap lg:items-center md:flex-col md:w-full">
+      <div className=":flex-col :w-full flex items-start justify-center gap-24 lg:flex-wrap lg:items-center">
         {/* ESQUARE */}
-        <div className="flex flex-col gap-4 lg:w-5/12 md:items-center">
+        <div className=":items-center flex flex-col gap-4 lg:w-5/12">
           <Image src={esquare} alt="ESQUARE" width={240} />
           <p className="w-60 text-justify font-medium">
             A ESQUARE tem como missão encontrar as melhores soluções de
@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
 
         {/* Nossos Serviços */}
-        <div className="lg:w-5/12 md:items-center">
+        <div className=":items-center lg:w-5/12">
           <h2 className="mb-8 text-xl font-extrabold">Nossos Serviços</h2>
           <ul className="list-disc pl-6 font-medium">
             <li>Projeto arquitetônico</li>
@@ -67,6 +67,6 @@ export default function Footer() {
           </p>
         </div>
       </div>
-    </footer >
+    </footer>
   )
 }

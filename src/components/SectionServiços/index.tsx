@@ -1,6 +1,6 @@
 import ServiçoItem from '@/components/SectionServiços/ServiçoItem'
 
-import arquitetonico from '@/assets/serviços/arquitetonico.jpg'
+import arquitetonico from '@/assets/SectionServiços/arquitetonico.jpg'
 
 export default function SectionServiços() {
   return (
@@ -8,9 +8,8 @@ export default function SectionServiços() {
       id="Serviços"
       className="flex h-full w-5/6 flex-col items-center justify-center"
     >
-
       {/* Titulo */}
-      <h1 className="mt-20 flex items-center justify-center text-3xl text-azulPetrolio font-black uppercase">
+      <h1 className="mt-20 flex items-center justify-center text-3xl font-black uppercase text-azulPetrolio">
         Nossos Serviços
       </h1>
 
@@ -26,7 +25,6 @@ export default function SectionServiços() {
         />
         <ServiçoItem titulo="Orçamento Caixa" imagem={arquitetonico} />
       </div>
-
     </section>
   )
 }

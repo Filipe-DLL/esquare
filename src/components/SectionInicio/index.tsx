@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import esquare from '@/assets/inicio/horizontal-azul.svg'
+import esquare from '@/assets/SectionInicio/horizontal-azul.svg'
 
-import Botao from '@/components/Botao'
+import Button from '@/components/Button'
 
 import { ChevronsDown } from 'lucide-react'
 
@@ -12,17 +12,16 @@ export default function SectionInicio() {
       id="Inicio"
       className="flex h-screen w-full items-center justify-center bg-gray-50"
     >
-      <div className="flex h-full w-full mx-10 flex-col items-center justify-between">
+      <div className="mx-10 flex h-full w-full flex-col items-center justify-between ">
         <div></div>
 
-        <Image src={esquare} alt="ESQUARE" />
+        <Image src={esquare} alt="ESQUARE" className="" />
 
         <div className="mb-16 flex flex-col items-center gap-32">
-          <div className='w-96 h-14'>
-            <Botao />
+          <div className="h-14 w-96">
+            <Button />
           </div>
-          <ChevronsDown size={55}
-            className='animate-bounce' />
+          <ChevronsDown size={55} className="animate-bounce" />
         </div>
       </div>
     </section>

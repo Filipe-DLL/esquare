@@ -1,11 +1,11 @@
 import Image from 'next/image'
 
-import Botao from '@/components/Botao'
+import Button from '@/components/Button'
 
-import image1 from '@/assets/sobreNos/img1.jpg'
-import image2 from '@/assets/sobreNos/img2.jpg'
-import image3 from '@/assets/sobreNos/img3.jpg'
-import image4 from '@/assets/sobreNos/img4.jpg'
+import image1 from '@/assets/SectionQuemSomos/img1.jpg'
+import image2 from '@/assets/SectionQuemSomos/img2.jpg'
+import image3 from '@/assets/SectionQuemSomos/img3.jpg'
+import image4 from '@/assets/SectionQuemSomos/img4.jpg'
 
 export default function SectionQuemSomos() {
   return (
@@ -15,14 +15,13 @@ export default function SectionQuemSomos() {
     >
       {/* box */}
       <div className="relative my-20 flex h-full w-fit flex-col items-center justify-center gap-8 rounded-3xl bg-azulPetrolio p-12 text-gray-50 lg:h-full lg:px-20">
-
         {/* Titulo */}
         <h1 className="flex items-center justify-center text-4xl font-black uppercase">
           Quem Somos
         </h1>
 
         {/* container */}
-        <div className="flex lg:w-5/6 gap-8">
+        <div className="flex gap-8 lg:w-5/6">
           <div className="flex flex-col items-center gap-8">
             <div className="flex items-center gap-8 lg:flex-col">
               <Image
@@ -78,7 +77,7 @@ export default function SectionQuemSomos() {
 
         {/* Botão */}
         <div className="absolute bottom-0 left-1/2 h-14 w-96 -translate-x-1/2 translate-y-1/2 transform">
-          <Botao />
+          <Button />
         </div>
       </div>
     </section>
