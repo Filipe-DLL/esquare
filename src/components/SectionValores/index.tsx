@@ -9,10 +9,10 @@ export default function SectionValores() {
   return (
     <section
       id="Valores"
-      className="relative m-20 flex h-[46rem] w-full flex-col items-center bg-azulPetrolio 2xl:mb-20 2xl:h-full"
+      className="relative m-20 flex h-[46rem] w-full flex-col items-center justify-center bg-azulPetrolio 2xl:mb-20 2xl:h-full"
     >
       {/* Titulo */}
-      <h1 className="mt-8 flex items-center justify-center text-3xl font-black uppercase text-gray-50">
+      <h1 className="mt-8 flex items-center justify-center text-center text-3xl font-black uppercase text-gray-50">
         Porque escolher a Esquare
       </h1>
 
@@ -20,7 +20,7 @@ export default function SectionValores() {
       <div className="absolute bottom-[54%] h-2 w-4/6 rounded-full bg-gray-50 opacity-100 2xl:opacity-0"></div>
 
       {/* container */}
-      <div className="relative flex h-full w-full flex-wrap items-center justify-evenly 2xl:justify-center 2xl:gap-3">
+      <div className="relative mb-8 flex h-full w-full flex-wrap items-center justify-evenly 2xl:justify-center 2xl:gap-3">
         <ValoresItemSectionValores
           titulo={'Satisfação do Cliente'}
           imagem={cliente}

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import logo from '@/assets/Header/reduzida-cinza.svg'
-import MenuClientSide from '@/components/Menu/MenuClientSide'
+import MenuClientSide from '@/components/Header/Menu/MenuClientSide'
 
 export default function Header() {
   return (

@@ -16,7 +16,7 @@ export default function SectionQuemSomos() {
       {/* box */}
       <div className="relative my-20 flex h-full w-fit flex-col items-center justify-center gap-8 rounded-3xl bg-azulPetrolio p-12 text-gray-50 lg:h-full lg:px-20">
         {/* Titulo */}
-        <h1 className="flex items-center justify-center text-4xl font-black uppercase">
+        <h1 className="flex items-center justify-center text-center text-4xl font-black uppercase">
           Quem Somos
         </h1>
 

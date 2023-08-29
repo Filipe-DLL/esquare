@@ -1,4 +1,5 @@
-import ServiçoItem from '@/components/SectionServiços/ServiçoItem'
+import ServiçoItem from './ServiçoItem'
+import TabsServiço from './Tabs'
 
 import arquitetonico from '@/assets/SectionServiços/arquitetonico.jpg'
 
@@ -9,12 +10,12 @@ export default function SectionServiços() {
       className="flex h-full w-5/6 flex-col items-center justify-center"
     >
       {/* Titulo */}
-      <h1 className="mt-20 flex items-center justify-center text-3xl font-black uppercase text-azulPetrolio">
+      <h1 className="mt-20 flex items-center justify-center text-3xl font-black uppercase text-azulIndigo">
         Nossos Serviços
       </h1>
 
       {/* container */}
-      <div className="flex flex-wrap items-start justify-center gap-8 p-10">
+      <div className="flex flex-wrap items-start justify-center gap-8 p-10 2lg:hidden">
         <ServiçoItem titulo="Projeto arquitetônico" imagem={arquitetonico} />
         <ServiçoItem titulo="Projeto estrutural" imagem={arquitetonico} />
         <ServiçoItem titulo="Projetos Hidrossanitário" imagem={arquitetonico} />
@@ -25,6 +26,9 @@ export default function SectionServiços() {
         />
         <ServiçoItem titulo="Orçamento Caixa" imagem={arquitetonico} />
       </div>
+
+      {/* tabs */}
+      <TabsServiço />
     </section>
   )
 }

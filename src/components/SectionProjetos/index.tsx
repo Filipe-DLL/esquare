@@ -13,7 +13,7 @@ export default function SectionProjetos() {
       className="flex h-full w-5/6 flex-col items-center justify-center"
     >
       {/* Titulo */}
-      <h1 className="mt-20 flex items-center justify-center text-3xl font-black uppercase">
+      <h1 className="mt-20 flex items-center justify-center text-center text-3xl font-black uppercase">
         Alguns dos nossos projetos
       </h1>
 
@@ -37,7 +37,7 @@ export default function SectionProjetos() {
             <Link href={'/projetos'}>
               <div className="group flex items-center justify-center text-sky-600  ">
                 <h3 className="flex cursor-pointer flex-row font-semibold transition-all group-hover:text-sky-500 group-hover:opacity-90">
-                  Saber mais
+                  Veja mais projetos
                 </h3>
                 <ArrowRight className="text-sky-600 transition-all group-hover:text-sky-500 group-hover:opacity-90" />
               </div>
@@ -57,7 +57,7 @@ export default function SectionProjetos() {
             <Link href={'/projetos'}>
               <div className="group flex items-center justify-center text-sky-600  ">
                 <h3 className="flex cursor-pointer flex-row font-semibold transition-all group-hover:text-sky-500 group-hover:opacity-90">
-                  Saber mais
+                  Veja mais projetos
                 </h3>
                 <ArrowRight className="text-sky-600 transition-all group-hover:text-sky-500 group-hover:opacity-90" />
               </div>

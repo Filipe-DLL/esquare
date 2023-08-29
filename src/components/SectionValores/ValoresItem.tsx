@@ -23,7 +23,7 @@ export default function ValoresItem(props: props) {
         />
       </div>
 
-      <p className="mb-4 h-44 w-80  text-center font-medium leading-relaxed text-gray-50 lg:w-64 md:w-80">
+      <p className=" h-44 w-80 text-center font-medium leading-relaxed text-gray-50 lg:w-64 md:h-auto md:w-80">
         {props.texto}
       </p>
     </div>

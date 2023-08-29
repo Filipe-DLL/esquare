@@ -36,9 +36,12 @@ const config: Config = {
 
         'min-xl': { 'min': '1279px' },
         // => @media (min-width: 1279px) { ... }
-        
+
         'min-2xl': { 'min': '1536px' },
-        // => @media (min-width: 1536px) { ... }        
+        // => @media (min-width: 1536px) { ... }     
+
+        '2lg': { max: '1190px' },
+        // => @media (max-width: 1535px) { ... }
       },
       fontFamily: {
         sans: 'var( --font-roboto)',
