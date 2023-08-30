@@ -31,7 +31,7 @@ export default function SectionQuemSomos() {
                 height={185}
                 className="rounded-3xl lg:w-10/12"
               />
-              <p className="max-w-[30rem] text-justify text-xl font-semibold">
+              <p className="max-w-[30rem] text-justify text-xl font-semibold sm:h-auto sm:w-auto">
                 A Esquare nasceu no polo do cariri cearense com o objetivo de
                 fornecer os melhores serviços relacionados a engenharia civil na
                 região, tendo sempre o foco na satisfação do cliente em busca do
@@ -47,7 +47,7 @@ export default function SectionQuemSomos() {
                 height={185}
                 className="rounded-3xl lg:w-10/12"
               />
-              <p className="max-w-[30rem] text-justify text-xl font-semibold">
+              <p className="max-w-[30rem] text-justify text-xl font-semibold sm:h-max sm:w-auto">
                 Com uma ampla experiência de mercado acerca de projetos e
                 construção, trazemos as melhores soluções de projetos para que
                 você tenha uma melhor economia e menos dor de cabeça na hora da
@@ -63,7 +63,7 @@ export default function SectionQuemSomos() {
                 height={185}
                 className="rounded-3xl lg:w-10/12"
               />
-              <p className="max-w-[30rem] text-justify text-xl font-semibold">
+              <p className="max-w-[30rem] text-justify text-xl font-semibold sm:h-auto sm:w-auto">
                 Entre em contato conosco e faça já um orçamento para qualquer de
                 nossos serviços!
               </p>
@@ -76,7 +76,7 @@ export default function SectionQuemSomos() {
         </div>
 
         {/* Botão */}
-        <div className="absolute bottom-0 left-1/2 h-14 w-96 -translate-x-1/2 translate-y-1/2 transform">
+        <div className="absolute bottom-0 left-1/2 h-14 w-96 -translate-x-1/2 translate-y-1/2 transform sm:w-72">
           <Button />
         </div>
       </div>
