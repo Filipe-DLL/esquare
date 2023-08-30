@@ -16,7 +16,7 @@ export default function MenuClientSide() {
 
   return (
     <>
-      <button onClick={openMenu} className={`hidden text-gray-50 sm:inline`}>
+      <button onClick={openMenu} className={`hidden text-gray-50 md:inline`}>
         <AlignJustify height={40} width={40} />
       </button>
       <Menu isVisible={isMenuOpen} onClose={closeMenu} />

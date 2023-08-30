@@ -13,12 +13,12 @@ export default function SectionProjetos() {
       className="flex h-full w-5/6 flex-col items-center justify-center"
     >
       {/* Titulo */}
-      <h1 className="mt-20 flex items-center justify-center text-center text-3xl font-black uppercase">
+      <h1 className="mt-20 flex items-center justify-center text-center text-4xl font-black uppercase">
         Alguns dos nossos projetos
       </h1>
 
       {/* container */}
-      <div className="flex w-4/6 flex-col items-center justify-center gap-10 py-8">
+      <div className="mt-6 flex w-4/6 flex-col items-center justify-center gap-10 py-8">
         <div className="flex items-center justify-center gap-16 lg:flex-col">
           <Image
             src={projeto1}
@@ -36,10 +36,10 @@ export default function SectionProjetos() {
             </p>
             <Link href={'/projetos'}>
               <div className="group flex items-center justify-center text-sky-600  ">
-                <h3 className="flex cursor-pointer flex-row font-semibold transition-all group-hover:text-sky-500 group-hover:opacity-90">
+                <h3 className="flex cursor-pointer flex-row font-semibold transition-all ease-in-out group-hover:text-sky-500 group-hover:opacity-90">
                   Veja mais projetos
                 </h3>
-                <ArrowRight className="text-sky-600 transition-all group-hover:text-sky-500 group-hover:opacity-90" />
+                <ArrowRight className="text-sky-600 transition-all ease-in-out group-hover:text-sky-500 group-hover:opacity-90" />
               </div>
             </Link>
           </div>
@@ -56,10 +56,10 @@ export default function SectionProjetos() {
             </p>
             <Link href={'/projetos'}>
               <div className="group flex items-center justify-center text-sky-600  ">
-                <h3 className="flex cursor-pointer flex-row font-semibold transition-all group-hover:text-sky-500 group-hover:opacity-90">
+                <h3 className="flex cursor-pointer flex-row font-semibold transition-all ease-in-out group-hover:text-sky-500 group-hover:opacity-90">
                   Veja mais projetos
                 </h3>
-                <ArrowRight className="text-sky-600 transition-all group-hover:text-sky-500 group-hover:opacity-90" />
+                <ArrowRight className="text-sky-600 transition-all ease-in-out group-hover:text-sky-500 group-hover:opacity-90" />
               </div>
             </Link>
           </div>

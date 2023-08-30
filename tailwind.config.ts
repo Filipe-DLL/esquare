@@ -8,37 +8,37 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      '2xl': { 'max': '1536px' },
-      // => @media (max-width: 1536px) { ... }        
+      '2xl': { max: '1536px' },
+      // => @media (max-width: 1536px) { ... }
 
-      'xl': { 'max': '1279px' },
+      xl: { max: '1279px' },
       // => @media (max-width: 1279px) { ... }
 
-      'lg': { 'max': '1023px' },
+      lg: { max: '1023px' },
       // => @media (max-width: 1023px) { ... }
 
-      'md': { 'max': '767px' },
+      md: { max: '767px' },
       // => @media (max-width: 767px) { ... }
 
-      'sm': { 'max': '639px' },
+      sm: { max: '639px' },
       // => @media (max-width: 639px) { ... }
     },
     extend: {
       screens: {
-        'min-sm': { 'min': '639px' },
+        'min-sm': { min: '639px' },
         // => @media (min-width: 639px) { ... }
 
-        'min-md': { 'min': '767px' },
+        'min-md': { min: '767px' },
         // => @media (min-width: 767px) { ... }
 
-        'min-lg': { 'min': '1023px' },
+        'min-lg': { min: '1023px' },
         // => @media (min-width: 1023px) { ... }
 
-        'min-xl': { 'min': '1279px' },
+        'min-xl': { min: '1279px' },
         // => @media (min-width: 1279px) { ... }
 
-        'min-2xl': { 'min': '1536px' },
-        // => @media (min-width: 1536px) { ... }     
+        'min-2xl': { min: '1536px' },
+        // => @media (min-width: 1536px) { ... }
 
         '2lg': { max: '1190px' },
         // => @media (max-width: 1535px) { ... }
@@ -48,11 +48,11 @@ const config: Config = {
         alt: 'var( --alt-inter)',
       },
       colors: {
-        azulIndigo: "#1B257F",
-        azulPetrolio: "#161C33",
+        azulIndigo: '#1B257F',
+        azulPetrolio: '#161C33',
       },
     },
     plugins: [],
-  }
+  },
 }
 export default config

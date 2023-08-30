@@ -6,9 +6,9 @@ interface props {
   imagem: StaticImageData
 }
 
-export default function ServiçoItem(props: props) {
+export default function ServiçoItemTabs(props: props) {
   return (
-    <div className="group h-full rounded-[30px] bg-azulPetrolio p-4 text-gray-50 transition-all ease-in-out  hover:-translate-y-3 hover:drop-shadow-md">
+    <div className="group h-full rounded-[30px] bg-blue-950 p-4 text-gray-50  hover:drop-shadow-md">
       <Link href={`/servicos#${props.titulo}`}>
         <Image
           src={props.imagem}

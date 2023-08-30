@@ -3,45 +3,48 @@
 import * as Tabs from '@radix-ui/react-tabs'
 
 import arquitetonico from '@/assets/SectionServiços/arquitetonico.jpg'
-import ServiçoItem from '@/components/SectionServiços/ServiçoItem'
+import ServiçoItemTabs from '@/components/SectionServiços/Tabs/ServiçoItemTabs'
 
 export default function TabsServiço() {
   return (
-    <Tabs.Root className="mt-4 hidden w-screen flex-col items-center justify-between px-16 2lg:flex">
-      <Tabs.List className="flex shrink-0 flex-wrap items-center justify-between gap-4 border-b border-azulIndigo p-2">
+    <Tabs.Root
+      defaultValue="tab1"
+      className="mt-4 hidden w-screen flex-col items-center justify-between px-16 2lg:flex"
+    >
+      <Tabs.List className="flex shrink-0 flex-wrap items-center justify-between border-b-2 border-azulIndigo p-2">
         <Tabs.TabsTrigger
           value="tab1"
-          className="flex  h-12 w-40 flex-1 items-center justify-center rounded-sm px-5 text-[15px] leading-none text-azulIndigo outline-none hover:text-blue-700 data-[state=active]:text-blue-700 data-[state=active]:shadow-[inset_0_-1px_0_0,0_1px_0_0] data-[state=active]:shadow-current data-[state=active]:focus:relative data-[state=active]:focus:shadow-[0_0_0_2px]"
+          className="box-content flex h-12 w-40 flex-1 items-center justify-center rounded-2xl border-2 border-gray-50 px-5 text-base font-semibold leading-none text-azulIndigo outline-none transition-all ease-in-out hover:text-blue-700 data-[state=active]:bg-[#141C61] data-[state=active]:text-gray-50 data-[state=active]:focus:border-sky-500"
         >
           Projeto arquitetônico
         </Tabs.TabsTrigger>
         <Tabs.TabsTrigger
           value="tab2"
-          className="flex h-12 w-40 flex-1 items-center justify-center rounded-sm px-5 text-[15px] leading-none text-azulIndigo outline-none hover:text-blue-700 data-[state=active]:text-blue-700 data-[state=active]:shadow-[inset_0_-1px_0_0,0_1px_0_0] data-[state=active]:shadow-current data-[state=active]:focus:relative data-[state=active]:focus:shadow-[0_0_0_2px]"
+          className="box-content flex h-12 w-40 flex-1 items-center justify-center rounded-2xl border-2 border-gray-50 px-5 text-base font-semibold leading-none text-azulIndigo outline-none transition-all ease-in-out hover:text-blue-700 data-[state=active]:bg-[#141C61] data-[state=active]:text-gray-50 data-[state=active]:focus:border-sky-500"
         >
           Projeto estrutural
         </Tabs.TabsTrigger>
         <Tabs.TabsTrigger
           value="tab3"
-          className="data-[state=active]:focus:shadow-[0_0_0_2px]min- flex h-12 w-40 flex-1 items-center justify-center rounded-sm px-5 text-[15px] leading-none text-azulIndigo outline-none hover:text-blue-700 data-[state=active]:text-blue-700 data-[state=active]:shadow-[inset_0_-1px_0_0,0_1px_0_0] data-[state=active]:shadow-current data-[state=active]:focus:relative"
+          className="box-content flex h-12 w-40 flex-1 items-center justify-center rounded-2xl border-2 border-gray-50 px-5 text-base font-semibold leading-none text-azulIndigo outline-none transition-all ease-in-out hover:text-blue-700 data-[state=active]:bg-[#141C61] data-[state=active]:text-gray-50 data-[state=active]:focus:border-sky-500"
         >
           Projeto Hidrossanitário
         </Tabs.TabsTrigger>
         <Tabs.TabsTrigger
           value="tab4"
-          className="flex h-12 w-40 flex-1 items-center justify-center rounded-sm px-5 text-[15px] leading-none text-azulIndigo outline-none hover:text-blue-700 data-[state=active]:text-blue-700 data-[state=active]:shadow-[inset_0_-1px_0_0,0_1px_0_0] data-[state=active]:shadow-current data-[state=active]:focus:relative data-[state=active]:focus:shadow-[0_0_0_2px]"
+          className="box-content flex h-12 w-40 flex-1 items-center justify-center rounded-2xl border-2 border-gray-50 px-5 text-base font-semibold leading-none text-azulIndigo outline-none transition-all ease-in-out hover:text-blue-700 data-[state=active]:bg-[#141C61] data-[state=active]:text-gray-50 data-[state=active]:focus:border-sky-500"
         >
           Projeto Elétrico
         </Tabs.TabsTrigger>
         <Tabs.TabsTrigger
           value="tab5"
-          className="flex h-12 w-40 flex-1 items-center justify-center rounded-sm px-5 text-[15px] leading-none text-azulIndigo outline-none hover:text-blue-700 data-[state=active]:text-blue-700 data-[state=active]:shadow-[inset_0_-1px_0_0,0_1px_0_0] data-[state=active]:shadow-current data-[state=active]:focus:relative data-[state=active]:focus:shadow-[0_0_0_2px]"
+          className="box-content flex h-12 w-40 flex-1 items-center justify-center rounded-2xl border-2 border-gray-50 px-5 text-base font-semibold leading-none text-azulIndigo outline-none transition-all ease-in-out hover:text-blue-700 data-[state=active]:bg-[#141C61] data-[state=active]:text-gray-50 data-[state=active]:focus:border-sky-500"
         >
           Orçamento Caixa
         </Tabs.TabsTrigger>
         <Tabs.TabsTrigger
           value="tab6"
-          className="flex h-20 w-40 flex-1 items-center justify-center rounded-sm px-5 text-[15px] leading-none text-azulIndigo outline-none hover:text-blue-700 data-[state=active]:text-blue-700 data-[state=active]:shadow-[inset_0_-1px_0_0,0_1px_0_0] data-[state=active]:shadow-current data-[state=active]:focus:relative data-[state=active]:focus:shadow-[0_0_0_2px]"
+          className="box-content flex h-auto w-40 flex-1 items-center justify-center rounded-2xl border-2 border-gray-50 px-5 text-base font-semibold leading-none text-azulIndigo outline-none transition-all ease-in-out hover:text-blue-700 data-[state=active]:bg-[#141C61] data-[state=active]:text-gray-50 data-[state=active]:focus:border-sky-500"
         >
           Prevenção e Combate <br />à Incêndio (PPCI)
         </Tabs.TabsTrigger>
@@ -50,37 +53,43 @@ export default function TabsServiço() {
         value="tab1"
         className="mt-4 flex items-center justify-center  rounded-3xl"
       >
-        <ServiçoItem titulo="Projeto arquitetônico" imagem={arquitetonico} />
+        <ServiçoItemTabs
+          titulo="Projeto arquitetônico"
+          imagem={arquitetonico}
+        />
       </Tabs.Content>
       <Tabs.Content
         value="tab2"
         className="flex items-center justify-center rounded-3xl"
       >
-        <ServiçoItem titulo="Projeto estrutural" imagem={arquitetonico} />
+        <ServiçoItemTabs titulo="Projeto estrutural" imagem={arquitetonico} />
       </Tabs.Content>
       <Tabs.Content
         value="tab3"
         className="flex items-center justify-center rounded-3xl"
       >
-        <ServiçoItem titulo="Projeto Hidrossanitário" imagem={arquitetonico} />
+        <ServiçoItemTabs
+          titulo="Projeto Hidrossanitário"
+          imagem={arquitetonico}
+        />
       </Tabs.Content>
       <Tabs.Content
         value="tab4"
         className="flex items-center justify-center rounded-3xl"
       >
-        <ServiçoItem titulo="Projeto Elétrico" imagem={arquitetonico} />
+        <ServiçoItemTabs titulo="Projeto Elétrico" imagem={arquitetonico} />
       </Tabs.Content>
       <Tabs.Content
         value="tab5"
         className="flex items-center justify-center rounded-3xl"
       >
-        <ServiçoItem titulo="Orçamento Caixa" imagem={arquitetonico} />
+        <ServiçoItemTabs titulo="Orçamento Caixa" imagem={arquitetonico} />
       </Tabs.Content>
       <Tabs.Content
         value="tab6"
         className="flex items-center justify-center rounded-3xl"
       >
-        <ServiçoItem
+        <ServiçoItemTabs
           titulo="Prevenção e Combate à Incêndio (PPCI)"
           imagem={arquitetonico}
         />

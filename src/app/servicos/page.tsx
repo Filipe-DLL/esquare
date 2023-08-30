@@ -55,3 +55,10 @@ export default function Page() {
     </div>
   )
 }
+
+export async function getStaticProps() {
+  return {
+    props: {},
+    revalidate: 86400,
+  }
+}

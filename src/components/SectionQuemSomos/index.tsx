@@ -14,14 +14,14 @@ export default function SectionQuemSomos() {
       className="flex w-full flex-col items-center justify-center "
     >
       {/* box */}
-      <div className="relative my-20 flex h-full w-fit flex-col items-center justify-center gap-8 rounded-3xl bg-azulPetrolio p-12 text-gray-50 lg:h-full lg:px-20">
+      <div className="relative my-20 flex h-full w-full flex-col items-center justify-center gap-8  bg-azulPetrolio p-12 text-gray-50 lg:h-full lg:w-11/12 lg:rounded-3xl md:px-4">
         {/* Titulo */}
-        <h1 className="flex items-center justify-center text-center text-4xl font-black uppercase">
+        <h1 className="-mt-5 flex items-center justify-center text-center text-4xl font-black uppercase">
           Quem Somos
         </h1>
 
         {/* container */}
-        <div className="flex gap-8 lg:w-5/6">
+        <div className="flex gap-8 lg:w-5/6 lg:items-center lg:justify-center">
           <div className="flex flex-col items-center gap-8">
             <div className="flex items-center gap-8 lg:flex-col">
               <Image
@@ -29,7 +29,7 @@ export default function SectionQuemSomos() {
                 alt=""
                 width={280}
                 height={185}
-                className="rounded-3xl"
+                className="rounded-3xl lg:w-10/12"
               />
               <p className="max-w-[30rem] text-justify text-xl font-semibold">
                 A Esquare nasceu no polo do cariri cearense com o objetivo de
@@ -45,7 +45,7 @@ export default function SectionQuemSomos() {
                 alt=""
                 width={280}
                 height={185}
-                className="rounded-3xl"
+                className="rounded-3xl lg:w-10/12"
               />
               <p className="max-w-[30rem] text-justify text-xl font-semibold">
                 Com uma ampla experiência de mercado acerca de projetos e
@@ -61,7 +61,7 @@ export default function SectionQuemSomos() {
                 alt=""
                 width={280}
                 height={185}
-                className="rounded-3xl"
+                className="rounded-3xl lg:w-10/12"
               />
               <p className="max-w-[30rem] text-justify text-xl font-semibold">
                 Entre em contato conosco e faça já um orçamento para qualquer de

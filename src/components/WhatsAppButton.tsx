@@ -14,7 +14,7 @@ export default function WhatsAppButton() {
         src={whatsapp}
         height={75}
         alt="Solicite um orçamento via WhatsApp!"
-        className="fixed bottom-7 right-7 z-10 cursor-pointer transition-all hover:scale-110 hover:drop-shadow-md"
+        className="fixed bottom-7 right-7 z-10 cursor-pointer transition-all ease-in-out hover:scale-110 hover:drop-shadow-md"
       />
     </Link>
   )
