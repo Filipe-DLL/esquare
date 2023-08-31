@@ -18,11 +18,11 @@ export default function ValoresItem(props: props) {
         />
       </div>
 
-      <h2 className=" text-center text-lg font-extrabold text-gray-50">
+      <h2 className=" text-center text-2xl font-extrabold text-gray-50">
         {props.titulo}
       </h2>
 
-      <p className="h-44 w-80 text-center font-medium leading-relaxed text-gray-50 lg:w-64 md:mb-12 md:h-auto md:w-80">
+      <p className="h-44 w-80 text-center font-medium leading-relaxed text-gray-50 lg:mb-10 lg:w-64 md:mb-12 md:h-auto md:w-80">
         {props.texto}
       </p>
     </div>

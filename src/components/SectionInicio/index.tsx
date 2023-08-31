@@ -18,7 +18,7 @@ export default function SectionInicio() {
         <Image src={esquare} alt="ESQUARE" className="" />
 
         <div className="mb-16 flex flex-col items-center gap-32">
-          <div className="h-14 w-96 sm:w-72">
+          <div className=" h-14 w-96 sm:w-72">
             <Button />
           </div>
           <ChevronsDown size={55} className="animate-bounce" />
