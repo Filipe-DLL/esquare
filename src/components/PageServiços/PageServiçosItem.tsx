@@ -19,6 +19,7 @@ export default function PageServiçosItem(props: props) {
           <Image
             src={props.imagem}
             alt=""
+            priority={true}
             className="blur-s h-80 w-screen overflow-hidden bg-cover object-cover brightness-50"
           />
           {/* absolute */}
