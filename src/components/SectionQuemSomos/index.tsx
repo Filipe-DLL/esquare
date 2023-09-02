@@ -50,8 +50,7 @@ export default function SectionQuemSomos() {
               <p className="max-w-[30rem] text-justify text-xl font-semibold sm:h-max sm:w-auto">
                 Com uma ampla experiência de mercado acerca de projetos e
                 construção, trazemos as melhores soluções de projetos para que
-                você tenha uma melhor economia e menos dor de cabeça na hora da
-                construção.
+                você tenha economia e segurança na hora da construção.
               </p>
             </div>
 
@@ -64,8 +63,8 @@ export default function SectionQuemSomos() {
                 className="rounded-3xl lg:w-10/12"
               />
               <p className="max-w-[30rem] text-justify text-xl font-semibold sm:h-auto sm:w-auto">
-                Entre em contato conosco e faça já um orçamento para qualquer de
-                nossos serviços!
+                Entre em contato conosco para que possamos dar início ao projeto
+                do seu futuro!
               </p>
             </div>
           </div>

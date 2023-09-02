@@ -1,7 +1,12 @@
-import ServiçoItem from './ServiçoItem'
-import TabsServiço from './Tabs'
+import ServiçoItem from '@/components/SectionServiços/ServiçoItem'
+import TabsServiço from '@/components/SectionServiços/Tabs'
 
-import arquitetonico from '@/assets/SectionServiços/arquitetonico.jpg'
+import Orçamento from '@/assets/SectionServiços/Orçamento.jpg'
+import PPCI from '@/assets/SectionServiços/Prevenção-e-Combate-a-Incêndio-(PPCI).jpg'
+import Eletrico from '@/assets/SectionServiços/Projeto-Elétrico.jpg'
+import Arquitetonico from '@/assets/SectionServiços/Projeto-arquitetônico.jpg'
+import Estrutural from '@/assets/SectionServiços/Projeto-estrutural.jpg'
+import Hidrossanitário from '@/assets/SectionServiços/Projetos-Hidrossanitário.png'
 
 export default function SectionServiços() {
   return (
@@ -14,21 +19,24 @@ export default function SectionServiços() {
         Nossos Serviços
       </h1>
 
-      {/* container */}
-      <div className="flex flex-wrap items-start justify-center gap-8 p-10 2lg:hidden">
-        <ServiçoItem titulo="Projeto arquitetônico" imagem={arquitetonico} />
-        <ServiçoItem titulo="Projeto estrutural" imagem={arquitetonico} />
-        <ServiçoItem titulo="Projetos Hidrossanitário" imagem={arquitetonico} />
-        <ServiçoItem titulo="Projeto Elétrico" imagem={arquitetonico} />
-        <ServiçoItem
-          titulo={`Prevenção e Combate à Incêndio (PPCI)`}
-          imagem={arquitetonico}
-        />
-        <ServiçoItem titulo="Orçamento Caixa" imagem={arquitetonico} />
-      </div>
-
       {/* tabs */}
       <TabsServiço />
+
+      {/* container */}
+      <div className="flex flex-wrap items-start justify-center gap-8 p-10 2lg:hidden">
+        <ServiçoItem titulo="Projeto Arquitetônico" imagem={Arquitetonico} />
+        <ServiçoItem titulo="Projeto Estrutural" imagem={Estrutural} />
+        <ServiçoItem titulo="Projeto Elétrico" imagem={Eletrico} />
+        <ServiçoItem
+          titulo="Projeto Hidrossanitário"
+          imagem={Hidrossanitário}
+        />
+        <ServiçoItem
+          titulo={`Prevenção e Combate à Incêndio (PPCI)`}
+          imagem={PPCI}
+        />
+        <ServiçoItem titulo="Orçamento Para Financiamento" imagem={Orçamento} />
+      </div>
     </section>
   )
 }

@@ -14,7 +14,7 @@ export default function ServiçoItemTabs(props: props) {
           src={props.imagem}
           alt=""
           width={400}
-          className="rounded-3xl pb-4 shadow-md "
+          className="rounded-3xl pb-4 shadow-md"
         />
         <div className="flex cursor-pointer flex-col items-center justify-center">
           <h2 className="box-content flex h-16 max-w-[20rem] items-center border-b-2 border-b-transparent text-center text-2xl font-bold transition-all ease-in-out group-hover:border-b-gray-50">

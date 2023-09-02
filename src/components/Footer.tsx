@@ -41,17 +41,17 @@ export default function Footer() {
         <div className="flex flex-col xl:w-5/12 lg:items-center md:w-full">
           <h2 className="mb-8 text-xl font-extrabold">Contatos</h2>
           <div className="flex  flex-col gap-2 font-medium">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 2sm:flex-col">
               <Mail size={20} />
               <h2 className="text-base">esquareengenharia@gmail.com</h2>
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 2sm:flex-col">
               <Instagram size={20} />
               <h2 className="text-base">@esquareengenharia</h2>
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 2sm:flex-col">
               <PhoneCall size={20} />
               <h2 className="text-base">(88) 98888-8888</h2>
             </div>

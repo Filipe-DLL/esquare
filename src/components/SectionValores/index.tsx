@@ -29,21 +29,21 @@ export default function SectionValores() {
           titulo={'Excelência'}
           imagem={excelencia}
           texto={
-            ' Buscando sempre trazer a melhor experiência e satisfação para nossos clientes, nossos métodos de trabalho estão em constante avaliação à procura de melhorias para entregar os melhores projetos para nossos clientes.'
+            'Buscando sempre trazer a melhor experiência e satisfação para nossos clientes, nossos métodos de trabalho estão em constante avaliação à procura de melhorias para entregar os melhores projetos para nossos clientes.'
           }
         />
         <ValoresItemSectionValores
           titulo={'Ética'}
           imagem={etica}
           texto={
-            ' Temos como base do nosso trabalho o respeito para com os preceitos morais da nossa sociedade, bem como todas as leis que regem o nosso país, em especial às normas relativas à projetos e soluções de engenharia.'
+            'Temos como base do nosso trabalho o respeito para com os preceitos morais da nossa sociedade, bem como todas as leis que regem o nosso país, em especial às normas relativas à projetos e soluções de engenharia.'
           }
         />
         <ValoresItemSectionValores
           titulo={'Inovação'}
           imagem={inovaçao}
           texto={
-            ' Nossa empresa está em constante evolução, em busca de inovações no mercado da engenharia civil para melhorar cada vez mais nossos serviços.'
+            'Nossa empresa está em constante evolução, em busca de inovações no mercado da engenharia civil para melhorar cada vez mais nossos serviços.'
           }
         />
       </div>

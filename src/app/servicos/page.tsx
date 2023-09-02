@@ -1,9 +1,9 @@
-import Caixa from '@/assets/pageProjetos/Orçamento-Caixa.jpg'
-import PPCI from '@/assets/pageProjetos/Prevenção-e-Combate-a-Incêndio-(PPCI).jpg'
-import Eletrico from '@/assets/pageProjetos/Projeto-Elétrico.jpg'
-import Arquitetonico from '@/assets/pageProjetos/Projeto-arquitetônico.jpg'
-import Estrutural from '@/assets/pageProjetos/Projeto-estrutural.jpg'
-import Hidrossanitário from '@/assets/pageProjetos/Projetos-Hidrossanitário.png'
+import Orçamento from '@/assets/SectionServiços/Orçamento.jpg'
+import PPCI from '@/assets/SectionServiços/Prevenção-e-Combate-a-Incêndio-(PPCI).jpg'
+import Eletrico from '@/assets/SectionServiços/Projeto-Elétrico.jpg'
+import Arquitetonico from '@/assets/SectionServiços/Projeto-arquitetônico.jpg'
+import Estrutural from '@/assets/SectionServiços/Projeto-estrutural.jpg'
+import Hidrossanitário from '@/assets/SectionServiços/Projetos-Hidrossanitário.png'
 
 import ServiçosPageItem from '@/components/PageServiços/PageServiçosItem'
 import WhatsAppButton from '@/components/WhatsAppButton'
@@ -14,136 +14,131 @@ export default function Page() {
       <WhatsAppButton />
 
       {/* Container */}
-      <div className="min-h-screen">
+      <div className="">
         <ServiçosPageItem
           titulo={'Projeto Arquitetônico'}
           imagem={Arquitetonico}
         />
         <div className="flex w-full flex-col items-center justify-center gap-6 p-6 text-black">
-          <p className="w-9/12 text-justify text-lg font-medium leading-relaxed">
-            É o primeiro projeto a ser concebido acerca da casa ou do
-            empreendimento requerido. Há a realização de um “breafing” com o
-            cliente para entendermos melhor os seus desejos, suas condições
-            financeiras, o que pode ou não pode ter, e o que deve ou não deve
-            ter no projeto. Além de outros detalhes que podem impactar a
-            concepção do projeto.
+          <p className="w-8/12 p-8 text-justify text-lg font-medium leading-relaxed lg:w-11/12 sm:p-0 2sm:text-xs">
+            O projeto arquitetônico é o primeiro projeto a ser concebido quando
+            se vai construir ou reformar sua casa ou empreendimento. Nele vão
+            estar contidas todas as informações acerca dos desejos do cliente,
+            do que pode ou não pode ter em seu projeto, além de outros detalhes
+            que possam vir a impactar a concepção do projeto.
             <br />
-            Após o breafing os projetistas farão toda a parte de modelagem e
-            sempre tendo reuniões quinzenais ou mensais (dependendo do tamanho
-            do projeto) para que o projeto saia da maneira que o cliente deseja.
-            No final é entre as plantas baixas, junto com cortes e fachadas da
-            casa/empreendimento. Há a possibilidade de solicitar projetos mais
-            sofisticados com renderizações e visualizações em vídeo para uma
-            imersão maior diante do projeto que virá a ser construído.
+            <br />O projeto arquitetônico abrange várias etapas até a
+            apresentação do projeto executivo final, sendo possível prever nele
+            problemas de execução e facilitar a mesma, tornando-se essencial
+            para a garantia de qualidade e segurança na obra.
           </p>
-          <div className="flex w-9/12 items-start justify-center">
-            <div className="flex w-full flex-col items-center justify-evenly">
-              <ul className="text-lg">
-                Projeto Arquitetônico Simples
-                <li>- Planta baixa e cortes;</li>
-                <li>- Fachada</li>
-                <li>- Planta de situação e locação</li>
-                <li>- Planta de coberta</li>
-                <li>- Quadro de especificações</li>
-                <li>- Memorial descritivo</li>
-              </ul>
-            </div>
-            <div className="flex w-full flex-col items-center justify-evenly">
-              <ul className="text-lg">
-                Projeto Arquitetônico Completo
-                <li>- Projeto Arquitetônico Simples;</li>
-                <li>- Modelo 3D</li>
-                <li>- Vistas renderizadas</li>
-                <li>- Vídeos com perspectivas da construção</li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
 
-      <div className="min-h-screen">
+      <div className="">
         <ServiçosPageItem titulo={'Projeto Estrutural'} imagem={Estrutural} />
         <div className="flex w-full flex-col items-center justify-center gap-6 p-6 text-black">
-          <p className="w-9/12 text-justify text-lg font-medium leading-relaxed">
-            Logo após a modelagem do projeto arquitetônico a próxima etapa seria
-            a realização do projeto estrutural, visando a segurança da estrutura
-            que será responsável por (literalmente) suportar a
-            casa/empreendimento.
+          <p className="w-8/12 p-8 text-justify text-lg font-medium leading-relaxed lg:w-11/12 sm:p-0 2sm:text-xs">
+            O projeto estrutural é o dimensionamento e detalhamento da estrutura
+            necessária para sustentar a edificação, composta por vigas, pilares,
+            lajes e fundação. Por meio de critérios e cálculos específicos, e de
+            acordo com as normas vigentes, o engenheiro define qual o tipo de
+            estrutura mais adequado para o projeto, as dimensões e
+            especificações de cada elemento.
             <br />
-            Essa etapa consiste na investigação do solo para obter tanto a
-            composição como a resistência das camadas onde será construída a
-            casa/empreendimento.
-            <br />
-            Obs.: O ensaio do solo pode e deve ser realizado antes da concepção
-            do projeto arquitetônico para que se haja uma análise prévia acerca
-            do que pode ou não pode ser construído naquele terreno e como será a
-            fundação.
-            <br />
-            Após a obtenção dos parâmetros do solo é realizada uma análise com
-            auxílio de softwares específicos para o cálculo estrutural visando a
-            verificação das cargas da estrutura em relação ao tipo de fundação
-            escolhida, para evitar problemas futuros, garantir segurança e
-            economia para a construção.
+            <br />É considerado o projeto mais importante de uma construção,
+            pois é ele que vai garantir a sustentação da edificação. Além de
+            evitar problemas como trincas, rachaduras, rebaixamento de piso,
+            etc.
           </p>
         </div>
       </div>
 
-      <div className="min-h-screen">
+      <div className="">
+        <ServiçosPageItem titulo={'Projeto Elétrico'} imagem={Eletrico} />
+        <div className="flex w-full flex-col items-center justify-center gap-6 p-6 text-black">
+          <p className="w-8/12 p-8 text-justify text-lg font-medium leading-relaxed lg:w-11/12 sm:p-0 2sm:text-xs">
+            Um projeto elétrico residencial é o conjunto de todas as
+            informações, cálculos, desenhos e detalhes referentes à instalação
+            elétrica residencial, observando todas as normas nacionais vigentes.
+            Essas informações podem ser um diagrama elétrico, tabela de dados,
+            layout, desenhos técnicos, listagem dos componentes da instalação e
+            outros.
+            <br /> <br />O projeto elétrico se beneficia muito de um projeto
+            arquitetônico bem feito. Além de ser extremamente necessário para
+            proteção dos equipamentos ligados na casa, desde equipamentos mais
+            robustos como ar condicionados, chuveiros elétricos e bombas para
+            piscina, até a equipamentos mais simples como computadores,
+            equipamentos televisivos e smartphones.
+          </p>
+        </div>
+      </div>
+
+      <div className="">
         <ServiçosPageItem
-          titulo={'Projetos Hidrossanitário'}
+          titulo={'Projeto Hidrossanitário'}
           imagem={Hidrossanitário}
         />
         <div className="flex w-full flex-col items-center justify-center gap-6 p-6 text-black">
-          <p className="w-9/12 text-justify text-lg font-medium leading-relaxed">
-            Essa etapa consiste no cálculo e no dimensionamento da parte
-            hidrossanitária e elétrica do projeto. Definindo onde serão os
-            pontos de água, as saídas de esgoto e toda a parte elétrica, entre
-            tomadas e pontos de luz. Além de todo o dimensionamento acerca
-            desses itens para que fique dentro dos parâmetros das normas
-            brasileiras e seja o mais cômodo possível para o projeto que o
-            cliente deseja
+          <p className="w-8/12 p-8 text-justify text-lg font-medium leading-relaxed lg:w-11/12 sm:p-0 2sm:text-xs">
+            Um projeto Hidrossanitário é aquele que engloba toda a distribuição
+            de água fria, água quente, esgoto e água pluvial ao longo da
+            edificação. Ele é essencial para que a água que vem da
+            concessionária chegue até as peças de utilização, como chuveiro,
+            torneiras, etc. Também é fundamental para que os dejetos eliminados
+            pelos ralos e vasos sanitários cheguem até a tubulação de esgoto da
+            rua.
+            <br /> <br />
+            Além da correta distribuição dos equipamentos hidrossanitário que
+            levam água da concessionária até os pontos de saída, e levam o
+            esgoto até a coleta municipal, o projeto hidrossanitário é
+            responsável por evitar problemas nesse tipo de instalação, como
+            falta de pressão nos pontos de água fria/quente, entupimento de
+            esgoto, mal escoamento de água, etc.
           </p>
         </div>
       </div>
 
-      <div className="min-h-screen">
-        <ServiçosPageItem titulo={'Projeto Elétrico'} imagem={Eletrico} />
-        <div className="flex w-full flex-col items-center justify-center gap-6 p-6 text-black">
-          <p className="w-9/12 text-justify text-lg font-medium leading-relaxed">
-            Essa etapa consiste no cálculo e no dimensionamento da parte
-            hidrossanitária e elétrica do projeto. Definindo ondeR serão os
-            pontos de água, as saídas de esgoto e toda a parte elétrica, entre
-            tomadas e pontos de luz. Além de todo o dimensionamento acerca
-            desses itens para que fique dentro dos parâmetros das normas
-            brasileiras e seja o mais cômodo possível para o projeto que o
-            cliente deseja
-          </p>
-        </div>
-      </div>
-
-      <div className="min-h-screen">
+      <div className="">
         <ServiçosPageItem
           titulo={'Prevenção e Combate à Incêndio (PPCI)'}
           imagem={PPCI}
         />
         <div className="flex w-full flex-col items-center justify-center gap-6 p-6 text-black">
-          <p className="w-9/12 text-justify text-lg font-medium leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-            dolores consectetur in, est veniam ut. Labore modi voluptatibus
-            laborum soluta vero repellendus animi et ut deserunt, corporis eum
-            delectus dolore!
+          <p className="w-8/12 p-8 text-justify text-lg font-medium leading-relaxed lg:w-11/12 sm:p-0 2sm:text-xs">
+            O PPCI (Projeto de Prevenção e Combate a Incêndios) é um documento
+            que sistematiza e detalha os elementos necessários a serem previstos
+            para garantir a segurança dos ocupantes e auxiliar no combate a
+            incêndios. Ele define os espaços e sistemas da edificação para
+            evacuar as pessoas de forma rápida em casos de emergência e iniciar
+            o combate ao fogo em casos de princípios de incêndio.
+            <br /> <br />É necessário, pelas normas brasileiras vigentes, em
+            todas as instalações comerciais, industriais, prédios e locais de
+            concentração de público, além dos edifícios residenciais
+            multifamiliares. O não cumprimento das regulamentações estabelecidas
+            pode acarretar multa.
           </p>
         </div>
       </div>
 
-      <div className="min-h-screen">
-        <ServiçosPageItem titulo={'Orçamento Caixa'} imagem={Caixa} />
+      <div className="">
+        <ServiçosPageItem
+          titulo={'Orçamento Para Financiamento'}
+          imagem={Orçamento}
+        />
         <div className="flex w-full flex-col items-center justify-center gap-6 p-6 text-black">
-          <p className="w-9/12 text-justify text-lg font-medium leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-            itaque natus voluptates blanditiis reprehenderit laborum, culpa
-            nobis magni quibusdam dolorem harum consequatur officia aliquid
-            laudantium? Excepturi harum illum quasi ipsam?
+          <p className="w-8/12 p-8 text-justify text-lg font-medium leading-relaxed lg:w-11/12 sm:p-0 2sm:text-xs">
+            Para que seja realizado o financiamento nas instituições financeiras
+            é necessário o preenchimento de planilhas de orçamento específicas
+            dessas instituições. Essas planilhas são diferentes das planilhas
+            comumente utilizadas na construção civil em obras privadas. A
+            planilha da caixa tem uma série de detalhes que, sem um profissional
+            qualificado, vai haver uma certa dificuldade no aceite pela
+            instituição, ou até mesmo uma reprovação de financiamento.
+            <br /> <br />
+            Nós da Esquare temos profissionais experientes neste tipo de serviço
+            e fazemos com o maior zelo possível para que seu financiamento saia
+            o mais rápido possível.
           </p>
         </div>
       </div>
