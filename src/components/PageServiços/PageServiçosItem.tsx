@@ -17,7 +17,8 @@ export default function PageServiçosItem(props: props) {
             src={props.imagem}
             alt=""
             priority={true}
-            className="blur-s h-80 w-screen overflow-hidden bg-cover object-cover brightness-50"
+            height={400}
+            className="h-80 w-screen overflow-hidden bg-cover object-cover brightness-50"
           />
           {/* absolute */}
           <div className="absolute bottom-0 left-0 right-0 top-0 grid place-items-center">

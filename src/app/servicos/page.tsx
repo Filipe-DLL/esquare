@@ -13,7 +13,6 @@ export default function Page() {
     <div className="animate__fadeIn animate__animated flex h-full flex-col items-center justify-center bg-gray-50">
       <WhatsAppButton />
 
-      {/* Container */}
       <div className="">
         <ServiçosPageItem
           titulo={'Projeto Arquitetônico'}

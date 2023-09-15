@@ -14,7 +14,7 @@ export default function SectionQuemSomos() {
       className="flex w-full flex-col items-center justify-center "
     >
       {/* box */}
-      <div className="relative my-20 flex h-full w-full flex-col items-center justify-center gap-8  bg-azulPetrolio p-12 text-gray-50 lg:h-full lg:w-11/12 lg:rounded-3xl md:px-4">
+      <div className="relative my-20 flex h-full flex-col items-center justify-center gap-8 rounded-3xl  bg-azulPetrolio p-12 text-gray-50 lg:h-full lg:w-11/12 lg:rounded-3xl md:px-4">
         {/* Titulo */}
         <h1 className="-mt-5 flex items-center justify-center text-center text-4xl font-black uppercase">
           Quem Somos

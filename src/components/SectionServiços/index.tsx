@@ -15,7 +15,7 @@ export default function SectionServiços() {
       className="flex h-full w-5/6 flex-col items-center justify-center"
     >
       {/* Titulo */}
-      <h1 className="mt-20 flex items-center justify-center text-center text-4xl font-black uppercase text-azulPetrolio 2lg:text-azulIndigo">
+      <h1 className="mt-20 flex items-center justify-center text-center text-4xl font-black uppercase text-azulIndigo">
         Nossos Serviços
       </h1>
 
