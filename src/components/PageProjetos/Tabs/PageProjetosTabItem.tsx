@@ -14,6 +14,7 @@ export default function PageProjetosTabItem(props: props) {
           src={props.imagem}
           alt=""
           width={400}
+          priority
           className="h-auto max-h-80 w-full bg-cover object-cover transition-all ease-in-out group-hover:scale-110 group-hover:brightness-75"
         />
         <div className="absolute bottom-0 left-0 right-0 top-0 grid h-[550] place-items-center">
