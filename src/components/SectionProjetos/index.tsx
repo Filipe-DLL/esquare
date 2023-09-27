@@ -18,7 +18,7 @@ export default function SectionProjetos() {
       </h1>
 
       {/* container */}
-      <div className="mt-6 flex w-4/6 flex-col items-center justify-center gap-10 py-8">
+      <div className="mt-6 flex w-4/6 flex-col items-center justify-center gap-10 py-8 sm:w-11/12">
         <div className="flex items-center justify-center gap-16 lg:flex-col">
           <Image
             src={projeto1}

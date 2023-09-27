@@ -9,13 +9,13 @@ import { ChevronsDown } from 'lucide-react'
 export default function SectionInicio() {
   return (
     <section
-      id="Inicio"
-      className="flex h-screen w-full items-center justify-center bg-gray-50"
+      id="Início"
+      className="mt-16 flex h-screen w-full items-center justify-center bg-gray-50"
     >
       <div className="mx-10 flex h-full w-full flex-col items-center justify-between ">
         <div></div>
 
-        <Image src={esquare} alt="ESQUARE" className="" />
+        <Image src={esquare} alt="ESQUARE" priority={true} className="" />
 
         <div className="mb-16 flex flex-col items-center gap-32">
           <div className=" h-14 w-96 sm:w-72">

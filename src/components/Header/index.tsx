@@ -6,15 +6,16 @@ import MenuClientSide from '@/components/Header/Menu/MenuClientSide'
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-10 h-16 w-full bg-azulPetrolio">
+    <header className="fixed top-0 z-10 h-16 w-full bg-azulPetrolio">
       <div className="mx-20 h-full md:mx-5">
         <nav className="flex h-full flex-row items-center justify-between">
           {/* logo */}
-          <Link href={'/#Início'}>
+          <Link href={'#Início'}>
             <Image
               src={logo}
               alt="logo"
               height={32}
+              priority={true}
               className="cursor-pointer"
             />
           </Link>

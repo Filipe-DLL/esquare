@@ -6,13 +6,13 @@ export default function SectionContatos() {
   return (
     <section
       id="Contato"
-      className="flex h-full w-full flex-col items-center justify-center"
+      className="mb-20 mt-20 flex h-full w-full flex-col items-center justify-center"
     >
       {/* container */}
-      <div className="mt-20 flex h-full items-center justify-center gap-20 xl:flex-col-reverse">
+      <div className=" flex h-full items-center justify-center gap-20 xl:flex-col-reverse">
         {/* mapa */}
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15847.194717898325!2d-39.30851003959099!3d-6.7943332341484854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a3b360519ce17f%3A0x988c1c99f6dfc0ce!2sV%C3%A1rzea%20Alegre%2C%20CE%2C%2063540-000!5e0!3m2!1spt-BR!2sbr!4v1692402498050!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31664.92714682257!2d-39.33490889301318!3d-7.227620062991546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a1789b9e348137%3A0x6fac36329d98a8ea!2sJuazeiro%20do%20Norte%2C%20CE!5e0!3m2!1spt-BR!2sbr!4v1694808800257!5m2!1spt-BR!2sbr"
           width="700"
           height="450"
           loading="lazy"
@@ -35,21 +35,21 @@ export default function SectionContatos() {
           <div className="flex w-full flex-col items-center justify-center gap-8 rounded-3xl bg-[#E8EAED] p-10 xl:px-20 sm:w-screen sm:rounded-none sm:p-0 sm:py-3">
             <div className="flex items-center gap-4 sm:flex-col">
               <Mail size={35} />
-              <h2 className="text-2xl font-bold sm:text-xl">
+              <h2 className="text-2xl font-bold sm:text-lg">
                 esquareengenharia@gmail.com
               </h2>
             </div>
 
             <div className="flex items-center gap-4 sm:flex-col">
               <Instagram size={35} />
-              <h2 className="text-2xl font-bold sm:text-xl">
+              <h2 className="text-2xl font-bold sm:text-lg">
                 @esquareengenharia
               </h2>
             </div>
 
             <div className="flex items-center gap-4 sm:flex-col">
               <PhoneCall size={35} />
-              <h2 className="text-2xl font-bold sm:text-xl">(88) 98888-8888</h2>
+              <h2 className="text-2xl font-bold sm:text-lg">(88) 98888-8888</h2>
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR">
       <body
-        className={`${inter.variable} ${roboto.variable} m-0 box-border bg-gray-50 p-0 font-sans text-azulIndigo `}
+        className={`${inter.variable} ${roboto.variable} m-0 box-border min-h-screen bg-gray-50 p-0 font-sans text-azulIndigo`}
       >
         <Header />
         {children}

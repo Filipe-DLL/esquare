@@ -42,6 +42,12 @@ const config: Config = {
 
         '2lg': { max: '1190px' },
         // => @media (max-width: 1535px) { ... }
+
+        '2sm': { max: '300px' },
+        // => @media (max-width: 639px) { ... }
+
+        '2md': { max: '500px' },
+        // => @media (max-width: 639px) { ... }
       },
       fontFamily: {
         sans: 'var( --font-roboto)',

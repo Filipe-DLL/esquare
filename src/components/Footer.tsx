@@ -7,13 +7,13 @@ export default function Footer() {
   return (
     <footer
       id="Footer"
-      className="mt-20 flex h-80 w-full flex-col items-center justify-center bg-azulPetrolio p-8 text-gray-50 lg:h-full md:p-2"
+      className="animate__fadeIn animate__animated bottom-0 mt-5 flex h-80 w-full flex-col items-center justify-center bg-azulPetrolio p-8 text-gray-50 lg:h-full md:p-2"
     >
       {/* container */}
       <div className="flex items-start justify-center gap-24 xl:gap-8 lg:flex-wrap md:w-full md:flex-col md:items-center">
         {/* ESQUARE */}
         <div className="flex flex-col gap-4 xl:w-5/12 lg:items-center md:w-full">
-          <Image src={esquare} alt="ESQUARE" width={240} />
+          <Image src={esquare} alt="ESQUARE" width={240} priority={true} />
           <p className="w-60 text-justify font-medium">
             A ESQUARE tem como missão encontrar as melhores soluções de
             engenharia para proporcionar segurança e tranquilidade para os

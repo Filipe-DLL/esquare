@@ -70,7 +70,12 @@ export default function SectionQuemSomos() {
           </div>
 
           <div className="2xl:hidden">
-            <Image src={image4} alt="" className="w-[350px] rounded-3xl" />
+            <Image
+              src={image4}
+              width={350}
+              alt=""
+              className="w-[350px] rounded-3xl"
+            />
           </div>
         </div>
 
