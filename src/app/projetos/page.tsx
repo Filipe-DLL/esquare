@@ -1,8 +1,8 @@
-import WhatsAppButton from '@/components/WhatsAppButton'
+import Img from '@/assets/PageProjetos/ListaProjetos.jpg'
 import Image from 'next/image'
 
-import imagem from '@/assets/PageProjetos/ListaProjetos.jpg'
 import TabsPageProjetos from '@/components/PageProjetos/Tabs'
+import WhatsAppButton from '@/components/WhatsAppButton'
 
 export default function Page() {
   return (
@@ -14,7 +14,7 @@ export default function Page() {
         <div className="flex h-96 w-full items-center justify-center overflow-hidden bg-red-300 bg-cover">
           <div className="relative overflow-hidden bg-cover">
             <Image
-              src={imagem}
+              src={Img}
               alt=""
               className="h-96 w-screen overflow-hidden bg-cover object-cover brightness-50"
             />

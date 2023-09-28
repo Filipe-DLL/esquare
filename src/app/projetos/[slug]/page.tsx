@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import imagem from '@/assets/PageProjetos/ProjetosPage.jpg'
+import Img from '@/assets/PageProjetos/ProjetosPage.jpg'
 import { getDados } from '@/utils/data'
 
 interface ProjectProps {
@@ -27,7 +27,7 @@ export default async function page({ params }: ProjectProps) {
       <div className="flex h-80 w-full items-center justify-center overflow-hidden bg-red-300 bg-cover">
         <div className="relative overflow-hidden bg-cover">
           <Image
-            src={imagem}
+            src={Img}
             alt=""
             className="h-80 w-screen overflow-hidden bg-cover object-cover brightness-50"
           />
@@ -42,7 +42,7 @@ export default async function page({ params }: ProjectProps) {
         {/* imagem */}
         <div>
           <Image
-            src={imagem}
+            src={Img}
             alt=""
             height={500}
             className="h-[534px] w-[1140px] xl:h-[441px] xl:w-[940px] lg:h-[338px] lg:w-[720px] md:h-auto md:w-full"
