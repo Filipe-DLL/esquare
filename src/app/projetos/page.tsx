@@ -1,4 +1,4 @@
-import Img from '@/assets/PageProjetos/ListaProjetos.jpg'
+import Img from '@/assets/PageProjetos/lista-projetos.jpg'
 import Image from 'next/image'
 
 import TabsPageProjetos from '@/components/PageProjetos/Tabs'

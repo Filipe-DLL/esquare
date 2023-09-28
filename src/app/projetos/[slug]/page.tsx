@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import Img from '@/assets/PageProjetos/ProjetosPage.jpg'
+import Img from '@/assets/PageProjetos/projetos-page.jpg'
 import { getDados } from '@/utils/data'
 
 interface ProjectProps {
