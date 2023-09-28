@@ -10,7 +10,7 @@ export default function Header() {
       <div className="mx-20 h-full md:mx-5">
         <nav className="flex h-full flex-row items-center justify-between">
           {/* logo */}
-          <Link href={'#Início'}>
+          <Link href={'/#Início'}>
             <Image
               src={logo}
               alt="logo"
