@@ -23,7 +23,7 @@ export default async function page({ params }: ProjectProps) {
   const data: data[] = await getDados()
 
   return (
-    <section className="animate__fadeIn animate__animated flex min-h-screen flex-col items-center justify-start">
+    <section className="animate__fadeIn animate__animated  mt-16 flex min-h-screen flex-col items-center justify-start">
       {/* Header */}
       <div className="flex h-80 w-full items-center justify-center overflow-hidden bg-cover">
         <div className="relative overflow-hidden bg-cover">
