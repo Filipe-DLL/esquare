@@ -66,7 +66,6 @@ export default function TabsPageProjetos() {
         className="flex flex-wrap items-center justify-start"
       >
         <PageProjetosTabItem imagem={Arquitetonico} id={1} titulo="Titulo 1" />
-
         <PageProjetosTabItem imagem={Arquitetonico} id={2} titulo="Titulo 2" />
         <PageProjetosTabItem imagem={Arquitetonico} id={3} titulo="Titulo 3" />
         <PageProjetosTabItem imagem={Arquitetonico} id={4} titulo="Titulo 4" />
@@ -122,58 +121,77 @@ export default function TabsPageProjetos() {
         value="tab2"
         className="flex flex-wrap items-center justify-center"
       >
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Arquitetonico} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Arquitetonico} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Arquitetonico} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Arquitetonico} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Arquitetonico} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Arquitetonico} />
+        <PageProjetosTabItem imagem={Arquitetonico} id={1} titulo="Titulo 1" />
+        <PageProjetosTabItem imagem={Arquitetonico} id={2} titulo="Titulo 2" />
+        <PageProjetosTabItem imagem={Arquitetonico} id={3} titulo="Titulo 3" />
+        <PageProjetosTabItem imagem={Arquitetonico} id={4} titulo="Titulo 4" />
+        <PageProjetosTabItem imagem={Arquitetonico} id={5} titulo="Titulo 5" />
+        <PageProjetosTabItem imagem={Arquitetonico} id={6} titulo="Titulo 6" />
       </Tabs.Content>
       <Tabs.Content
         value="tab3"
         className="flex flex-wrap items-center justify-center"
       >
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Estrutural} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Estrutural} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Estrutural} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Estrutural} />
+        <PageProjetosTabItem imagem={Estrutural} id={7} titulo="Titulo 7" />
+        <PageProjetosTabItem imagem={Estrutural} id={8} titulo="Titulo 8" />
+        <PageProjetosTabItem imagem={Estrutural} id={9} titulo="Titulo 9" />
+        <PageProjetosTabItem imagem={Estrutural} id={10} titulo="Titulo 10" />
       </Tabs.Content>
       <Tabs.Content
         value="tab4"
         className="flex flex-wrap items-center justify-center"
       >
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Eletrico} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Eletrico} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Eletrico} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Eletrico} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Eletrico} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Eletrico} />
+        <PageProjetosTabItem imagem={Eletrico} id={11} titulo="Titulo 11" />
+        <PageProjetosTabItem imagem={Eletrico} id={12} titulo="Titulo 12" />
+        <PageProjetosTabItem imagem={Eletrico} id={13} titulo="Titulo 13" />
+        <PageProjetosTabItem imagem={Eletrico} id={14} titulo="Titulo 14" />
+        <PageProjetosTabItem imagem={Eletrico} id={15} titulo="Titulo 15" />
+        <PageProjetosTabItem imagem={Eletrico} id={16} titulo="Titulo 16" />
       </Tabs.Content>
       <Tabs.Content
         value="tab5"
         className="flex flex-wrap items-center justify-center"
       >
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Hidrossanitário} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Hidrossanitário} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Hidrossanitário} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Hidrossanitário} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Hidrossanitário} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Hidrossanitário} />
+        <PageProjetosTabItem
+          imagem={Hidrossanitário}
+          id={17}
+          titulo="Titulo 17"
+        />
+        <PageProjetosTabItem
+          imagem={Hidrossanitário}
+          id={18}
+          titulo="Titulo 18"
+        />
+        <PageProjetosTabItem
+          imagem={Hidrossanitário}
+          id={19}
+          titulo="Titulo 19"
+        />
+        <PageProjetosTabItem
+          imagem={Hidrossanitário}
+          id={20}
+          titulo="Titulo 20"
+        />
+        <PageProjetosTabItem
+          imagem={Hidrossanitário}
+          id={21}
+          titulo="Titulo 21"
+        />
       </Tabs.Content>
       <Tabs.Content
         value="tab6"
         className="flex flex-wrap items-center justify-center"
       >
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Orçamento} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={Orçamento} />
+        <PageProjetosTabItem imagem={Orçamento} id={22} titulo="Titulo 22" />
+        <PageProjetosTabItem imagem={Orçamento} id={23} titulo="Titulo 23" />
       </Tabs.Content>
       <Tabs.Content
         value="tab7"
         className="flex flex-wrap items-center justify-center"
       >
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={PPCI} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={PPCI} />
-        <PageProjetosTabItem id={1} titulo="Titulo" imagem={PPCI} />
+        <PageProjetosTabItem imagem={PPCI} id={24} titulo="Titulo 24" />
+        <PageProjetosTabItem imagem={PPCI} id={25} titulo="Titulo 25" />
+        <PageProjetosTabItem imagem={PPCI} id={26} titulo="Titulo 26" />
       </Tabs.Content>
     </Tabs.Root>
   )

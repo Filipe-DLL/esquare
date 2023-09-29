@@ -6,13 +6,10 @@ import Estrutural from '@/assets/SectionServiços/Projeto-estrutural.jpg'
 import Hidrossanitário from '@/assets/SectionServiços/Projetos-Hidrossanitário.png'
 
 import ServiçosPageItem from '@/components/PageServiços/PageServiçosItem'
-import WhatsAppButton from '@/components/WhatsAppButton'
 
 export default function Page() {
   return (
     <div className="animate__fadeIn animate__animated flex h-full min-h-screen flex-col items-center justify-center bg-gray-50">
-      <WhatsAppButton />
-
       <div className="">
         <ServiçosPageItem
           titulo={'Projeto Arquitetônico'}

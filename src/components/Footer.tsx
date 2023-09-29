@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import esquare from '@/assets/footer/HORIZONTAL - CINZA 3.svg'
 import { Instagram, Mail, PhoneCall } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -25,15 +26,35 @@ export default function Footer() {
         <div className="flex flex-col xl:w-5/12 lg:items-center md:w-full">
           <h2 className="mb-8 text-xl font-extrabold">Nossos Serviços</h2>
           <ul className="list-disc pl-6 font-medium">
-            <li>Projeto arquitetônico</li>
-            <li>Projeto estrutural</li>
-            <li>Projetos Hidrossanitário</li>
-            <li>Projeto Elétrico</li>
             <li>
-              Prevenção e Combate à <br />
-              Incêndio (PPCI)
+              <Link href={`/servicos#Projeto Arquitetônico`}>
+                Projeto Arquitetônico
+              </Link>
             </li>
-            <li>Orçamento Caixa</li>
+            <li>
+              <Link href={`/servicos#Projeto Estrutural`}>
+                Projeto Estrutural
+              </Link>
+            </li>
+            <li>
+              <Link href={`/servicos#Projeto Hidrossanitário`}>
+                Projetos Hidrossanitário
+              </Link>
+            </li>
+            <li>
+              <Link href={`/servicos#Projeto Elétrico`}>Projeto Elétrico</Link>
+            </li>
+            <li>
+              <Link href={`/servicos#Prevenção e Combate à Incêndio (PPCI)`}>
+                Prevenção e Combate à <br />
+                Incêndio (PPCI)
+              </Link>
+            </li>
+            <li>
+              <Link href={`/servicos#Orçamento Para Financiamento`}>
+                Orçamento Para Financiamento
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -47,13 +68,18 @@ export default function Footer() {
             </div>
 
             <div className="flex items-center gap-4 2sm:flex-col">
-              <Instagram size={20} />
-              <h2 className="text-base">@esquareengenharia</h2>
+              <Link
+                href={'https://www.instagram.com/esquareengenharia/'}
+                className="flex items-center gap-4 2sm:flex-col"
+              >
+                <Instagram size={20} />
+                <h2 className="text-base">@esquareengenharia</h2>
+              </Link>
             </div>
 
             <div className="flex items-center gap-4 2sm:flex-col">
               <PhoneCall size={20} />
-              <h2 className="text-base">(88) 98888-8888</h2>
+              <h2 className="text-base">(88) 98186-1972</h2>
             </div>
           </div>
         </div>

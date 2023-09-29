@@ -14,7 +14,7 @@ export default function ServiçoItem(props: props) {
           src={props.imagem}
           alt=""
           width={400}
-          className="h-[485px] overflow-hidden rounded-3xl bg-cover object-cover shadow-md brightness-50"
+          className="h-[400px] overflow-hidden rounded-3xl bg-cover object-cover shadow-md brightness-50"
         />
         <div className="absolute bottom-0 left-0 right-0 top-0 grid h-[485] place-items-center">
           <div className="flex cursor-pointer flex-col items-center justify-center">

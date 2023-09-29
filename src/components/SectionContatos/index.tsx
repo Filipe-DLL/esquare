@@ -1,6 +1,7 @@
 import { Instagram, Mail, PhoneCall } from 'lucide-react'
 
 import Button from '@/components/Button'
+import Link from 'next/link'
 
 export default function SectionContatos() {
   return (
@@ -41,10 +42,15 @@ export default function SectionContatos() {
             </div>
 
             <div className="flex items-center gap-4 sm:flex-col">
-              <Instagram size={35} />
-              <h2 className="text-2xl font-bold sm:text-lg">
-                @esquareengenharia
-              </h2>
+              <Link
+                href={'https://www.instagram.com/esquareengenharia/'}
+                className="flex items-center gap-4 2sm:flex-col"
+              >
+                <Instagram size={35} />
+                <h2 className="text-2xl font-bold sm:text-lg">
+                  @esquareengenharia
+                </h2>
+              </Link>
             </div>
 
             <div className="flex items-center gap-4 sm:flex-col">

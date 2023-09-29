@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import { Inter, Roboto_Flex as Roboto } from 'next/font/google'
 import { ReactNode } from 'react'
 import './globals.css'
+import WhatsAppButton from '@/components/WhatsAppButton'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto' })
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body
         className={`${inter.variable} ${roboto.variable} m-0 box-border min-h-screen bg-gray-50 p-0 font-sans text-azulIndigo`}
       >
+        <WhatsAppButton />
         <Header />
         {children}
         <Footer />
