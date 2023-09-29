@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <section className="animate__fadeIn animate__animated flex h-full min-h-screen flex-col items-center justify-start">
       {/* Header */}
-      <div className="flex h-96 w-full items-center justify-center overflow-hidden bg-red-300 bg-cover">
+      <div className="flex h-96 w-full items-center justify-center overflow-hidden bg-cover">
         <div className="relative overflow-hidden bg-cover">
           <Image
             src={Img}
