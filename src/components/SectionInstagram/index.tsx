@@ -11,6 +11,8 @@ export default async function SectionInstagram() {
   const user = await axios.get(userUrl)
   const media = await axios.get(mediaUrl)
 
+  console.log(media.data.data);
+
   return (
     <section className="animate__fadeIn animate__animated flex h-full flex-col items-center justify-start">
       <InstaFeed user={user.data} media={media.data.data} />
