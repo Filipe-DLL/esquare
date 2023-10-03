@@ -17,6 +17,7 @@ interface data {
   cliente: string
   localização: string
   descrição: string
+  imagens: [string]
 }
 
 export default async function page({ params }: ProjectProps) {

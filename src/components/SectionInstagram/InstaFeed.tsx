@@ -22,10 +22,9 @@ export default function InstaFeed({ user, media }: props) {
   return (
     <div className="flex items-center justify-center">
       <div className="flex flex-col items-center justify-center gap-6">
-
         <Link
           className="flex items-center justify-center gap-3 md:w-9/12"
-          href={"https://www.instagram.com/esquareengenharia/"}
+          href={'https://www.instagram.com/esquareengenharia/'}
         >
           <Image
             src={LogoInstagram}
@@ -58,6 +57,6 @@ export default function InstaFeed({ user, media }: props) {
           )}
         </div>
       </div>
-    </div >
+    </div>
   )
 }

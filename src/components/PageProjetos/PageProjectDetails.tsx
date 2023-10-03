@@ -1,4 +1,3 @@
-import Img from '@/assets/PageProjetos/projetos-page.jpg'
 import Image from 'next/image'
 
 interface data {
@@ -9,19 +8,20 @@ interface data {
     cliente: string
     localização: string
     descrição: string
+    imagens: [string]
   }
 }
 
 export default function PageProjectDetails({ data }: data) {
-  console.log(data)
-
   return (
     <div className="mt-16 flex w-full flex-col items-center justify-center p-6 md:mt-0">
       {/* imagem */}
       <div>
         <Image
-          src={Img}
+          src={`${data.imagens[0]}`}
           alt=""
+          priority
+          width={1000}
           height={500}
           className="h-[534px] w-[1140px] xl:h-[441px] xl:w-[940px] lg:h-[338px] lg:w-[720px] md:h-auto md:w-full"
         />
