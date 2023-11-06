@@ -10,8 +10,9 @@ export default async function SectionInstagram() {
       next: {
         revalidate: 3600,
       },
-    },
+    }, 
   )
+  
   const mediaUrl = await fetch(
     `https://graph.instagram.com/me/media?fields=${fields}&access_token=${token}`,
     {
