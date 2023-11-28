@@ -3,8 +3,6 @@ import Link from 'next/link'
 
 import LogoInstagram from '@/assets/SectionInstagram/LogoInstagram.svg'
 
-// revalidate = 600 // revalidate the data at most every hour
-
 interface props {
   user: {
     id: string
