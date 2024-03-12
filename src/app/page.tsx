@@ -1,6 +1,5 @@
 import SectionContatos from '@/components/SectionContatos'
 import SectionInicio from '@/components/SectionInicio'
-import SectionInstagram from '@/components/SectionInstagram'
 import SectionProjetos from '@/components/SectionProjetos'
 import SectionQuemSomos from '@/components/SectionQuemSomos'
 import SectionServiços from '@/components/SectionServiços'
@@ -14,7 +13,7 @@ export default function Home() {
       <SectionServiços />
       <SectionProjetos />
       <SectionValores />
-      <SectionInstagram />
+      {/* <SectionInstagram /> */}
       <SectionContatos />
     </div>
   )
