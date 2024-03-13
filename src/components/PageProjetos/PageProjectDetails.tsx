@@ -1,18 +1,19 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-interface data {
+
+interface dataType {
   data: {
-    id: number
-    categoria: string
-    titulo: string
-    cliente: string
+    id: number;
+    categoria: string;
+    titulo: string,
+    cliente: string,
     localização: string
-    descrição: string
-    imagens: [string]
+    descrição: string,
+    imagens: string[],
   }
 }
 
-export default function PageProjectDetails({ data }: data) {
+export default function PageProjectDetails({ data }: dataType) {
   return (
     <div className="mt-16 flex w-full flex-col items-center justify-center p-6 md:mt-0">
       {/* imagem */}

@@ -1,0 +1,157 @@
+
+export interface projectDataType {
+  id: number;
+  categoria: string;
+  titulo: string,
+  cliente: string,
+  localização: string
+  descrição: string,
+  imagens: string[],
+}
+
+export const projectData: projectDataType[] = [
+  {
+    id: 0,
+    categoria: "",
+    titulo: "t",
+    cliente: "",
+    localização: "",
+    descrição: "",
+    imagens: []
+  },
+  {
+    id: 1,
+    categoria: "arquitetonico",
+    titulo: "ARENA GRÊMIO",
+    cliente: "Construtora OAS Ltda.",
+    localização: "Porto Alegre – RGS",
+    descrição: "Projeto executivo de estruturas de concreto e fundações de arena multiuso. Capacidade máxima 60.540 pessoas. Estruturas predominantemente pré-moldadas com cobertura metálica e fundações moldadas in loco. Área total de 345.250 m².  Área estruturada de 192.500 m² e altura aproximada de 50 m. Volume total de concreto 41.560 m³.",
+    imagens: [
+      "https://i.imgur.com/DE8RfE6.jpg",
+      "https://i.imgur.com/xW02fzc.jpg",
+      "https://i.imgur.com/x2imWO2.jpg",
+      "https://i.imgur.com/KEXcAXl.jpg"
+    ]
+  },
+  {
+    id: 2,
+    categoria: "tipo",
+    titulo: "titulo 2",
+    cliente: "Cliente 2",
+    localização: "Localização 2",
+    descrição: "Descrição do Item 2",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 3,
+    categoria: "tipo",
+    titulo: "titulo 3",
+    cliente: "Cliente 3",
+    localização: "Localização 3",
+    descrição: "Descrição do Item 3",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 4,
+    categoria: "tipo",
+    titulo: "titulo 4",
+    cliente: "Cliente 4",
+    localização: "Localização 4",
+    descrição: "Descrição do Item 4",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 5,
+    categoria: "tipo",
+    titulo: "titulo 5",
+    cliente: "Cliente 5",
+    localização: "Localização 5",
+    descrição: "Descrição do Item 5",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 6,
+    categoria: "tipo",
+    titulo: "titulo 6",
+    cliente: "Cliente 6",
+    localização: "Localização 6",
+    descrição: "Descrição do Item 6",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 7,
+    categoria: "tipo",
+    titulo: "titulo 7",
+    cliente: "Cliente 7",
+    localização: "Localização 7",
+    descrição: "Descrição do Item 7",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 8,
+    categoria: "tipo",
+    titulo: "titulo 8",
+    cliente: "Cliente 8",
+    localização: "Localização 8",
+    descrição: "Descrição do Item 8",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 9,
+    categoria: "tipo",
+    titulo: "titulo 9",
+    cliente: "Cliente 9",
+    localização: "Localização 9",
+    descrição: "Descrição do Item 9",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 10,
+    categoria: "tipo",
+    titulo: "titulo 10",
+    cliente: "Cliente 10",
+    localização: "Localização 10",
+    descrição: "Descrição do Item 10",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 11,
+    categoria: "tipo",
+    titulo: "titulo 11",
+    cliente: "Cliente 11",
+    localização: "Localização 11",
+    descrição: "Descrição do Item 11",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 12,
+    categoria: "tipo",
+    titulo: "titulo 12",
+    cliente: "Cliente 12",
+    localização: "Localização 12",
+    descrição: "Descrição do Item 12",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  }
+]
