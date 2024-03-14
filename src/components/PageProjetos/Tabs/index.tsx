@@ -49,7 +49,7 @@ export default function TabsPageProjetos() {
               return
             }
             return (
-              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.categoria} key={key} />
+              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.titulo} key={key} />
             )
           }
           )
@@ -65,7 +65,7 @@ export default function TabsPageProjetos() {
               return
             }
             return (
-              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.categoria} key={key} />
+              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.titulo} key={key} />
             )
           }
           )
@@ -81,7 +81,7 @@ export default function TabsPageProjetos() {
               return
             }
             return (
-              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.categoria} key={key} />
+              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.titulo} key={key} />
             )
           }
           )
@@ -97,7 +97,7 @@ export default function TabsPageProjetos() {
               return
             }
             return (
-              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.categoria} key={key} />
+              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.titulo} key={key} />
             )
           }
           )
@@ -113,7 +113,7 @@ export default function TabsPageProjetos() {
               return
             }
             return (
-              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.categoria} key={key} />
+              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.titulo} key={key} />
             )
           }
           )
@@ -129,7 +129,7 @@ export default function TabsPageProjetos() {
               return
             }
             return (
-              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.categoria} key={key} />
+              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.titulo} key={key} />
             )
           }
           )
@@ -145,7 +145,7 @@ export default function TabsPageProjetos() {
               return
             }
             return (
-              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.categoria} key={key} />
+              <PageProjetosTabItem imagem={item.categoriaImagen} id={item.id} titulo={item.titulo} key={key} />
             )
           }
           )
