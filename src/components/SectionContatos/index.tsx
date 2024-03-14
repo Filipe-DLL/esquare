@@ -44,7 +44,7 @@ export default function SectionContatos() {
             <div className="flex items-center gap-4 sm:flex-col">
               <Link
                 href={'https://www.instagram.com/esquareengenharia/'}
-                className="flex items-center gap-4 2sm:flex-col"
+                className="flex items-center gap-4 sm:flex-col"
               >
                 <Instagram size={35} />
                 <h2 className="text-2xl font-bold sm:text-lg">
