@@ -13,7 +13,7 @@ export default function SectionContatos() {
       <div className=" flex h-full items-center justify-center gap-20 xl:flex-col-reverse">
         {/* mapa */}
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31664.92714682257!2d-39.33490889301318!3d-7.227620062991546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a1789b9e348137%3A0x6fac36329d98a8ea!2sJuazeiro%20do%20Norte%2C%20CE!5e0!3m2!1spt-BR!2sbr!4v1694808800257!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1176.7271382575277!2d-39.31298331132939!3d-7.238269126610154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a179a12f7c7dff%3A0x8c00433b0e7c34cd!2sEsquare%20Engenharia%20%26%20Projetos!5e0!3m2!1spt-PT!2sbr!4v1710455936055!5m2!1spt-PT!2sbr"
           width="700"
           height="450"
           loading="lazy"
@@ -55,7 +55,7 @@ export default function SectionContatos() {
 
             <div className="flex items-center gap-4 sm:flex-col">
               <PhoneCall size={35} />
-              <h2 className="text-2xl font-bold sm:text-lg">(88) 98888-8888</h2>
+              <h2 className="text-2xl font-bold sm:text-lg">(88) 98186-1972</h2>
             </div>
           </div>
         </div>
