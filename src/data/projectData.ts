@@ -1,18 +1,26 @@
+import Orçamento from '@/assets/SectionServiços/Orçamento.jpg'
+import ppci from '@/assets/SectionServiços/Prevenção-e-Combate-a-Incêndio-(PPCI).jpg'
+import Elétrico from '@/assets/SectionServiços/Projeto-Elétrico.jpg'
+import arquitetônico from '@/assets/SectionServiços/Projeto-arquitetônico.jpg'
+import estrutural from '@/assets/SectionServiços/Projeto-estrutural.jpg'
+import Hidrossanitário from '@/assets/SectionServiços/Projetos-Hidrossanitário.png'
+import { StaticImageData } from 'next/image'
 
 export interface projectDataType {
-  id: number;
-  categoria: string;
+  id: number,
+  categoria: string,
+  categoriaImagen: StaticImageData,
   titulo: string,
   cliente: string,
   localização: string
   descrição: string,
   imagens: string[],
 }
-
 export const projectData: projectDataType[] = [
   {
     id: 0,
     categoria: "",
+    categoriaImagen: arquitetônico,
     titulo: "t",
     cliente: "",
     localização: "",
@@ -21,137 +29,329 @@ export const projectData: projectDataType[] = [
   },
   {
     id: 1,
-    categoria: "arquitetonico",
+    categoria: "Arquitetônico",
+    categoriaImagen: arquitetônico,
     titulo: "ARENA GRÊMIO",
     cliente: "Construtora OAS Ltda.",
     localização: "Porto Alegre – RGS",
     descrição: "Projeto executivo de estruturas de concreto e fundações de arena multiuso. Capacidade máxima 60.540 pessoas. Estruturas predominantemente pré-moldadas com cobertura metálica e fundações moldadas in loco. Área total de 345.250 m².  Área estruturada de 192.500 m² e altura aproximada de 50 m. Volume total de concreto 41.560 m³.",
     imagens: [
-      "https://i.imgur.com/DE8RfE6.jpg",
       "https://i.imgur.com/xW02fzc.jpg",
+      "https://i.imgur.com/DE8RfE6.jpg",
       "https://i.imgur.com/x2imWO2.jpg",
       "https://i.imgur.com/KEXcAXl.jpg"
     ]
   },
   {
     id: 2,
-    categoria: "tipo",
-    titulo: "titulo 2",
-    cliente: "Cliente 2",
-    localização: "Localização 2",
-    descrição: "Descrição do Item 2",
+    categoria: "Arquitetônico",
+    categoriaImagen: arquitetônico,
+    titulo: "tArquitetônico 2",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
     imagens: [
       "https://i.imgur.com/xW02fzc.jpg"
     ]
   },
   {
     id: 3,
-    categoria: "tipo",
-    titulo: "titulo 3",
-    cliente: "Cliente 3",
-    localização: "Localização 3",
-    descrição: "Descrição do Item 3",
+    categoria: "Arquitetônico",
+    categoriaImagen: arquitetônico,
+    titulo: "Arquitetônico 3",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
     imagens: [
       "https://i.imgur.com/xW02fzc.jpg"
     ]
   },
   {
     id: 4,
-    categoria: "tipo",
-    titulo: "titulo 4",
-    cliente: "Cliente 4",
-    localização: "Localização 4",
-    descrição: "Descrição do Item 4",
+    categoria: "Arquitetônico",
+    categoriaImagen: arquitetônico,
+    titulo: "Arquitetônico 4",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
     imagens: [
       "https://i.imgur.com/xW02fzc.jpg"
     ]
   },
   {
     id: 5,
-    categoria: "tipo",
-    titulo: "titulo 5",
-    cliente: "Cliente 5",
-    localização: "Localização 5",
-    descrição: "Descrição do Item 5",
+    categoria: "Arquitetônico",
+    categoriaImagen: arquitetônico,
+    titulo: "Arquitetônico 5",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
     imagens: [
       "https://i.imgur.com/xW02fzc.jpg"
     ]
   },
   {
     id: 6,
-    categoria: "tipo",
-    titulo: "titulo 6",
-    cliente: "Cliente 6",
-    localização: "Localização 6",
-    descrição: "Descrição do Item 6",
+    categoria: "Arquitetônico",
+    categoriaImagen: arquitetônico,
+    titulo: "Arquitetônico 6",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
     imagens: [
       "https://i.imgur.com/xW02fzc.jpg"
     ]
   },
   {
     id: 7,
-    categoria: "tipo",
-    titulo: "titulo 7",
-    cliente: "Cliente 7",
-    localização: "Localização 7",
-    descrição: "Descrição do Item 7",
+    categoria: "Estrutural",
+    categoriaImagen: estrutural,
+    titulo: "Estrutural 1",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
     imagens: [
       "https://i.imgur.com/xW02fzc.jpg"
     ]
   },
   {
     id: 8,
-    categoria: "tipo",
-    titulo: "titulo 8",
-    cliente: "Cliente 8",
-    localização: "Localização 8",
-    descrição: "Descrição do Item 8",
+    categoria: "Estrutural",
+    categoriaImagen: estrutural,
+    titulo: "Estrutural 2",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
     imagens: [
       "https://i.imgur.com/xW02fzc.jpg"
     ]
   },
   {
     id: 9,
-    categoria: "tipo",
-    titulo: "titulo 9",
-    cliente: "Cliente 9",
-    localização: "Localização 9",
-    descrição: "Descrição do Item 9",
+    categoria: "Estrutural",
+    categoriaImagen: estrutural,
+    titulo: "Estrutural 3",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
     imagens: [
       "https://i.imgur.com/xW02fzc.jpg"
     ]
   },
   {
     id: 10,
-    categoria: "tipo",
-    titulo: "titulo 10",
-    cliente: "Cliente 10",
-    localização: "Localização 10",
-    descrição: "Descrição do Item 10",
+    categoria: "Estrutural",
+    categoriaImagen: estrutural,
+    titulo: "Estrutural 4",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
     imagens: [
       "https://i.imgur.com/xW02fzc.jpg"
     ]
   },
   {
     id: 11,
-    categoria: "tipo",
-    titulo: "titulo 11",
-    cliente: "Cliente 11",
-    localização: "Localização 11",
-    descrição: "Descrição do Item 11",
+    categoria: "Elétrico",
+    categoriaImagen: Elétrico,
+    titulo: "Elétrico 1",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
     imagens: [
       "https://i.imgur.com/xW02fzc.jpg"
     ]
   },
   {
     id: 12,
-    categoria: "tipo",
-    titulo: "titulo 12",
-    cliente: "Cliente 12",
-    localização: "Localização 12",
-    descrição: "Descrição do Item 12",
+    categoria: "Elétrico",
+    categoriaImagen: Elétrico,
+    titulo: "Elétrico 2",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
     imagens: [
       "https://i.imgur.com/xW02fzc.jpg"
     ]
-  }
+  },
+  {
+    id: 13,
+    categoria: "Elétrico",
+    categoriaImagen: Elétrico,
+    titulo: "Elétrico 3",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 14,
+    categoria: "Elétrico",
+    categoriaImagen: Elétrico,
+    titulo: "Elétrico 4",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 15,
+    categoria: "Elétrico",
+    categoriaImagen: Elétrico,
+    titulo: "Elétrico 5",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 16,
+    categoria: "Elétrico",
+    categoriaImagen: Elétrico,
+    titulo: "Elétrico 6",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 17,
+    categoria: "Hidrossanitário",
+    categoriaImagen: Hidrossanitário,
+    titulo: "Hidrossanitário 1",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 18,
+    categoria: "Hidrossanitário",
+    categoriaImagen: Hidrossanitário,
+    titulo: "Hidrossanitário 2",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 19,
+    categoria: "Hidrossanitário",
+    categoriaImagen: Hidrossanitário,
+    titulo: "Hidrossanitário 3",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 20,
+    categoria: "Hidrossanitário",
+    categoriaImagen: Hidrossanitário,
+    titulo: "Hidrossanitário 4",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 21,
+    categoria: "Hidrossanitário",
+    categoriaImagen: Hidrossanitário,
+    titulo: "Hidrossanitário 5",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 22,
+    categoria: "Hidrossanitário",
+    categoriaImagen: Hidrossanitário,
+    titulo: "Hidrossanitário 6",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 23,
+    categoria: "Orçamento",
+    categoriaImagen: Orçamento,
+    titulo: "Orçamento Para Financiamento 1",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 24,
+    categoria: "Orçamento",
+    categoriaImagen: Orçamento,
+    titulo: "Orçamento Para Financiamento 2",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 25,
+    categoria: "PPCI",
+    categoriaImagen: ppci,
+    titulo: "Orçamento Para Financiamento 1",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 26,
+    categoria: "PPCI",
+    categoriaImagen: ppci,
+    titulo: "Orçamento Para Financiamento 2",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
+  {
+    id: 27,
+    categoria: "PPCI",
+    categoriaImagen: ppci,
+    titulo: "Orçamento Para Financiamento 3",
+    cliente: "Cliente",
+    localização: "Localização",
+    descrição: "Descrição do Item",
+    imagens: [
+      "https://i.imgur.com/xW02fzc.jpg"
+    ]
+  },
 ]
