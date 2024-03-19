@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-
 interface dataType {
   data: {
     id: number;

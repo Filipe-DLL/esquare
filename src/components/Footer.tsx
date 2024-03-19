@@ -88,9 +88,9 @@ export default function Footer() {
         <div className="flex flex-col xl:w-5/12 lg:items-center">
           <h2 className="mb-8 text-xl font-extrabold">Endereço</h2>
           <p className="font-medium">
-            Rua Nome da Rua, Nº 888,
+            Av. Ailton Gomes, Nº 3076
             <br />
-            Bairro - Cidade - CE.
+            Lagoa Seca, Juazeiro do Norte - CE, 63040-602
           </p>
         </div>
       </div>

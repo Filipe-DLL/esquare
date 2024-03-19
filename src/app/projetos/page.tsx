@@ -5,7 +5,7 @@ import TabsPageProjetos from '@/components/PageProjetos/Tabs'
 
 export default function Page() {
   return (
-    <section className="animate__fadeIn animate__animated mt-16 flex h-full min-h-screen flex-col items-center justify-start">
+    <section className="animate__fadeIn animate__animated flex h-full min-h-screen flex-col items-center justify-start overflow-x-hidden">
       {/* Header */}
       <div className="flex h-96 w-full items-center justify-center overflow-hidden bg-cover">
         <div className="relative overflow-hidden bg-cover">
@@ -20,7 +20,7 @@ export default function Page() {
         </div>
       </div>
       {/* Conteudo */}
-      <div className="h-full w-full">
+      <div className="h-full w-screen">
         <TabsPageProjetos />
       </div>
     </section>
