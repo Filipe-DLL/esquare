@@ -1,5 +1,3 @@
-'use client'
-
 import PageProjetosTabItem from '@/components/PageProjetos/Tabs/PageProjetosTabItem'
 import { projectData } from '@/data/projectData'
 
@@ -9,7 +7,6 @@ export default function TabsPageProjetos() {
       className="mt-5 h-full w-screen flex-col items-center justify-between"
     >
       <div
-        // value="tab0"
         className="flex flex-wrap items-center justify-start"
       >
         {

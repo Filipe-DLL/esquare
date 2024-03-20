@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/image'
 import Link from 'next/link'
 
 interface props {
@@ -14,14 +14,15 @@ export default function PageProjetosTabItem({ imagem, id, titulo }: props) {
         <Image
           src={imagem}
           alt=""
-          width={480}
+          width={470}
           height={270}
+          objectFit='contain'
           priority
-          className=" w-full bg-cover object-cover transition-all ease-in-out group-hover:scale-110 group-hover:brightness-75"
+          className="min-h-[270px] object-cover transition-all ease-in-out group-hover:scale-110 group-hover:brightness-75"
         />
         <div className="absolute bottom-0 left-0 right-0 top-0 grid place-items-center">
           <div className="cursor-pointer flex-col items-center justify-center transition-all ease-in-out group-hover:flex">
-            <h2 className="box-content flex h-16 max-w-[20rem] items-center border-b-2 border-b-transparent text-center text-2xl font-bold transition-all ease-in-out group-hover:border-b-gray-50 md:text-black md:drop-shadow-2xl md:bg-opacity-10">
+            <h2 className="text-black box-content flex h-16 max-w-[20rem] items-center border-b-2 border-b-transparent text-center text-2xl font-black transition-all ease-in-out group-hover:border-b-gray-50 group-hover:text-gray-50 md:drop-shadow-2xl md:bg-opacity-10">
               {titulo}
             </h2>
           </div>
