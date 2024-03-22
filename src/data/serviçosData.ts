@@ -26,9 +26,9 @@ export const serviçosData: serviçosDataTypes[] = [
     titulo: 'Projeto Estrutural',
     descrição: 'O projeto estrutural é o dimensionamento e detalhamento da estrutura necessária para sustentar a edificação, composta por vigas, pilares, lajes e fundação. Por meio de critérios e cálculos específicos, e de acordo com as normas vigentes, o engenheiro define qual o tipo de estrutura mais adequado para o projeto, as dimensões e especificações de cada elemento.   É considerado o projeto mais importante de uma construção, pois é ele que vai garantir a sustentação da edificação.Além de evitar problemas como trincas, rachaduras, rebaixamento de piso, etc.',
     imagens: [
-      'https://i.imgur.com/3F0cN1l.png',
-      'https://i.imgur.com/DZ72hWA.png',
-      'https://i.imgur.com/Ttb4umc.png',
+      'https://i.imgur.com/GAcvRMJ.png',
+      'https://i.imgur.com/LgW7Seq.png',
+      'https://i.imgur.com/pSeW9CP.png',
     ],
   },
   {
@@ -36,9 +36,9 @@ export const serviçosData: serviçosDataTypes[] = [
     titulo: 'Projeto Eletrico',
     descrição: 'Um projeto elétrico residencial é o conjunto de todas as informações, cálculos, desenhos e detalhes referentes à instalação elétrica residencial, observando todas as normas nacionais vigentes. Essas informações podem ser um diagrama elétrico, tabela de dados, layout, desenhos técnicos, listagem dos componentes da instalação e outros.   O projeto elétrico se beneficia muito de um projeto arquitetônico bem feito.Além de ser extremamente necessário para proteção dos equipamentos ligados na casa, desde equipamentos mais robustos como ar condicionados, chuveiros elétricos e bombas para piscina, até a equipamentos mais simples como computadores, equipamentos televisivos e smartphones.',
     imagens: [
-      'https://i.imgur.com/PStFQSy.png',
-      'https://i.imgur.com/rL3ZXaR.png',
-      'https://i.imgur.com/Pp34TB6.png',
+      'https://i.imgur.com/mI1FvKX.png',
+      'https://i.imgur.com/8Wi5dr7.png',
+      'https://i.imgur.com/GJm49k3.png',
     ],
   },
   {
@@ -46,9 +46,9 @@ export const serviçosData: serviçosDataTypes[] = [
     titulo: 'Projeto Hidrossanitário',
     descrição: 'Um projeto Hidrossanitário é aquele que engloba toda a distribuição de água fria, água quente, esgoto e água pluvial ao longo da edificação. Ele é essencial para que a água que vem da concessionária chegue até as peças de utilização, como chuveiro, torneiras, etc. Também é fundamental para que os dejetos eliminados pelos ralos e vasos sanitários cheguem até a tubulação de esgoto da rua.   Além da correta distribuição dos equipamentos hidrossanitário que levam água da concessionária até os pontos de saída, e levam o esgoto até a coleta municipal, o projeto hidrossanitário é responsável por evitar problemas nesse tipo de instalação, como falta de pressão nos pontos de água fria/ quente, entupimento de esgoto, mal escoamento de água, etc.',
     imagens: [
-      'https://i.imgur.com/fAuSkRi.png',
-      'https://i.imgur.com/hhA5Hu0.png',
-      'https://i.imgur.com/dRi1gMb.png',
+      'https://i.imgur.com/u6Kruif.png',
+      'https://i.imgur.com/FiJXZ51.png',
+      'https://i.imgur.com/I3GV13t.png',
     ],
   },
   {

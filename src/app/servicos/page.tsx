@@ -30,7 +30,7 @@ export default function Page() {
               </div>
             </div>
             <div className="flex w-full flex-col items-center justify-center gap-6 p-6 text-black">
-              <p className="w-8/12 p-8 text-justify text-lg font-medium leading-relaxed lg:w-11/12 sm:p-0 2sm:text-xs">
+              <p className="w-8/12 p-8 text-justify text-xl font-medium leading-relaxed lg:w-11/12 sm:p-0 sm:text-base 2sm:text-xs">
                 {item.descrição}
               </p>
               {
@@ -38,7 +38,7 @@ export default function Page() {
                   <div className="flex items-center justify-center flex-wrap min-h-56 w-full">
                     {
                       item.imagens.map((image, key) => (
-                        <Image key={key} src={image} alt="" width={300} height={200} />
+                        <Image key={key} src={image} alt="" width={300} height={200} className="h-56 w-auto" />
                       ))
                     }
                   </div>

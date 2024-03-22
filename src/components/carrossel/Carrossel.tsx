@@ -9,7 +9,7 @@ interface imagensType {
 
 export function ImagesCarrossel({ imagens }: imagensType) {
   return (
-    <ImagesSlider className="h-[40rem]" images={imagens}>
+    <ImagesSlider className="h-[40rem] md:h-[20rem]" images={imagens}>
       <motion.div
         initial={{
           opacity: 0,

@@ -1,6 +1,7 @@
 "use client";
+
 import { cn } from "@/utils/cn";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 
 export const ImagesSlider = ({
@@ -119,7 +120,7 @@ export const ImagesSlider = ({
   return (
     <div
       className={cn(
-        "overflow-hidden h-full w-full relative flex items-center justify-center xl:h-[441px] lg:h-[338px]",
+        "overflow-hidden h-auto min-w-[500px] max-w-[1240px] w-full relative flex items-center justify-center",
         className
       )}
       style={{
