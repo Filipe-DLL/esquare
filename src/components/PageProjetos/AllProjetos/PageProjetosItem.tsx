@@ -7,7 +7,7 @@ interface props {
   titulo: string
 }
 
-export default function PageProjetosTabItem({ imagem, id, titulo }: props) {
+export default function PageProjetosItem({ imagem, id, titulo }: props) {
   return (
     <div className="group relative max-h-[270px] w-1/4 overflow-hidden text-gray-50 transition-all ease-in-out hover:drop-shadow-md xl:w-1/3 md:w-1/2 2md:w-full">
       <Link href={`/projetos/${id}`} className='overflow-hidden'>

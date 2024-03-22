@@ -1,7 +1,7 @@
-import PageProjetosTabItem from '@/components/PageProjetos/Tabs/PageProjetosTabItem'
 import { projectData } from '@/data/projectData'
+import PageProjetosItem from './PageProjetosItem'
 
-export default function TabsPageProjetos() {
+export default function AllProjetos() {
   return (
     <div
       className="mt-5 h-full w-screen flex-col items-center justify-between"
@@ -15,13 +15,13 @@ export default function TabsPageProjetos() {
               return
             }
             return (
-              <PageProjetosTabItem imagem={item.imagens[0]} id={item.id} titulo={item.titulo} key={key} />
+              <PageProjetosItem imagem={item.imagens[0]} id={item.id} titulo={item.titulo} key={key} />
             )
           }
           )
         }
       </div>
-      
+
     </div>
   )
 }

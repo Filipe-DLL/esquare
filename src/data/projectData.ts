@@ -26,6 +26,7 @@ export const projectData: projectDataType[] = [
     localização: "Juazeiro do Norte, Ceará",
     descrição: "Conjunto de projetos para uma casa residencial moderna no condominio Cidades Kariris. Inclui projeto estrutural e projetos complementares.",
     imagens: [
+      "https://i.imgur.com/lXqg1Qa.png?2",
       "https://i.imgur.com/lXqg1Qa.png",
       "https://i.imgur.com/v3WgtvQ.png",
       "https://i.imgur.com/yNQ3pZi.png",

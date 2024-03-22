@@ -1,7 +1,6 @@
 import Img from '@/assets/PageProjetos/lista-projetos.jpg'
+import AllProjetos from '@/components/PageProjetos/AllProjetos/AllProjetos'
 import Image from 'next/image'
-
-import TabsPageProjetos from '@/components/PageProjetos/Tabs'
 
 export default function Page() {
   return (
@@ -21,7 +20,7 @@ export default function Page() {
       </div>
       {/* Conteudo */}
       <div className="h-full w-screen">
-        <TabsPageProjetos />
+        <AllProjetos />
       </div>
     </section>
   )

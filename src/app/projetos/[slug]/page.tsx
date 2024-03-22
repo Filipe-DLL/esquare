@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
 import Img from '@/assets/PageProjetos/projetos-page.jpg'
-import PageProjectDetails from '@/components/PageProjetos/PageProjectDetails'
 import { projectData } from '@/data/projectData'
+import PageProjectDetails from '@/components/PageProjetos/PageProject/PageProjectDetails'
 
 interface ProjectProps {
   params: {
@@ -27,7 +27,7 @@ export default async function page({ params }: ProjectProps) {
         </div>
       </div>
 
-      {/* conteudo */}
+      {/* conteúdo */}
       <PageProjectDetails data={projectData[params.slug]} />
     </section>
   )
