@@ -55,6 +55,11 @@ export const serviçosData: serviçosDataTypes[] = [
     categoria: PPCI,
     titulo: 'Prevenção e Combate à Incêndio (PPCI)',
     descrição: 'O PPCI (Projeto de Prevenção e Combate a Incêndios) é um documento que sistematiza e detalha os elementos necessários a serem previstos para garantir a segurança dos ocupantes e auxiliar no combate a incêndios. Ele define os espaços e sistemas da edificação para evacuar as pessoas de forma rápida em casos de emergência e iniciar o combate ao fogo em casos de princípios de incêndio.  É necessário, pelas normas brasileiras vigentes, em todas as instalações comerciais, industriais, prédios e locais de concentração de público, além dos edifícios residenciais multifamiliares.O não cumprimento das regulamentações estabelecidas pode acarretar multa.',
+    imagens: [
+      'https://i.imgur.com/u6Kruif.png',
+      'https://i.imgur.com/FiJXZ51.png',
+      'https://i.imgur.com/I3GV13t.png',
+    ],
   },
   {
     categoria: Orçamento,

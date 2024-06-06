@@ -35,10 +35,10 @@ export default function Page() {
               </p>
               {
                 item.imagens ?
-                  <div className="flex items-center justify-center flex-wrap min-h-56 w-full">
+                  <div className="flex items-center justify-center flex-wrap min-h-56 w-full gap-10">
                     {
                       item.imagens.map((image, key) => (
-                        <Image key={key} src={image} alt="" width={300} height={200} className="h-56 w-auto" />
+                        <Image key={key} src={image} alt="" width={300} height={200} className="h-56 w-auto rounded-3xl shadow-lg" />
                       ))
                     }
                   </div>

@@ -1,3 +1,4 @@
+import SectionInstagram from '@/assets/SectionInstagram/SectionInstagram'
 import SectionContatos from '@/components/SectionContatos'
 import SectionInicio from '@/components/SectionInicio'
 import SectionProjetos from '@/components/SectionProjetos'
@@ -13,7 +14,7 @@ export default function Home() {
       <SectionServiços />
       <SectionProjetos />
       <SectionValores />
-      {/* <SectionInstagram /> */}
+      <SectionInstagram />
       <SectionContatos />
     </div>
   )

@@ -56,6 +56,7 @@ const config: Config = {
       colors: {
         azulIndigo: '#1B257F',
         azulPetrolio: '#161C33',
+        background: '#fafaf8',
       },
     },
     plugins: [],

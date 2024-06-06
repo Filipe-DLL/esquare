@@ -7,7 +7,7 @@ export default function AllProjetos() {
       className="mt-5 h-full w-screen flex-col items-center justify-between"
     >
       <div
-        className="flex flex-wrap items-center justify-start"
+        className="flex flex-wrap items-center justify-center"
       >
         {
           projectData.map((item, key) => {

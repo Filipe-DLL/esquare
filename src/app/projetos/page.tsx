@@ -18,7 +18,7 @@ export default function Page() {
           </h1>
         </div>
       </div>
-      {/* Conteudo */}
+      {/* Conteúdo */}
       <div className="h-full w-screen">
         <AllProjetos />
       </div>

@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR">
       <body
-        className={`${inter.variable} ${roboto.variable} m-0 box-border min-h-screen bg-white p-0 font-sans text-azulIndigo`}
+        className={`${inter.variable} ${roboto.variable} m-0 box-border min-h-screen bg-background p-0 font-sans text-azulIndigo`}
       >
         <WhatsAppButton />
         <Header />

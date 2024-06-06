@@ -42,7 +42,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href={`/servicos#Projeto Elétrico`}>Projeto Elétrico</Link>
+              <Link href={`/servicos#Projeto Eletrico`}>Projeto Elétrico</Link>
             </li>
             <li>
               <Link href={`/servicos#Prevenção e Combate à Incêndio (PPCI)`}>

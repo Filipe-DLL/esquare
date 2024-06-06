@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, Menu } from "lucide-react";
+import { ArrowLeft, ArrowRight, Grid2x2, Menu } from "lucide-react";
 import Link from "next/link";
 
 import { projectData } from '@/data/projectData';
@@ -10,7 +10,7 @@ interface dataType {
 export default function NavProjects({ id }: dataType) {
   return (
     <>
-      <div className="w-full h-24 -mb-6 flex items-center justify-around bg-gray-400 text-azulPetrolio">
+      <div className="w-full h-24 -mb-6 flex items-center justify-around bg-zinc-300 text-azulPetrolio">
         {
           id <= 1 ?
             <div></div>
@@ -20,7 +20,7 @@ export default function NavProjects({ id }: dataType) {
             </Link>
         }
         <Link href={'/projetos'} >
-          <Menu size={32} />
+          <Grid2x2 size={32} />
         </Link>
         {
           id >= (projectData.length - 1) ?

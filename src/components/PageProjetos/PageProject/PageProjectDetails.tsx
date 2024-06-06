@@ -38,7 +38,7 @@ export default function PageProjectDetails({ data }: dataType) {
 
         {/* container 2 */}
         <div className="h-full w-1/2 gap-4 self-start lg:w-full">
-          <h1 className="text-xl font-extrabold">Visão Gera</h1>
+          <h1 className="text-xl font-extrabold">Visão Geral</h1>
           <p className="mt-3 text-base">{data.descrição}</p>
         </div>
 

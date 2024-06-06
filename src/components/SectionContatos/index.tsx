@@ -33,7 +33,7 @@ export default function SectionContatos() {
           </div>
 
           {/* redes */}
-          <div className="flex w-full flex-col items-center justify-center gap-8 rounded-3xl bg-[#E8EAED] p-10 xl:px-20 sm:w-screen sm:rounded-none sm:p-0 sm:py-3">
+          <div className="flex w-full flex-col items-center justify-center gap-8 rounded-3xl bg-white shadow-md p-10 xl:px-20 sm:w-screen sm:rounded-none sm:p-0 sm:py-3">
             <div className="flex items-center gap-4 sm:flex-col">
               <Mail size={35} />
               <h2 className="text-2xl font-bold sm:text-lg">

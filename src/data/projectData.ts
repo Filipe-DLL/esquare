@@ -24,8 +24,9 @@ export const projectData: projectDataType[] = [
     titulo: "Projeto Residencial C&P",
     cliente: "Construtora Menezes",
     localização: "Juazeiro do Norte, Ceará",
-    descrição: "Conjunto de projetos para uma casa residencial moderna no condominio Cidades Kariris. Inclui projeto estrutural e projetos complementares.",
+    descrição: "Conjunto de projetos para uma casa residencial moderna no condomínio Cidades Kariris. Inclui projeto estrutural e projetos complementares.",
     imagens: [
+      "https://i.imgur.com/GYCFtux.jpg",
       "https://i.imgur.com/YwovFzn.png",
       "https://i.imgur.com/kkxCWWg.png",
       "https://i.imgur.com/0z17rRh.png",
@@ -45,6 +46,7 @@ export const projectData: projectDataType[] = [
     localização: "Crato, Ceará",
     descrição: "Conjunto de projetos para uma casa residencial moderna no município do Crato. Inclui projeto arquitetônico, projeto estrutural e projetos complementares.",
     imagens: [
+      "https://i.imgur.com/hm7Vc8h.jpg",
       "https://i.imgur.com/9Fx6GZz.png",
       "https://i.imgur.com/OZS2ySC.png",
       "https://i.imgur.com/eq52wFN.png",
@@ -66,8 +68,9 @@ export const projectData: projectDataType[] = [
     titulo: "Projeto Residencial A&V",
     cliente: "Familia Lima",
     localização: "Iguatu, Ceará",
-    descrição: "Conjunto de projetos para uma casa residencial moderna no municipio de Iguatu. Inclui projeto estrutural e complementares.",
+    descrição: "Conjunto de projetos para uma casa residencial moderna no município de Iguatu. Inclui projeto estrutural e complementares.",
     imagens: [
+      "https://i.imgur.com/EJJZBeU.png",
       "https://i.imgur.com/lvAjxzy.png",
       "https://i.imgur.com/CDhKao0.png",
       "https://i.imgur.com/e6kiP6f.png",
