@@ -26,7 +26,7 @@ export default function SectionServiços() {
       <div className="flex flex-wrap items-start justify-center gap-8 p-10 2lg:hidden">
         <ServiçoItem titulo="Projeto Arquitetônico" imagem={Arquitetonico} />
         <ServiçoItem titulo="Projeto Estrutural" imagem={Estrutural} />
-        <ServiçoItem titulo="Projeto Elétrico" imagem={Eletrico} />
+        <ServiçoItem titulo="Projeto Eletrico" imagem={Eletrico} />
         <ServiçoItem
           titulo="Projeto Hidrossanitário"
           imagem={Hidrossanitário}

@@ -7,7 +7,7 @@ export default function Page() {
       {
         serviçosData.map((item, key) => (
           <div key={key} id={item.titulo}
-            className="flex items-center justify-center flex-col gap-10">
+            className="flex items-center justify-center flex-col">
             <div className="relative flex items-center justify-center w-10/12 overflow-hidden bg-cover">
               <Image
                 src={item.categoria}
@@ -38,7 +38,7 @@ export default function Page() {
                   <div className="flex items-center justify-center flex-wrap min-h-56 w-full gap-10">
                     {
                       item.imagens.map((image, key) => (
-                        <Image key={key} src={image} alt="" width={300} height={200} className="h-56 w-auto rounded-3xl shadow-lg" />
+                        <Image key={key} src={image} alt="" width={300} height={200} className="h-56 w-auto rounded-3xl shadow-lg mb-8" />
                       ))
                     }
                   </div>

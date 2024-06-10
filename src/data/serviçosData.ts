@@ -26,9 +26,9 @@ export const serviçosData: serviçosDataTypes[] = [
     titulo: 'Projeto Estrutural',
     descrição: 'O projeto estrutural é o dimensionamento e detalhamento da estrutura necessária para sustentar a edificação, composta por vigas, pilares, lajes e fundação. Por meio de critérios e cálculos específicos, e de acordo com as normas vigentes, o engenheiro define qual o tipo de estrutura mais adequado para o projeto, as dimensões e especificações de cada elemento.   É considerado o projeto mais importante de uma construção, pois é ele que vai garantir a sustentação da edificação.Além de evitar problemas como trincas, rachaduras, rebaixamento de piso, etc.',
     imagens: [
-      'https://i.imgur.com/GAcvRMJ.png',
-      'https://i.imgur.com/LgW7Seq.png',
-      'https://i.imgur.com/pSeW9CP.png',
+      'https://i.imgur.com/mI1FvKX.png',
+      'https://i.imgur.com/8Wi5dr7.png',
+      'https://i.imgur.com/GJm49k3.png',
     ],
   },
   {
@@ -36,9 +36,9 @@ export const serviçosData: serviçosDataTypes[] = [
     titulo: 'Projeto Eletrico',
     descrição: 'Um projeto elétrico residencial é o conjunto de todas as informações, cálculos, desenhos e detalhes referentes à instalação elétrica residencial, observando todas as normas nacionais vigentes. Essas informações podem ser um diagrama elétrico, tabela de dados, layout, desenhos técnicos, listagem dos componentes da instalação e outros.   O projeto elétrico se beneficia muito de um projeto arquitetônico bem feito.Além de ser extremamente necessário para proteção dos equipamentos ligados na casa, desde equipamentos mais robustos como ar condicionados, chuveiros elétricos e bombas para piscina, até a equipamentos mais simples como computadores, equipamentos televisivos e smartphones.',
     imagens: [
-      'https://i.imgur.com/mI1FvKX.png',
-      'https://i.imgur.com/8Wi5dr7.png',
-      'https://i.imgur.com/GJm49k3.png',
+      'https://i.imgur.com/GAcvRMJ.png',
+      'https://i.imgur.com/LgW7Seq.png',
+      'https://i.imgur.com/pSeW9CP.png',
     ],
   },
   {
@@ -56,14 +56,19 @@ export const serviçosData: serviçosDataTypes[] = [
     titulo: 'Prevenção e Combate à Incêndio (PPCI)',
     descrição: 'O PPCI (Projeto de Prevenção e Combate a Incêndios) é um documento que sistematiza e detalha os elementos necessários a serem previstos para garantir a segurança dos ocupantes e auxiliar no combate a incêndios. Ele define os espaços e sistemas da edificação para evacuar as pessoas de forma rápida em casos de emergência e iniciar o combate ao fogo em casos de princípios de incêndio.  É necessário, pelas normas brasileiras vigentes, em todas as instalações comerciais, industriais, prédios e locais de concentração de público, além dos edifícios residenciais multifamiliares.O não cumprimento das regulamentações estabelecidas pode acarretar multa.',
     imagens: [
-      'https://i.imgur.com/u6Kruif.png',
-      'https://i.imgur.com/FiJXZ51.png',
-      'https://i.imgur.com/I3GV13t.png',
+      'https://i.imgur.com/SLg4mrm.png',
+      'https://i.imgur.com/K29bMvD.png',
+      'https://i.imgur.com/PXU8zkP.png',
     ],
   },
   {
     categoria: Orçamento,
     titulo: 'Orçamento Para Financiamento',
     descrição: 'Para que seja realizado o financiamento nas instituições financeiras é necessário o preenchimento de planilhas de orçamento específicas dessas instituições. Essas planilhas são diferentes das planilhas comumente utilizadas na construção civil em obras privadas. A planilha da caixa tem uma série de detalhes que, sem um profissional qualificado, vai haver uma certa dificuldade no aceite pela instituição, ou até mesmo uma reprovação de financiamento.   Nós da Esquare temos profissionais experientes neste tipo de serviço e fazemos com o maior zelo possível para que seu financiamento saia o mais rápido possível.',
+    imagens: [
+      'https://i.imgur.com/QDzqvj0.jpeg',
+      'https://i.imgur.com/J9bGBhr.jpeg',
+      'https://i.imgur.com/BZyxi37.jpeg',
+    ],
   },
 ]

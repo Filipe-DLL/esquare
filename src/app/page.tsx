@@ -6,6 +6,8 @@ import SectionQuemSomos from '@/components/SectionQuemSomos'
 import SectionServiços from '@/components/SectionServiços'
 import SectionValores from '@/components/SectionValores'
 
+
+
 export default function Home() {
   return (
     <div className="animate__fadeIn animate__animated flex h-full min-h-screen flex-col items-center justify-center">
