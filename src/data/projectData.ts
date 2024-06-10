@@ -27,6 +27,8 @@ export const projectData: projectDataType[] = [
     descrição: "Conjunto de projetos para uma casa residencial moderna no condomínio Cidades Kariris. Inclui projeto estrutural e projetos complementares.",
     imagens: [
       "https://i.imgur.com/GYCFtux.jpg",
+      "https://i.imgur.com/GEe7IpV.jpg",
+      "https://i.imgur.com/yOtrmWZ.jpg",
       "https://i.imgur.com/YwovFzn.png",
       "https://i.imgur.com/kkxCWWg.png",
       "https://i.imgur.com/0z17rRh.png",
