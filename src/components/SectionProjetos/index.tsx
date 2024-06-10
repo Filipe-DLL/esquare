@@ -27,7 +27,7 @@ export default function SectionProjetos() {
                 alt=""
                 width={500}
                 height={500}
-                className="object-fill w-[400px] h-[240px] md:h-auto rounded-3xl shadow-md xl:w-80 lg:w-96"
+                className=" w-[350px] h-[240px] rounded-3xl shadow-md xl:w-80 lg:w-96"
               />
 
               <div className="flex flex-col items-start justify-center gap-6">
