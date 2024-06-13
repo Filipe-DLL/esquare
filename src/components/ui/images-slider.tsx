@@ -120,7 +120,7 @@ export const ImagesSlider = ({
   return (
     <div
       className={cn(
-        "overflow-hidden h-auto min-w-[500px] max-w-[1240px] w-full relative flex items-center justify-center",
+        "overflow-hidden h-auto min-w-[250px] max-w-[1240px] w-full relative flex items-center justify-center",
         className
       )}
       style={{
