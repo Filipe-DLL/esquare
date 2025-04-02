@@ -26,7 +26,7 @@ Antes de começar, você **deverá** forkar o repositório do projeto para **seu
 Após o Fork, você **precisará** clonar o repositório forkado para seu **ambiente de desenvolvimento local**:
 
 ```
-git clone https://github.com/{seu-usuario}/portfolio.git
+git clone https://github.com/{seu-usuario}/ESQUARE.git
 ```
 ```
 cd ESQUARE
