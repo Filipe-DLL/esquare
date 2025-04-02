@@ -29,7 +29,7 @@ Após o Fork, você **precisará** clonar o repositório forkado para seu **ambi
 git clone https://github.com/{seu-usuario}/portfolio.git
 ```
 ```
-cd portfolio
+cd ESQUARE
 ```
 
 ### ⏬ Instalando Dependências
