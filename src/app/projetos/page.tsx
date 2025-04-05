@@ -1,6 +1,6 @@
-import Img from '@/assets/PageProjetos/lista-projetos.jpg'
-import AllProjetos from '@/components/PageProjetos/AllProjetos/AllProjetos'
-import Image from 'next/image'
+import Img from "@/assets/PageProjetos/lista-projetos.jpg";
+import AllProjetos from "@/components/PageProjetos/AllProjetos/AllProjetos";
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -23,5 +23,5 @@ export default function Page() {
         <AllProjetos />
       </div>
     </section>
-  )
+  );
 }

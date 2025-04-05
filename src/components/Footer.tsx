@@ -1,8 +1,8 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-import esquare from '@/assets/footer/HORIZONTAL - CINZA 3.svg'
-import { Instagram, Mail, PhoneCall } from 'lucide-react'
-import Link from 'next/link'
+import esquare from "@/assets/footer/HORIZONTAL - CINZA 3.svg";
+import { Instagram, Mail, PhoneCall } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -69,7 +69,7 @@ export default function Footer() {
 
             <div className="flex items-center gap-4 2sm:flex-col">
               <Link
-                href={'https://www.instagram.com/esquareengenharia/'}
+                href={"https://www.instagram.com/esquareengenharia/"}
                 className="flex items-center gap-4 2sm:flex-col"
               >
                 <Instagram size={20} />
@@ -95,5 +95,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

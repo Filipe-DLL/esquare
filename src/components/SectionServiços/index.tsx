@@ -1,12 +1,12 @@
-import ServiçoItem from '@/components/SectionServiços/ServiçoItem'
-import TabsServiço from '@/components/SectionServiços/Tabs'
+import ServiçoItem from "@/components/SectionServiços/ServiçoItem";
+import TabsServiço from "@/components/SectionServiços/Tabs";
 
-import Orçamento from '@/assets/SectionServiços/Orçamento.jpg'
-import PPCI from '@/assets/SectionServiços/Prevenção-e-Combate-a-Incêndio-(PPCI).jpg'
-import Eletrico from '@/assets/SectionServiços/Projeto-Elétrico.jpg'
-import Arquitetonico from '@/assets/SectionServiços/Projeto-arquitetônico.jpg'
-import Estrutural from '@/assets/SectionServiços/Projeto-estrutural.jpg'
-import Hidrossanitário from '@/assets/SectionServiços/Projetos-Hidrossanitário.png'
+import Orçamento from "@/assets/SectionServiços/Orçamento.jpg";
+import PPCI from "@/assets/SectionServiços/Prevenção-e-Combate-a-Incêndio-(PPCI).jpg";
+import Eletrico from "@/assets/SectionServiços/Projeto-Elétrico.jpg";
+import Arquitetonico from "@/assets/SectionServiços/Projeto-arquitetônico.jpg";
+import Estrutural from "@/assets/SectionServiços/Projeto-estrutural.jpg";
+import Hidrossanitário from "@/assets/SectionServiços/Projetos-Hidrossanitário.png";
 
 export default function SectionServiços() {
   return (
@@ -38,5 +38,5 @@ export default function SectionServiços() {
         <ServiçoItem titulo="Orçamento Para Financiamento" imagem={Orçamento} />
       </div>
     </section>
-  )
+  );
 }

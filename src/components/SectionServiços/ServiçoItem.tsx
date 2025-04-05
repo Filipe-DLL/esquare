@@ -1,9 +1,9 @@
-import Image, { StaticImageData } from 'next/image'
-import Link from 'next/link'
+import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
 interface props {
-  titulo: string
-  imagem: StaticImageData
+  titulo: string;
+  imagem: StaticImageData;
 }
 
 export default function ServiçoItem(props: props) {
@@ -25,5 +25,5 @@ export default function ServiçoItem(props: props) {
         </div>
       </Link>
     </div>
-  )
+  );
 }

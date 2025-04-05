@@ -24,11 +24,9 @@
 
 //   const user = await userUrl.json()
 //   const media = await mediaUrl.json()
-  
+
 //   console.log(user);
 //   console.log(media);
-
-
 
 //   return (
 //     <section className="animate__fadeIn animate__animated flex h-full flex-col items-center justify-start">

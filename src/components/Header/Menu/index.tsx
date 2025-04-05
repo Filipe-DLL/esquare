@@ -1,24 +1,24 @@
-import { X } from 'lucide-react'
-import Image from 'next/image'
-import Link from 'next/link'
+import { X } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
-import logo from '@/assets/Header/reduzida-cinza.svg'
+import logo from "@/assets/Header/reduzida-cinza.svg";
 
 interface MenuProps {
-  isVisible: boolean
-  onClose: () => void
+  isVisible: boolean;
+  onClose: () => void;
 }
 
 export default function Menu({ isVisible, onClose }: MenuProps) {
   return (
     <div
-      className={`${isVisible ? 'flex flex-col' : 'hidden'}
+      className={`${isVisible ? "flex flex-col" : "hidden"}
          animate__fadeIn animate__animated animate__faster fixed inset-0 top-0 h-full w-full bg-black bg-opacity-60 backdrop-blur-sm min-md:hidden`}
       onClick={onClose}
     >
       <div className="animate__animated animate__slideInDown flex h-96 w-full flex-col items-start justify-between bg-azulPetrolio px-5 pb-5 pt-3">
         <div className="flex w-full items-center justify-between">
-          <Link href={'/'}>
+          <Link href={"/"}>
             <Image
               src={logo}
               alt="logo"
@@ -39,32 +39,32 @@ export default function Menu({ isVisible, onClose }: MenuProps) {
           onClick={(e) => e.stopPropagation()}
         >
           <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-            <Link href={'/#Início'} onClick={onClose}>
+            <Link href={"/#Início"} onClick={onClose}>
               Início
             </Link>
           </li>
           <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-            <Link href={'/#QuemSomos'} onClick={onClose}>
+            <Link href={"/#QuemSomos"} onClick={onClose}>
               Quem Somos
             </Link>
           </li>
           <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-            <Link href={'/#Serviços'} onClick={onClose}>
+            <Link href={"/#Serviços"} onClick={onClose}>
               Serviços
             </Link>
           </li>
           <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-            <Link href={'/#Projetos'} onClick={onClose}>
+            <Link href={"/#Projetos"} onClick={onClose}>
               Projetos
             </Link>
           </li>
           <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-            <Link href={'/#Contato'} onClick={onClose}>
+            <Link href={"/#Contato"} onClick={onClose}>
               Contato
             </Link>
           </li>
         </ul>
       </div>
     </div>
-  )
+  );
 }

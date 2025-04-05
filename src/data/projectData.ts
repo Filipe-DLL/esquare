@@ -1,11 +1,11 @@
 export interface projectDataType {
-  id: number,
-  categoria: string,
-  titulo: string,
-  cliente: string,
-  localização: string
-  descrição: string,
-  imagens: string[],
+  id: number;
+  categoria: string;
+  titulo: string;
+  cliente: string;
+  localização: string;
+  descrição: string;
+  imagens: string[];
 }
 
 export const projectData: projectDataType[] = [
@@ -16,7 +16,7 @@ export const projectData: projectDataType[] = [
     cliente: "",
     localização: "",
     descrição: "",
-    imagens: []
+    imagens: [],
   },
   {
     id: 1,
@@ -24,7 +24,8 @@ export const projectData: projectDataType[] = [
     titulo: "Projeto Residencial C&P",
     cliente: "Construtora Menezes",
     localização: "Juazeiro do Norte, Ceará",
-    descrição: "Conjunto de projetos para uma casa residencial moderna no condomínio Cidades Kariris. Inclui projeto estrutural e projetos complementares.",
+    descrição:
+      "Conjunto de projetos para uma casa residencial moderna no condomínio Cidades Kariris. Inclui projeto estrutural e projetos complementares.",
     imagens: [
       "https://i.imgur.com/S1Tj6ZV.png",
       "https://i.imgur.com/GYCFtux.jpg",
@@ -39,7 +40,7 @@ export const projectData: projectDataType[] = [
       "https://i.imgur.com/LucDTeY.png",
       "https://i.imgur.com/quL7Jb8.png",
       "https://i.imgur.com/OZsIuJs.png",
-    ]
+    ],
   },
   {
     id: 2,
@@ -47,7 +48,8 @@ export const projectData: projectDataType[] = [
     titulo: "Projeto Residencial J&L",
     cliente: "Família Silva",
     localização: "Crato, Ceará",
-    descrição: "Conjunto de projetos para uma casa residencial moderna no município do Crato. Inclui projeto arquitetônico, projeto estrutural e projetos complementares.",
+    descrição:
+      "Conjunto de projetos para uma casa residencial moderna no município do Crato. Inclui projeto arquitetônico, projeto estrutural e projetos complementares.",
     imagens: [
       "https://i.imgur.com/hm7Vc8h.jpg",
       "https://i.imgur.com/9Fx6GZz.png",
@@ -63,7 +65,7 @@ export const projectData: projectDataType[] = [
       "https://i.imgur.com/iBkl54q.png",
       "https://i.imgur.com/7M1fM6S.png",
       "https://i.imgur.com/INe6pqX.png",
-    ]
+    ],
   },
   {
     id: 3,
@@ -71,7 +73,8 @@ export const projectData: projectDataType[] = [
     titulo: "Projeto Residencial A&V",
     cliente: "Familia Lima",
     localização: "Iguatu, Ceará",
-    descrição: "Conjunto de projetos para uma casa residencial moderna no município de Iguatu. Inclui projeto estrutural e complementares.",
+    descrição:
+      "Conjunto de projetos para uma casa residencial moderna no município de Iguatu. Inclui projeto estrutural e complementares.",
     imagens: [
       "https://i.imgur.com/EJJZBeU.png",
       "https://i.imgur.com/lvAjxzy.png",
@@ -83,6 +86,6 @@ export const projectData: projectDataType[] = [
       "https://i.imgur.com/Wk0fH20.png",
       "https://i.imgur.com/kpe7krZ.png",
       "https://i.imgur.com/MLg0Jxt.png",
-    ]
+    ],
   },
-]
+];

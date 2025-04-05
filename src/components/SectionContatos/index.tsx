@@ -1,7 +1,7 @@
-import { Instagram, Mail, PhoneCall } from 'lucide-react'
+import { Instagram, Mail, PhoneCall } from "lucide-react";
 
-import Button from '@/components/Button'
-import Link from 'next/link'
+import Button from "@/components/Button";
+import Link from "next/link";
 
 export default function SectionContatos() {
   return (
@@ -33,7 +33,7 @@ export default function SectionContatos() {
           </div>
 
           {/* redes */}
-          <div className="flex w-full flex-col items-center justify-center gap-8 rounded-3xl bg-white shadow-md p-10 xl:px-20 sm:w-screen sm:rounded-none sm:p-0 sm:py-3">
+          <div className="flex w-full flex-col items-center justify-center gap-8 rounded-3xl bg-white p-10 shadow-md xl:px-20 sm:w-screen sm:rounded-none sm:p-0 sm:py-3">
             <div className="flex items-center gap-4 sm:flex-col">
               <Mail size={35} />
               <h2 className="text-2xl font-bold sm:text-lg">
@@ -43,7 +43,7 @@ export default function SectionContatos() {
 
             <div className="flex items-center gap-4 sm:flex-col">
               <Link
-                href={'https://www.instagram.com/esquareengenharia/'}
+                href={"https://www.instagram.com/esquareengenharia/"}
                 className="flex items-center gap-4 sm:flex-col"
               >
                 <Instagram size={35} />
@@ -61,5 +61,5 @@ export default function SectionContatos() {
         </div>
       </div>
     </section>
-  )
+  );
 }

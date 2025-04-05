@@ -5,22 +5,21 @@ interface dataType {
   data: {
     id: number;
     categoria: string;
-    titulo: string,
-    cliente: string,
-    localização: string
-    descrição: string,
-    imagens: string[],
-  }
+    titulo: string;
+    cliente: string;
+    localização: string;
+    descrição: string;
+    imagens: string[];
+  };
 }
 
 export default function PageProjectDetails({ data }: dataType) {
   return (
     <div className="flex w-full flex-col items-center justify-center pt-6 md:mt-0">
-
       <ImagesCarrossel imagens={data.imagens} />
 
       {/* box */}
-      <div className="mt-10 p-6 flex w-[1140px] items-center justify-center gap-6 text-black xl:w-[940px] lg:w-[720px] md:w-full md:flex-col md:px-6">
+      <div className="mt-10 flex w-[1140px] items-center justify-center gap-6 p-6 text-black xl:w-[940px] lg:w-[720px] md:w-full md:flex-col md:px-6">
         {/* container 1 */}
         <div className="h-full w-1/2 gap-2 self-start md:w-full">
           <h1 className="text-xl font-extrabold">Detalhes do Projeto</h1>
@@ -41,12 +40,10 @@ export default function PageProjectDetails({ data }: dataType) {
           <h1 className="text-xl font-extrabold">Visão Geral</h1>
           <p className="mt-3 text-base">{data.descrição}</p>
         </div>
-
       </div>
 
       {/* Navegação */}
       <NavProjects id={data.id} />
-
     </div>
-  )
+  );
 }

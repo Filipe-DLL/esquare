@@ -1,11 +1,11 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-import Button from '@/components/Button'
+import Button from "@/components/Button";
 
-import image1 from '@/assets/SectionQuemSomos/img1.jpg'
-import image2 from '@/assets/SectionQuemSomos/img2.jpg'
-import image3 from '@/assets/SectionQuemSomos/img3.jpg'
-import image4 from '@/assets/SectionQuemSomos/img4.png'
+import image1 from "@/assets/SectionQuemSomos/img1.jpg";
+import image2 from "@/assets/SectionQuemSomos/img2.jpg";
+import image3 from "@/assets/SectionQuemSomos/img3.jpg";
+import image4 from "@/assets/SectionQuemSomos/img4.png";
 
 export default function SectionQuemSomos() {
   return (
@@ -69,13 +69,8 @@ export default function SectionQuemSomos() {
             </div>
           </div>
 
-          <div className="2xl:hidden flex items-center justify-center w-[411px] overflow-hidden">
-            <Image
-              src={image4}
-              width={450}
-              alt=""
-              className="rounded-3xl"
-            />
+          <div className="flex w-[411px] items-center justify-center overflow-hidden 2xl:hidden">
+            <Image src={image4} width={450} alt="" className="rounded-3xl" />
           </div>
         </div>
 
@@ -85,5 +80,5 @@ export default function SectionQuemSomos() {
         </div>
       </div>
     </section>
-  )
+  );
 }

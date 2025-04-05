@@ -1,12 +1,12 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from "next/image";
+import Link from "next/link";
 
-import whatsapp from '@/assets/SectionInicio/whatsapp.svg'
+import whatsapp from "@/assets/SectionInicio/whatsapp.svg";
 
 export default function WhatsAppButton() {
   return (
     <Link
-      href={'https://api.whatsapp.com/send?phone=5588981861972'}
+      href={"https://api.whatsapp.com/send?phone=5588981861972"}
       className="fixed bottom-7 right-7 z-50 cursor-pointer transition-all ease-in-out hover:scale-110 hover:drop-shadow-md 2sm:w-10"
     >
       <Image
@@ -16,5 +16,5 @@ export default function WhatsAppButton() {
         className=""
       />
     </Link>
-  )
+  );
 }

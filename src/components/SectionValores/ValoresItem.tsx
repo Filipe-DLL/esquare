@@ -1,9 +1,9 @@
-import Image, { StaticImageData } from 'next/image'
+import Image, { StaticImageData } from "next/image";
 
 interface props {
-  titulo: string
-  imagem: StaticImageData
-  texto: string
+  titulo: string;
+  imagem: StaticImageData;
+  texto: string;
 }
 
 export default function ValoresItem(props: props) {
@@ -26,5 +26,5 @@ export default function ValoresItem(props: props) {
         {props.texto}
       </p>
     </div>
-  )
+  );
 }

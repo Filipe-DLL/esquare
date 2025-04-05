@@ -1,15 +1,15 @@
-'use client'
+"use client";
 
-import * as Tabs from '@radix-ui/react-tabs'
+import * as Tabs from "@radix-ui/react-tabs";
 
-import Orçamento from '@/assets/SectionServiços/Orçamento.jpg'
-import PPCI from '@/assets/SectionServiços/Prevenção-e-Combate-a-Incêndio-(PPCI).jpg'
-import Eletrico from '@/assets/SectionServiços/Projeto-Elétrico.jpg'
-import Arquitetonico from '@/assets/SectionServiços/Projeto-arquitetônico.jpg'
-import Estrutural from '@/assets/SectionServiços/Projeto-estrutural.jpg'
-import Hidrossanitário from '@/assets/SectionServiços/Projetos-Hidrossanitário.png'
+import Orçamento from "@/assets/SectionServiços/Orçamento.jpg";
+import PPCI from "@/assets/SectionServiços/Prevenção-e-Combate-a-Incêndio-(PPCI).jpg";
+import Eletrico from "@/assets/SectionServiços/Projeto-Elétrico.jpg";
+import Arquitetonico from "@/assets/SectionServiços/Projeto-arquitetônico.jpg";
+import Estrutural from "@/assets/SectionServiços/Projeto-estrutural.jpg";
+import Hidrossanitário from "@/assets/SectionServiços/Projetos-Hidrossanitário.png";
 
-import ServiçoItemTabs from '@/components/SectionServiços/Tabs/ServiçoItemTabs'
+import ServiçoItemTabs from "@/components/SectionServiços/Tabs/ServiçoItemTabs";
 
 export default function TabsServiço() {
   return (
@@ -104,5 +104,5 @@ export default function TabsServiço() {
         />
       </Tabs.Content>
     </Tabs.Root>
-  )
+  );
 }

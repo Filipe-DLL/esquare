@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from "next/image";
+import Link from "next/link";
 
-import logo from '@/assets/Header/reduzida-cinza.svg'
-import MenuClientSide from '@/components/Header/Menu/MenuClientSide'
+import logo from "@/assets/Header/reduzida-cinza.svg";
+import MenuClientSide from "@/components/Header/Menu/MenuClientSide";
 
 export default function Header() {
   return (
@@ -10,7 +10,7 @@ export default function Header() {
       <div className="mx-20 h-full md:mx-5">
         <nav className="flex h-full flex-row items-center justify-between">
           {/* logo */}
-          <Link href={'/#Início'}>
+          <Link href={"/#Início"}>
             <Image
               src={logo}
               alt="logo"
@@ -23,19 +23,19 @@ export default function Header() {
           {/* navegação */}
           <ul className="flex flex-row gap-9 font-bold text-gray-100 md:hidden">
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-              <Link href={'/#Início'}>Início</Link>
+              <Link href={"/#Início"}>Início</Link>
             </li>
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-              <Link href={'/#QuemSomos'}>Quem Somos</Link>
+              <Link href={"/#QuemSomos"}>Quem Somos</Link>
             </li>
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-              <Link href={'/#Serviços'}>Serviços</Link>
+              <Link href={"/#Serviços"}>Serviços</Link>
             </li>
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-              <Link href={'/#Projetos'}>Projetos</Link>
+              <Link href={"/#Projetos"}>Projetos</Link>
             </li>
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-              <Link href={'/#Contato'}>Contato</Link>
+              <Link href={"/#Contato"}>Contato</Link>
             </li>
           </ul>
 
@@ -44,5 +44,5 @@ export default function Header() {
         </nav>
       </div>
     </header>
-  )
+  );
 }

@@ -1,13 +1,13 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-import Img from '@/assets/PageProjetos/projetos-page.jpg'
-import { projectData } from '@/data/projectData'
-import PageProjectDetails from '@/components/PageProjetos/PageProject/PageProjectDetails'
+import Img from "@/assets/PageProjetos/projetos-page.jpg";
+import { projectData } from "@/data/projectData";
+import PageProjectDetails from "@/components/PageProjetos/PageProject/PageProjectDetails";
 
 interface ProjectProps {
   params: {
-    slug: number
-  }
+    slug: number;
+  };
 }
 
 export default async function page({ params }: ProjectProps) {
@@ -30,5 +30,5 @@ export default async function page({ params }: ProjectProps) {
       {/* conteúdo */}
       <PageProjectDetails data={projectData[params.slug]} />
     </section>
-  )
+  );
 }

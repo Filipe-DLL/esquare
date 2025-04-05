@@ -4,12 +4,15 @@ import { motion } from "framer-motion";
 import { ImagesSlider } from "../ui/images-slider";
 
 interface imagensType {
-  imagens: string[]
+  imagens: string[];
 }
 
 export function ImagesCarrossel({ imagens }: imagensType) {
   return (
-    <ImagesSlider className="h-[40rem] md:h-[20rem] md:max-w-[95%] rounded-3xl shadow-md bg-white" images={imagens}>
+    <ImagesSlider
+      className="h-[40rem] rounded-3xl bg-white shadow-md md:h-[20rem] md:max-w-[95%]"
+      images={imagens}
+    >
       <motion.div
         initial={{
           opacity: 0,
@@ -22,9 +25,8 @@ export function ImagesCarrossel({ imagens }: imagensType) {
         transition={{
           duration: 0.6,
         }}
-        className="z-50 flex flex-col justify-center items-center"
-      >
-      </motion.div>
+        className="z-50 flex flex-col items-center justify-center"
+      ></motion.div>
     </ImagesSlider>
   );
 }

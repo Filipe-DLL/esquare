@@ -1,18 +1,18 @@
-'use client'
+"use client";
 
-import Menu from '@/components/Header/Menu'
-import { AlignJustify } from 'lucide-react'
-import { useCallback, useState } from 'react'
+import Menu from "@/components/Header/Menu";
+import { AlignJustify } from "lucide-react";
+import { useCallback, useState } from "react";
 
 export default function MenuClientSide() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const openMenu = () => {
-    setIsMenuOpen(true)
-  }
+    setIsMenuOpen(true);
+  };
   const closeMenu = useCallback(() => {
-    setIsMenuOpen(false)
-  }, [])
+    setIsMenuOpen(false);
+  }, []);
 
   return (
     <>
@@ -21,5 +21,5 @@ export default function MenuClientSide() {
       </button>
       <Menu isVisible={isMenuOpen} onClose={closeMenu} />
     </>
-  )
+  );
 }
