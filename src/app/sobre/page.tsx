@@ -2,10 +2,11 @@
 import React from "react";
 import Image from "next/image";
 
-import IMG_1 from "@/assets/sobre/img_1.jpg";
-import IMG_2 from "@/assets/sobre/img_2.jpg";
-import IMG_3 from "@/assets/sobre/img_3.jpg";
+import IMG_1 from "@/assets/sobre/IMG_1.jpg";
+import IMG_2 from "@/assets/sobre/IMG_2.jpg";
+import IMG_3 from "@/assets/sobre/IMG_3.jpg";
 import IMG_4 from "@/assets/sobre/IMG_4.jpg";
+
 
 export default function QuemSomos() {
   return (
