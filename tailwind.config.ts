@@ -41,13 +41,13 @@ const config: Config = {
         // => @media (min-width: 1536px) { ... }
 
         '2lg': { max: '1190px' },
-        // => @media (max-width: 1535px) { ... }
+        // => @media (max-width: 1190px) { ... }
 
         '2sm': { max: '300px' },
-        // => @media (max-width: 639px) { ... }
+        // => @media (max-width: 300px) { ... }
 
         '2md': { max: '500px' },
-        // => @media (max-width: 639px) { ... }
+        // => @media (max-width: 500px) { ... }
       },
       fontFamily: {
         sans: 'var( --font-roboto)',

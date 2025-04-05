@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" className="scroll-smooth">
       <body
         className={`${inter.variable} ${roboto.variable} m-0 box-border min-h-screen bg-background p-0 font-sans text-azulIndigo`}
       >
