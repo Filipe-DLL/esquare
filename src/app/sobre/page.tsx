@@ -6,7 +6,6 @@ import IMG_2 from "@/assets/sobre/IMG_2.jpg";
 import IMG_3 from "@/assets/sobre/IMG_3.jpg";
 import IMG_4 from "@/assets/sobre/IMG_4.jpg";
 
-
 export default function QuemSomos() {
   return (
     <div className="flex min-h-screen flex-col bg-gray-50">
