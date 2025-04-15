@@ -27,11 +27,6 @@ export default function Footer() {
           <h2 className="mb-8 text-xl font-extrabold">Nossos Serviços</h2>
           <ul className="list-disc pl-6 font-medium">
             <li>
-              <Link href={`/servicos#Projeto Arquitetônico`}>
-                Projeto Arquitetônico
-              </Link>
-            </li>
-            <li>
               <Link href={`/servicos#Projeto Estrutural`}>
                 Projeto Estrutural
               </Link>
@@ -51,9 +46,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href={`/servicos#Orçamento Para Financiamento`}>
-                Orçamento Para Financiamento
-              </Link>
+              <Link href={`/servicos#Orçamento`}>Orçamento</Link>
             </li>
           </ul>
         </div>

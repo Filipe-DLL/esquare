@@ -1,7 +1,6 @@
 import Orçamento from "@/assets/SectionServiços/Orçamento.jpg";
 import PPCI from "@/assets/SectionServiços/Prevenção-e-Combate-a-Incêndio-(PPCI).jpg";
 import Eletrico from "@/assets/SectionServiços/Projeto-Elétrico.jpg";
-import Arquitetonico from "@/assets/SectionServiços/Projeto-arquitetônico.jpg";
 import Estrutural from "@/assets/SectionServiços/Projeto-estrutural.jpg";
 import Hidrossanitário from "@/assets/SectionServiços/Projetos-Hidrossanitário.png";
 
@@ -15,12 +14,6 @@ interface serviçosDataTypes {
 }
 
 export const serviçosData: serviçosDataTypes[] = [
-  {
-    categoria: Arquitetonico,
-    titulo: "Projeto Arquitetônico",
-    descrição:
-      "O projeto arquitetônico é o primeiro projeto a ser concebido quando se vai construir ou reformar sua casa ou empreendimento. Nele vão estar contidas todas as informações acerca dos desejos do cliente, do ue pode ou não pode ter em seu projeto, além de outros detalhes que possam vir a impactar a concepção do projeto. O projeto arquitetônico abrange várias etapas até a apresentação do projeto executivo final, sendo possível prever nele problemas de execução e facilitar a esma, tornando-se essencial para a garantia de qualidade e segurança na obra.",
-  },
   {
     categoria: Estrutural,
     titulo: "Projeto Estrutural",
@@ -67,7 +60,7 @@ export const serviçosData: serviçosDataTypes[] = [
   },
   {
     categoria: Orçamento,
-    titulo: "Orçamento Para Financiamento",
+    titulo: "Orçamento",
     descrição:
       "Para que seja realizado o financiamento nas instituições financeiras é necessário o preenchimento de planilhas de orçamento específicas dessas instituições. Essas planilhas são diferentes das planilhas comumente utilizadas na construção civil em obras privadas. A planilha da caixa tem uma série de detalhes que, sem um profissional qualificado, vai haver uma certa dificuldade no aceite pela instituição, ou até mesmo uma reprovação de financiamento.   Nós da Esquare temos profissionais experientes neste tipo de serviço e fazemos com o maior zelo possível para que seu financiamento saia o mais rápido possível.",
     imagens: [
