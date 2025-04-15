@@ -1,12 +1,10 @@
 import ServiçoItem from "@/components/SectionServiços/ServiçoItem";
-import TabsServiço from "@/components/SectionServiços/Tabs";
 
-import Orçamento from "@/assets/SectionServiços/Orçamento.jpg";
-import PPCI from "@/assets/SectionServiços/Prevenção-e-Combate-a-Incêndio-(PPCI).jpg";
-import Eletrico from "@/assets/SectionServiços/Projeto-Elétrico.jpg";
-import Arquitetonico from "@/assets/SectionServiços/Projeto-arquitetônico.jpg";
-import Estrutural from "@/assets/SectionServiços/Projeto-estrutural.jpg";
-import Hidrossanitário from "@/assets/SectionServiços/Projetos-Hidrossanitário.png";
+import Orçamento from "@/assets/SectionServiços/Orçamento.png";
+import PPCI from "@/assets/SectionServiços/PPCI.png";
+import Eletrico from "@/assets/SectionServiços/Eletrico.png";
+import Estrutural from "@/assets/SectionServiços/Estrutural.png";
+import Hidrossanitário from "@/assets/SectionServiços/Hidrosanitario.png";
 
 export default function SectionServiços() {
   return (
@@ -19,14 +17,10 @@ export default function SectionServiços() {
         Nossos Serviços
       </h1>
 
-      {/* tabs */}
-      <TabsServiço />
-
       {/* container */}
-      <div className="flex flex-wrap items-start justify-center gap-8 p-10 2lg:hidden">
-        <ServiçoItem titulo="Projeto Arquitetônico" imagem={Arquitetonico} />
+      <div className="my-20 flex flex-wrap items-start justify-center gap-8 p-10">
         <ServiçoItem titulo="Projeto Estrutural" imagem={Estrutural} />
-        <ServiçoItem titulo="Projeto Eletrico" imagem={Eletrico} />
+        <ServiçoItem titulo="Projeto Elétrico" imagem={Eletrico} />
         <ServiçoItem
           titulo="Projeto Hidrossanitário"
           imagem={Hidrossanitário}
@@ -35,7 +29,7 @@ export default function SectionServiços() {
           titulo={`Prevenção e Combate à Incêndio (PPCI)`}
           imagem={PPCI}
         />
-        <ServiçoItem titulo="Orçamento Para Financiamento" imagem={Orçamento} />
+        <ServiçoItem titulo="Orçamento" imagem={Orçamento} />
       </div>
     </section>
   );

@@ -26,7 +26,7 @@ export default function Header() {
               <Link href={"/#Início"}>Início</Link>
             </li>
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-              <Link href={"/#QuemSomos"}>Quem Somos</Link>
+              <Link href={"/sobre"}>Quem Somos</Link>
             </li>
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
               <Link href={"/#Serviços"}>Serviços</Link>
@@ -35,7 +35,7 @@ export default function Header() {
               <Link href={"/#Projetos"}>Projetos</Link>
             </li>
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-              <Link href={"/#Contato"}>Contato</Link>
+              <Link href={"/links"}>Links</Link>
             </li>
           </ul>
 
