@@ -30,25 +30,25 @@ export default function LinksPage() {
               href="https://www.instagram.com/esquareengenharia/"
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full rounded-lg bg-azulIndigo py-3 text-white transition-colors hover:bg-blue-900"
+              className="block w-full rounded-lg bg-azulIndigo py-3 text-white transition-colors ease-in-out hover:scale-x-105 hover:bg-blue-900"
             >
               Instagram
-            </a>
-            <a
-              href="https://www.esquareengenharia.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full rounded-lg bg-azulIndigo py-3 text-white transition-colors hover:bg-blue-900"
-            >
-              Meu Site
             </a>
             <a
               href="https://api.whatsapp.com/send?phone=5588981861972"
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full rounded-lg bg-azulIndigo py-3 text-white transition-colors hover:bg-blue-900"
+              className="block w-full rounded-lg bg-azulIndigo py-3 text-white transition-colors ease-in-out hover:scale-x-105 hover:bg-blue-900"
             >
               WhatApp
+            </a>
+            <a
+              href="https://www.esquareengenharia.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full rounded-lg bg-azulIndigo py-3 text-white transition-colors ease-in-out hover:scale-x-105 hover:bg-blue-900"
+            >
+              Nosso Site
             </a>
           </div>
         </div>
