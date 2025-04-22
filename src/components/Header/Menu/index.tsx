@@ -44,7 +44,7 @@ export default function Menu({ isVisible, onClose }: MenuProps) {
             </Link>
           </li>
           <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-            <Link href={"/#QuemSomos"} onClick={onClose}>
+            <Link href={"/sobre"} onClick={onClose}>
               Quem Somos
             </Link>
           </li>
@@ -59,8 +59,8 @@ export default function Menu({ isVisible, onClose }: MenuProps) {
             </Link>
           </li>
           <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-            <Link href={"/#Contato"} onClick={onClose}>
-              Contato
+            <Link href={"/links"} onClick={onClose}>
+              Links
             </Link>
           </li>
         </ul>

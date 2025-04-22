@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="animate__fadeIn animate__animated flex h-full min-h-screen flex-col items-center justify-center">
       <SectionInicio />
-      <SectionQuemSomos />
+      {/* <SectionQuemSomos /> */}
       <SectionServiços />
       <SectionProjetos />
       <SectionValores />
