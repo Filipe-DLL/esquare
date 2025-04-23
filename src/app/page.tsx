@@ -3,6 +3,7 @@ import SectionContatos from "@/components/SectionContatos";
 import SectionInicio from "@/components/SectionInicio";
 import SectionProjetos from "@/components/SectionProjetos";
 import SectionQuemSomos from "@/components/SectionQuemSomos";
+import SectionDados from "@/components/SectionDados";
 import SectionServiços from "@/components/SectionServiços";
 import SectionValores from "@/components/SectionValores";
 
@@ -11,6 +12,7 @@ export default function Home() {
     <div className="animate__fadeIn animate__animated flex h-full min-h-screen flex-col items-center justify-center">
       <SectionInicio />
       {/* <SectionQuemSomos /> */}
+      <SectionDados />
       <SectionServiços />
       <SectionProjetos />
       <SectionValores />

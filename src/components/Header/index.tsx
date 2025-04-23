@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import logo from "@/assets/Header/reduzida-cinza.svg";
 import MenuClientSide from "@/components/Header/Menu/MenuClientSide";
+import { Facebook, Instagram } from "lucide-react";
 
 export default function Header() {
   return (
@@ -36,6 +37,20 @@ export default function Header() {
             </li>
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
               <Link href={"/links"}>Links</Link>
+            </li>
+          </ul>
+
+          {/* WhatsApp */}
+          <ul className="flex flex-row gap-3 font-bold text-gray-100 md:hidden">
+            <li>
+              <Link href={"/links"}>
+                <Instagram />
+              </Link>
+            </li>
+            <li>
+              <Link href={"/links"}>
+                <Facebook />
+              </Link>
             </li>
           </ul>
 
