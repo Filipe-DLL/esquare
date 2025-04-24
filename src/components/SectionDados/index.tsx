@@ -6,12 +6,12 @@ export default function SectionQuemSomos() {
   return (
     <section
       id="QuemSomos"
-      className="m-20 flex h-[46rem] w-full flex-col items-center justify-center 2xl:mb-20 2xl:h-full"
+      className="flex h-[46rem] w-full flex-col items-center justify-center 2xl:mb-20 2xl:h-full"
     >
       {/* box */}
       <div className="w-full">
         {/* dados */}
-        <div className="flex h-36 items-center justify-center gap-4 w-full bg-[#0f3090] text-5xl font-black text-[#546fad]">
+        <div className="flex h-40 items-center justify-center gap-4 w-full bg-[#0f3090] text-6xl font-black text-[#546fad]">
           <p className="flex flex-col items-center">
             +12.000m² <span className="text-lg font-black text-[#d9d9d9]">PROJETADOS</span>
           </p>
@@ -24,16 +24,17 @@ export default function SectionQuemSomos() {
         </div>
 
         {/* conteúdo */}
-        <div className="bg flex items-center justify-center w-full">
+        <div className="bg flex items-center justify-center w-full bg-[#d0d4da]">
           {/* texto */}
-          <div className="font-black text-2xl w-1/2">
-            <p className="">
+          <div className="font-black text-5xl w-2/6 flex justify-end">
+            <p className="text-end">
               Projetos complementares completos para garantir 
               <span className="text-black"> eficiência</span>, <span className="text-black">segurança</span> e{" "}
-              <span className="text-black">fluidez</span>
+              <span className="text-black">fluidez </span>
               na sua obra.
             </p>
-            <div>Botão</div>
+            {/* botão */}
+            {/* <div>Botão</div> */}
           </div>
           {/* imagem */}
           <Image
@@ -41,7 +42,7 @@ export default function SectionQuemSomos() {
             alt="Sobre"
             height={500}
             priority={true}
-            className="cursor-pointer w-1/2"
+            className="cursor-pointer w-1/2 -mt-24"
           />
         </div>
       </div>
