@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-import sobre from "@/assets/sobre/sobre.png";
+import sobre from "@/assets/sobre/sobre.png"
 
 export default function SectionQuemSomos() {
   return (
     <section
       id="QuemSomos"
-      className="flex h-[46rem] w-full flex-col items-center justify-center 2xl:mb-20 2xl:h-full"
+      className="flex w-full flex-col items-center justify-center"
     >
       {/* box */}
       <div className="w-full">
@@ -40,9 +40,11 @@ export default function SectionQuemSomos() {
           <Image
             src={sobre}
             alt="Sobre"
+            width={500}
             height={500}
+            quality={100}
             priority={true}
-            className="cursor-pointer w-1/2 -mt-24 -ml-44"
+            className="cursor-pointer w-1/2 -mt-12"
           />
         </div>
       </div>
