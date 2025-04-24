@@ -26,8 +26,8 @@ export default function SectionQuemSomos() {
         {/* conteúdo */}
         <div className="bg flex items-center justify-center w-full bg-[#d0d4da]">
           {/* texto */}
-          <div className="font-black text-5xl w-2/6 flex justify-end">
-            <p className="text-end">
+          <div className="font-black text-6xl w-2/6 flex justify-end">
+            <p className="text-start">
               Projetos complementares completos para garantir 
               <span className="text-black"> eficiência</span>, <span className="text-black">segurança</span> e{" "}
               <span className="text-black">fluidez </span>
@@ -42,7 +42,7 @@ export default function SectionQuemSomos() {
             alt="Sobre"
             height={500}
             priority={true}
-            className="cursor-pointer w-1/2 -mt-24"
+            className="cursor-pointer w-1/2 -mt-24 -ml-44"
           />
         </div>
       </div>
