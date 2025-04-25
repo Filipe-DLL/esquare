@@ -44,9 +44,8 @@ export default function Header() {
 
           {/* WhatsApp */}
           <div className="flex items-center justify-between gap-28">
-
             <Link href={"https://api.whatsapp.com/send?phone=5588981861972"}>
-              <div className="m-auto flex h-full w-full px-8 cursor-pointer items-center justify-center rounded-3xl bg-[#eeaa6b] text-center text-xl font-medium text-black  transition-all ease-in-out hover:bg-[#bb8554]">
+              <div className="m-auto flex h-full w-full cursor-pointer items-center justify-center rounded-3xl bg-[#eeaa6b] px-6 text-center text-xl font-medium text-black  transition-all ease-in-out hover:bg-[#bb8554]">
                 Peça um Orçamento
               </div>
             </Link>
@@ -68,7 +67,7 @@ export default function Header() {
           {/* Menu */}
           <MenuClientSide />
         </nav>
-      </div >
-    </header >
+      </div>
+    </header>
   );
 }

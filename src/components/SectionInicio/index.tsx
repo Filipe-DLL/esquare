@@ -1,48 +1,48 @@
 import Image from "next/image";
 
-import background from "@/assets/SectionInicio/Completo.png";
-import esquare from "@/assets/SectionInicio/horizontal-azul.svg";
-
-import Button from "@/components/Button";
-import { ChevronsDown } from "lucide-react";
+import background from "@/assets/SectionInicio/backgroud.png";
+import Link from "next/link";
 
 export default function SectionInicio() {
   return (
+    // <section className="relative  w-full bg-gradient-to-tl from-blue-900 to-blue-700">
     <section
       id="Início"
-      className="flex h-screen w-full items-center justify-center"
+      className="relative flex h-screen w-full items-center justify-start bg-gradient-to-tl from-blue-950 to-blue-700"
     >
-      <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden">
-        {/* Dekstop */}
+      <div className="relative flex h-screen w-9/12 items-center justify-start overflow-hidden">
+        {/* Imagem de fundo */}
         <Image
           src={background}
-          alt="ESQUARE"
+          alt="background"
+          quality={100}
+          unoptimized={true}
           priority={true}
-          className="absolute left-1/2 top-1/2 -z-50 max-h-[850px] w-auto -translate-x-1/2 -translate-y-1/2 transform bg-cover sm:hidden"
+          className="absolute h-full w-full object-cover brightness-75"
+        // className="absolute object-cover brightness-75"
         />
+      </div>
 
-        {/* Mobile */}
-        <Image
-          src={background}
-          alt="ESQUARE"
-          priority={true}
-          className="absolute left-1/2 top-1/2 -z-50 hidden min-h-[400px] min-w-[600px] -translate-x-1/2 -translate-y-1/2 transform overflow-hidden bg-cover md:flex"
-        />
+      {/* Overlay com conteúdo */}
+      <div className="absolute right-52 flex h-full items-center justify-center px-4 text-white">
+        <div className="text-start">
+          <h1 className="z-10 text-5xl font-bold leading-tight md:text-5xl sm:text-4xl">
+            Engenharia inteligente, <br />
+            compatibilizada e com <br />
+            foco na execução
+          </h1>
 
-        <div className="h-1/6"></div>
-
-        <div className="md:bg-opacity-65 flex h-1/3 w-screen items-center justify-center bg-background bg-opacity-80 md:h-auto md:min-h-[130px]">
-          <Image src={esquare} alt="ESQUARE" priority={true} className="" />
-        </div>
-
-        <div className=" flex h-1/3 flex-col items-center justify-between">
-          <div className=""></div>
-          <div className="h-14 w-96 sm:w-72">
-            <Button />
-          </div>
-          <ChevronsDown size={55} className="animate-bounce" />
+          <Link
+            href="#contato"
+            className="mt-8 inline-block rounded-full bg-white px-8 py-4 text-lg font-extrabold text-azulIndigo shadow-lg transition hover:scale-105 hover:shadow-xl"
+          >
+            SOLICITE UM ORÇAMENTO
+          </Link>
         </div>
       </div>
+
+      {/* Gradiente no canto direito */}
+      {/* <div className="pointer-events-none absolute right-0 top-0 h-full w-1/2 bg-gradient-to-l from-[#0a0f3f] to-transparent opacity-70"></div> */}
     </section>
   );
 }
