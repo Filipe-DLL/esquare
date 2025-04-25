@@ -21,6 +21,8 @@ export default function Header() {
             />
           </Link>
 
+          <div></div>
+
           {/* navegação */}
           <ul className="flex flex-row gap-9 font-bold text-gray-100 md:hidden">
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
@@ -41,23 +43,32 @@ export default function Header() {
           </ul>
 
           {/* WhatsApp */}
-          <ul className="flex flex-row gap-3 font-bold text-gray-100 md:hidden">
-            <li>
-              <Link href={"/links"}>
-                <Instagram />
-              </Link>
-            </li>
-            <li>
-              <Link href={"/links"}>
-                <Facebook />
-              </Link>
-            </li>
-          </ul>
+          <div className="flex items-center justify-between gap-28">
+
+            <Link href={"https://api.whatsapp.com/send?phone=5588981861972"}>
+              <div className="m-auto flex h-full w-full px-8 cursor-pointer items-center justify-center rounded-3xl bg-[#eeaa6b] text-center text-xl font-medium text-black  transition-all ease-in-out hover:bg-[#bb8554]">
+                Peça um Orçamento
+              </div>
+            </Link>
+
+            <ul className="flex flex-row gap-3 font-bold text-gray-100 md:hidden">
+              <li>
+                <Link href={"/links"}>
+                  <Instagram />
+                </Link>
+              </li>
+              <li>
+                <Link href={"/links"}>
+                  <Facebook />
+                </Link>
+              </li>
+            </ul>
+          </div>
 
           {/* Menu */}
           <MenuClientSide />
         </nav>
-      </div>
-    </header>
+      </div >
+    </header >
   );
 }
