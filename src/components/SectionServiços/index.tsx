@@ -10,27 +10,31 @@ export default function SectionServiços() {
   return (
     <section
       id="Serviços"
-      className="flex h-full w-5/6 flex-col items-center justify-center"
+      className="flex h-full w-full flex-col items-center justify-center bg-[#0e2c88] px-32"
     >
       {/* Titulo */}
-      <h1 className="mt-20 flex items-center justify-center text-center text-4xl font-black uppercase text-azulIndigo">
-        Nossos Serviços
+      <h1 className="mt-20 flex items-center justify-center self-start text-8xl font-black text-[#526ca7]">
+        Serviços
       </h1>
 
       {/* container */}
-      <div className="my-20 flex flex-wrap items-start justify-center gap-8 p-10">
-        <ServiçoItem titulo="Projeto Estrutural" imagem={Estrutural} />
-        <ServiçoItem titulo="Projeto Elétrico" imagem={Eletrico} />
+      <div className="my-20 flex flex-wrap items-center justify-center gap-2 p-10">
+        <ServiçoItem titulo="Projeto Estrutural" texto="Projeto de estruturas seguras e otimizadas" imagem={Estrutural} />
+        <ServiçoItem titulo="Projeto Elétrico" texto="Projeto de instalações elêtricas eficientes" imagem={Eletrico} />
         <ServiçoItem
           titulo="Projeto Hidrossanitário"
+          texto="Projeto de redes hidráulicas e sanitárias completas"
           imagem={Hidrossanitário}
         />
         <ServiçoItem
-          titulo={`Prevenção e Combate à Incêndio (PPCI)`}
+          titulo={`PPCI`}
+          texto="Projeto de prevenção e combate a incêndios"
           imagem={PPCI}
         />
-        <ServiçoItem titulo="Orçamento" imagem={Orçamento} />
+        <ServiçoItem titulo="Orçamento" texto="Projeto de infraestrutura de cabeamento de redes" imagem={Orçamento} />
       </div>
+      {/* BOTÃO */}
+
     </section>
   );
 }
