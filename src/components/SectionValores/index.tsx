@@ -9,7 +9,7 @@ export default function SectionValores() {
   return (
     <section
       id="Valores"
-      className="m-20 flex h-[46rem] w-full flex-col items-center justify-center bg-azulPetrolio 2xl:mb-20 2xl:h-full"
+      className="flex h-[46rem] w-full flex-col items-center justify-center bg-azulPetrolio 2xl:mb-20 2xl:h-full"
     >
       {/* Titulo */}
       <h1 className="mt-8 flex items-center justify-center text-center text-4xl font-black uppercase text-gray-50 2xl:mb-10">

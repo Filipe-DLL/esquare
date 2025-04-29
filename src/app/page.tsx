@@ -14,7 +14,7 @@ export default function Home() {
       <SectionServiços />
       <SectionProjetos />
       <SectionValores />
-      <SectionInstagram />
+      {/* <SectionInstagram /> */}
       <SectionContatos />
     </div>
   );

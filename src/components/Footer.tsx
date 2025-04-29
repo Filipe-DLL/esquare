@@ -8,48 +8,14 @@ export default function Footer() {
   return (
     <footer
       id="Footer"
-      className="animate__fadeIn animate__animated bottom-0 mt-5 flex h-80 w-full flex-col items-center justify-center bg-azulPetrolio p-8 text-gray-50 lg:h-full md:p-2"
+      className="animate__fadeIn animate__animated bottom-0 flex h-60 w-full flex-col items-center justify-center bg-azulPetrolio p-8 text-gray-50 lg:h-full md:p-2"
     >
       {/* container */}
       <div className="flex w-full items-start justify-evenly gap-24 xl:gap-8 lg:flex-wrap md:w-full md:flex-col md:items-center">
         {/* ESQUARE */}
         <div className="flex flex-col gap-4 xl:w-5/12 lg:items-center md:w-full">
           <Image src={esquare} alt="ESQUARE" width={240} priority={true} />
-          {/* <p className="w-60 text-justify font-medium">
-            A ESQUARE tem como missão encontrar as melhores soluções de
-            engenharia para proporcionar segurança e tranquilidade para os
-            nossos clientes.
-          </p> */}
         </div>
-
-        {/* Nossos Serviços */}
-        {/* <div className="flex flex-col xl:w-5/12 lg:items-center md:w-full">
-          <h2 className="mb-8 text-xl font-extrabold">Nossos Serviços</h2>
-          <ul className="list-disc pl-6 font-medium">
-            <li>
-              <Link href={`/servicos#Projeto Estrutural`}>
-                Projeto Estrutural
-              </Link>
-            </li>
-            <li>
-              <Link href={`/servicos#Projeto Hidrossanitário`}>
-                Projetos Hidrossanitário
-              </Link>
-            </li>
-            <li>
-              <Link href={`/servicos#Projeto Eletrico`}>Projeto Elétrico</Link>
-            </li>
-            <li>
-              <Link href={`/servicos#Prevenção e Combate à Incêndio (PPCI)`}>
-                Prevenção e Combate à <br />
-                Incêndio (PPCI)
-              </Link>
-            </li>
-            <li>
-              <Link href={`/servicos#Orçamento`}>Orçamento</Link>
-            </li>
-          </ul>
-        </div> */}
 
         {/* Contatos */}
         <div className="flex flex-col xl:w-5/12 lg:items-center md:w-full">
