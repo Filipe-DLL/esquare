@@ -10,10 +10,10 @@ interface props {
 export default function ServiçoItem(props: props) {
   return (
     <div className="group hover:-translate-y-3 hover:drop-shadow-md">
-      <div className="relative sm:min-h-10 h-96 w-64 group rounded-2xl text-[#1a2d92] bg-[#d0d4da] transition-all ease-in-out shadow-md">
+      <div className="sm:min-h-10 group relative h-96 w-64 rounded-2xl bg-[#d0d4da] text-[#1a2d92] shadow-md transition-all ease-in-out">
         <Link
           href={`/servicos#${props.titulo}`}
-          className="flex flex-col h-full items-center justify-start rounded-2xl p-5"
+          className="flex h-full flex-col items-center justify-start rounded-2xl p-5"
         >
           <div className="flex h-56 w-48 flex-col items-center justify-start">
             <Image
@@ -28,11 +28,16 @@ export default function ServiçoItem(props: props) {
             </h2>
           </div>
 
-          <p className="mt-2 text-center font-semibold text-base text-[#1a2d92]">{props.texto}</p>
+          <p className="mt-2 text-center text-base font-semibold text-[#1a2d92]">
+            {props.texto}
+          </p>
         </Link>
       </div>
-      <Link href={`/servicos#${props.titulo}`} className="flex items-center justify-center -mt-6">
-        <div className="relative flex p-2 px-10 items-center justify-center rounded-full bg-[#161c33] text-center text-xl font-bold text-gray-50 transition-all ease-in-out group-hover:bg-[#263059] ">
+      <Link
+        href={`/servicos#${props.titulo}`}
+        className="-mt-6 flex items-center justify-center"
+      >
+        <div className="relative flex items-center justify-center rounded-full bg-[#161c33] p-2 px-10 text-center text-xl font-bold text-gray-50 transition-all ease-in-out group-hover:bg-[#263059] ">
           Saiba mais
         </div>
       </Link>

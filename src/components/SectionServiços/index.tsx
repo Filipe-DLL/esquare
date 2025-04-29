@@ -19,8 +19,16 @@ export default function SectionServiços() {
 
       {/* container */}
       <div className="my-20 flex flex-wrap items-center justify-center gap-2 p-10">
-        <ServiçoItem titulo="Projeto Estrutural" texto="Projeto de estruturas seguras e otimizadas" imagem={Estrutural} />
-        <ServiçoItem titulo="Projeto Elétrico" texto="Projeto de instalações elêtricas eficientes" imagem={Eletrico} />
+        <ServiçoItem
+          titulo="Projeto Estrutural"
+          texto="Projeto de estruturas seguras e otimizadas"
+          imagem={Estrutural}
+        />
+        <ServiçoItem
+          titulo="Projeto Elétrico"
+          texto="Projeto de instalações elêtricas eficientes"
+          imagem={Eletrico}
+        />
         <ServiçoItem
           titulo="Projeto Hidrossanitário"
           texto="Projeto de redes hidráulicas e sanitárias completas"
@@ -31,10 +39,13 @@ export default function SectionServiços() {
           texto="Projeto de prevenção e combate a incêndios"
           imagem={PPCI}
         />
-        <ServiçoItem titulo="Cabeamento Estruturado" texto="Projeto de infraestrutura de cabeamento de redes" imagem={Cabeamento} />
+        <ServiçoItem
+          titulo="Cabeamento Estruturado"
+          texto="Projeto de infraestrutura de cabeamento de redes"
+          imagem={Cabeamento}
+        />
       </div>
       {/* BOTÃO */}
-
     </section>
   );
 }

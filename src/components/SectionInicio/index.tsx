@@ -19,7 +19,7 @@ export default function SectionInicio() {
           unoptimized={true}
           priority={true}
           className="absolute h-full w-full object-cover brightness-75"
-        // className="absolute object-cover brightness-75"
+          // className="absolute object-cover brightness-75"
         />
       </div>
 
