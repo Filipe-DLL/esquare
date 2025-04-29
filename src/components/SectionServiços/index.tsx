@@ -1,6 +1,6 @@
 import ServiçoItem from "@/components/SectionServiços/ServiçoItem";
 
-import Orçamento from "@/assets/SectionServiços/Orçamento.png";
+import Cabeamento from "@/assets/SectionServiços/Cabeamento.png";
 import PPCI from "@/assets/SectionServiços/PPCI.png";
 import Eletrico from "@/assets/SectionServiços/Eletrico.png";
 import Estrutural from "@/assets/SectionServiços/Estrutural.png";
@@ -31,7 +31,7 @@ export default function SectionServiços() {
           texto="Projeto de prevenção e combate a incêndios"
           imagem={PPCI}
         />
-        <ServiçoItem titulo="Orçamento" texto="Projeto de infraestrutura de cabeamento de redes" imagem={Orçamento} />
+        <ServiçoItem titulo="Cabeamento Estruturado" texto="Projeto de infraestrutura de cabeamento de redes" imagem={Cabeamento} />
       </div>
       {/* BOTÃO */}
 
