@@ -15,7 +15,7 @@ export default function Home() {
       <SectionProjetos />
       {/* <SectionValores /> */}
       <SectionBlog />
-      {/* <SectionContatos /> */}
+      <SectionContatos />
     </div>
   );
 }
