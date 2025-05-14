@@ -16,7 +16,7 @@ export default function Menu({ isVisible, onClose }: MenuProps) {
          animate__fadeIn animate__animated animate__faster fixed inset-0 top-0 h-full w-full bg-black bg-opacity-60 backdrop-blur-sm min-md:hidden`}
       onClick={onClose}
     >
-      <div className="animate__animated animate__slideInDown flex h-96 w-full flex-col items-start justify-between bg-azulPetrolio px-5 pb-5 pt-3">
+      <div className="animate__animated animate__slideInDown flex h-[410px] w-full flex-col items-start justify-between bg-azulPetrolio px-5 pb-5 pt-3">
         <div className="flex w-full items-center justify-between">
           <Link href={"/"}>
             <Image
@@ -61,6 +61,16 @@ export default function Menu({ isVisible, onClose }: MenuProps) {
           <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
             <Link href={"/links"} onClick={onClose}>
               Links
+            </Link>
+          </li>
+          <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
+            <Link
+              href={"https://api.whatsapp.com/send?phone=5588981861972"}
+              onClick={onClose}
+            >
+              <div className="flex h-full w-full cursor-pointer items-center justify-center rounded-3xl bg-[#eeaa6b] px-6 text-center text-xl font-medium text-black transition-all ease-in-out hover:bg-[#bb8554] 2sm:px-2 2sm:text-base">
+                Peça um Orçamento
+              </div>
             </Link>
           </li>
         </ul>

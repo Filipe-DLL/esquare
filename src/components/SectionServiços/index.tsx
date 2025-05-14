@@ -13,7 +13,7 @@ export default function SectionServiços() {
       className="flex h-full w-full flex-col items-center justify-center bg-[#0e2c88] px-32"
     >
       {/* Titulo */}
-      <h1 className="mt-20 flex items-center justify-center self-start text-8xl font-black text-[#526ca7]">
+      <h1 className="mt-20 flex items-center justify-center self-start text-8xl font-black text-[#526ca7] md:self-center md:text-6xl">
         Serviços
       </h1>
 

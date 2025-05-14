@@ -23,7 +23,7 @@ export const projectData: projectDataType[] = [
     categoria: "Arquitetônico",
     titulo: "Projeto Residencial C&P",
     cliente: "Construtora Menezes",
-    localização: "Juazeiro do Norte, Ceará",
+    localização: "CIDADE KARIRIS - JUAZEIRO DO NORTE-CE",
     descrição:
       "Conjunto de projetos para uma casa residencial moderna no condomínio Cidades Kariris. Inclui projeto estrutural e projetos complementares.",
     imagens: [

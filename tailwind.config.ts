@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: ["class"],
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,46 +9,48 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      "2xl": { max: "1536px" },
-      // => @media (max-width: 1536px) { ... }
-
-      xl: { max: "1279px" },
-      // => @media (max-width: 1279px) { ... }
-
-      lg: { max: "1023px" },
-      // => @media (max-width: 1023px) { ... }
-
-      md: { max: "767px" },
-      // => @media (max-width: 767px) { ... }
-
-      sm: { max: "639px" },
-      // => @media (max-width: 639px) { ... }
+      "2xl": {
+        max: "1536px",
+      },
+      xl: {
+        max: "1279px",
+      },
+      lg: {
+        max: "1023px",
+      },
+      md: {
+        max: "767px",
+      },
+      sm: {
+        max: "639px",
+      },
     },
     extend: {
       screens: {
-        "min-sm": { min: "639px" },
-        // => @media (min-width: 639px) { ... }
-
-        "min-md": { min: "767px" },
-        // => @media (min-width: 767px) { ... }
-
-        "min-lg": { min: "1023px" },
-        // => @media (min-width: 1023px) { ... }
-
-        "min-xl": { min: "1279px" },
-        // => @media (min-width: 1279px) { ... }
-
-        "min-2xl": { min: "1536px" },
-        // => @media (min-width: 1536px) { ... }
-
-        "2lg": { max: "1190px" },
-        // => @media (max-width: 1190px) { ... }
-
-        "2sm": { max: "300px" },
-        // => @media (max-width: 300px) { ... }
-
-        "2md": { max: "500px" },
-        // => @media (max-width: 500px) { ... }
+        "min-sm": {
+          min: "639px",
+        },
+        "min-md": {
+          min: "767px",
+        },
+        "min-lg": {
+          min: "1023px",
+        },
+        "min-xl": {
+          min: "1279px",
+        },
+        "min-2xl": {
+          min: "1536px",
+        },
+        "2lg": {
+          max: "1190px",
+        },
+        "2sm": {
+          max: "300px",
+        },
+        "2md": {
+          max: "500px",
+        },
       },
       fontFamily: {
         sans: "var( --font-roboto)",
@@ -56,10 +59,55 @@ const config: Config = {
       colors: {
         azulIndigo: "#1B257F",
         azulPetrolio: "#161C33",
-        background: "#fafaf8",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        chart: {
+          "1": "hsl(var(--chart-1))",
+          "2": "hsl(var(--chart-2))",
+          "3": "hsl(var(--chart-3))",
+          "4": "hsl(var(--chart-4))",
+          "5": "hsl(var(--chart-5))",
+        },
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
       },
     },
     plugins: [],
   },
+  plugins: [require("tailwindcss-animate")],
 };
 export default config;

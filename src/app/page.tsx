@@ -1,4 +1,4 @@
-import SectionInstagram from "@/assets/SectionInstagram/SectionInstagram";
+import SectionBlog from "@/components/SectionBlog";
 import SectionContatos from "@/components/SectionContatos";
 import SectionInicio from "@/components/SectionInicio";
 import SectionProjetos from "@/components/SectionProjetos";
@@ -8,14 +8,14 @@ import SectionValores from "@/components/SectionValores";
 
 export default function Home() {
   return (
-    <div className="animate__fadeIn animate__animated flex h-full min-h-screen flex-col items-center justify-center">
+    <div className="animate__fadeIn animate__animated flex h-full min-h-screen flex-col items-center justify-center overflow-hidden">
       <SectionInicio />
       <SectionQuemSomos />
       <SectionServiços />
       <SectionProjetos />
-      <SectionValores />
-      {/* <SectionInstagram /> */}
-      <SectionContatos />
+      {/* <SectionValores /> */}
+      <SectionBlog />
+      {/* <SectionContatos /> */}
     </div>
   );
 }

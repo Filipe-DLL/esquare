@@ -12,21 +12,21 @@ export default function SectionQuemSomos() {
       {/* box */}
       <div className="w-full">
         {/* dados */}
-        <div className="flex h-44 w-full items-center justify-center gap-4 bg-[#0f3090] text-7xl font-black text-[#546fad]">
+        <div className="flex h-44 w-full items-center justify-center gap-4 bg-[#0f3090] text-7xl font-black text-[#546fad] xl:text-6xl lg:h-36 lg:text-5xl md:h-28 md:text-4xl sm:h-auto sm:flex-col sm:py-7">
           <p className="relative flex flex-col items-center">
             +12.000m²{" "}
-            <span className="-mt-5 text-2xl font-black tracking-widest text-[#d9d9d9]">
+            <span className="-mt-5 text-2xl font-black tracking-widest text-[#d9d9d9] xl:text-xl lg:text-lg md:text-base sm:-mt-3">
               PROJETADOS
             </span>
           </p>
           <p className="relative flex flex-col items-center">
             +65{" "}
-            <span className="-mt-5 text-2xl font-black  text-[#d9d9d9]">
+            <span className="-mt-5 text-2xl font-black text-[#d9d9d9] xl:text-xl lg:text-lg md:text-base  sm:-mt-3">
               PROJETOS ENTREGUES
             </span>
           </p>
           <p className="relative flex flex-col items-center">
-            <span className="z-10 -mb-5 text-2xl font-black tracking-widest text-[#d9d9d9]">
+            <span className="z-10 -mb-5 text-2xl font-black tracking-widest text-[#d9d9d9] xl:text-xl lg:text-lg md:text-base sm:-mb-3">
               ATUAÇÃO EM
             </span>{" "}
             10 Cidades
@@ -34,9 +34,9 @@ export default function SectionQuemSomos() {
         </div>
 
         {/* conteúdo */}
-        <div className="bg flex w-full items-center justify-center bg-[#d0d4da]">
+        <div className="bg flex w-full items-center justify-center bg-[#d0d4da] sm:flex-col">
           {/* texto */}
-          <div className="flex w-2/6 flex-col justify-end text-6xl font-black">
+          <div className="flex w-2/6 flex-col justify-end text-6xl font-black 2xl:text-5xl xl:text-4xl lg:text-2xl md:text-xl sm:m-4 sm:mb-10 sm:w-auto sm:items-center sm:justify-center sm:text-center">
             <p className="text-start">
               Projetos complementares completos para garantir
               <span className="text-black"> eficiência</span>,{" "}
@@ -46,7 +46,7 @@ export default function SectionQuemSomos() {
             </p>
             {/* botão */}
             <Link href={"/sobre"} className="flex h-12">
-              <div className="mt-5 flex h-full cursor-pointer items-center justify-center rounded-full bg-[#161c33] p-8 px-12 text-center text-2xl font-bold text-gray-50 transition-all ease-in-out hover:bg-[#263059]">
+              <div className="mt-5 flex h-full cursor-pointer items-center justify-center rounded-full bg-[#161c33] p-8 px-12 text-center text-2xl font-bold text-gray-50 transition-all ease-in-out hover:bg-[#263059] lg:mt-0 lg:px-4 lg:py-3 lg:text-base md:h-8 md:px-3 md:py-2 md:text-sm sm:w-full">
                 Saiba mais sobre nós
               </div>
             </Link>
