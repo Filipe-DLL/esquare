@@ -27,7 +27,7 @@ export const serviçosData: serviçosDataTypes[] = [
   },
   {
     categoria: Eletrico,
-    titulo: "Projeto Eletrico",
+    titulo: "Projeto Elétrico",
     descrição:
       "Um projeto elétrico residencial é o conjunto de todas as informações, cálculos, desenhos e detalhes referentes à instalação elétrica residencial, observando todas as normas nacionais vigentes. Essas informações podem ser um diagrama elétrico, tabela de dados, layout, desenhos técnicos, listagem dos componentes da instalação e outros.   O projeto elétrico se beneficia muito de um projeto arquitetônico bem feito.Além de ser extremamente necessário para proteção dos equipamentos ligados na casa, desde equipamentos mais robustos como ar condicionados, chuveiros elétricos e bombas para piscina, até a equipamentos mais simples como computadores, equipamentos televisivos e smartphones.",
     imagens: [
@@ -49,7 +49,7 @@ export const serviçosData: serviçosDataTypes[] = [
   },
   {
     categoria: PPCI,
-    titulo: "Prevenção e Combate à Incêndio (PPCI)",
+    titulo: "PPCI",
     descrição:
       "O PPCI (Projeto de Prevenção e Combate a Incêndios) é um documento que sistematiza e detalha os elementos necessários a serem previstos para garantir a segurança dos ocupantes e auxiliar no combate a incêndios. Ele define os espaços e sistemas da edificação para evacuar as pessoas de forma rápida em casos de emergência e iniciar o combate ao fogo em casos de princípios de incêndio.  É necessário, pelas normas brasileiras vigentes, em todas as instalações comerciais, industriais, prédios e locais de concentração de público, além dos edifícios residenciais multifamiliares.O não cumprimento das regulamentações estabelecidas pode acarretar multa.",
     imagens: [
@@ -60,9 +60,9 @@ export const serviçosData: serviçosDataTypes[] = [
   },
   {
     categoria: Orçamento,
-    titulo: "Orçamento",
+    titulo: "Cabeamento Estruturado",
     descrição:
-      "Para que seja realizado o financiamento nas instituições financeiras é necessário o preenchimento de planilhas de orçamento específicas dessas instituições. Essas planilhas são diferentes das planilhas comumente utilizadas na construção civil em obras privadas. A planilha da caixa tem uma série de detalhes que, sem um profissional qualificado, vai haver uma certa dificuldade no aceite pela instituição, ou até mesmo uma reprovação de financiamento.   Nós da Esquare temos profissionais experientes neste tipo de serviço e fazemos com o maior zelo possível para que seu financiamento saia o mais rápido possível.",
+      "Projeto de infraestrutura de cabeamento de redes.",
     imagens: [
       "https://i.imgur.com/QDzqvj0.jpeg",
       "https://i.imgur.com/J9bGBhr.jpeg",

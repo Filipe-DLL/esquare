@@ -77,7 +77,7 @@ export default function SectionInicio() {
           </h1>
 
           <Link
-            href="#contato"
+            href="https://api.whatsapp.com/send?phone=5588981861972"
             className="mt-8 inline-block rounded-full bg-white px-8 py-4 text-lg font-extrabold text-azulIndigo shadow-lg transition hover:scale-105 hover:shadow-xl md:px-3 md:py-2  md:text-base"
           >
             SOLICITE UM ORÇAMENTO

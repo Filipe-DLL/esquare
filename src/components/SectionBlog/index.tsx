@@ -63,7 +63,7 @@ export default function SectionValores() {
         </div>
         {/* Botão */}
         <Link
-          href="#contato"
+          href="/blog"
           className="absolute bottom-12 right-8 rounded-full bg-[#161c33] px-8 py-4 text-lg font-extrabold text-[#d9d9d9] shadow-lg transition hover:bg-[#263059] hover:shadow-xl sm:static sm:mb-4"
         >
           Ver todos os artigos

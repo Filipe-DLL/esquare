@@ -3,7 +3,8 @@ import Link from "next/link";
 
 import logo from "@/assets/Header/reduzida-cinza.svg";
 import MenuClientSide from "@/components/Header/Menu/MenuClientSide";
-import { Facebook, Instagram } from "lucide-react";
+import { Instagram } from "lucide-react";
+import whatsapp from "@/assets/SectionInicio/whatsapp_.png";
 
 export default function Header() {
   return (
@@ -32,10 +33,10 @@ export default function Header() {
               <Link href={"/sobre"}>Quem Somos</Link>
             </li>
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-              <Link href={"/#Serviços"}>Serviços</Link>
+              <Link href={"/servicos"}>Serviços</Link>
             </li>
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
-              <Link href={"/#Projetos"}>Projetos</Link>
+              <Link href={"/projetos"}>Projetos</Link>
             </li>
             <li className="cursor-pointer transition-all ease-in-out hover:text-gray-400 hover:opacity-95">
               <Link href={"/links"}>Links</Link>
@@ -55,13 +56,18 @@ export default function Header() {
 
             <ul className="flex flex-row gap-3 font-bold text-gray-100 md:hidden">
               <li>
-                <Link href={"/links"}>
-                  <Instagram />
+                <Link href={"https://api.whatsapp.com/send?phone=5588981861972"}>
+                  <Image
+                    src={whatsapp}
+                    height={75}
+                    alt="Solicite um orçamento via WhatsApp!"
+                    className="h-6 w-auto"
+                  />
                 </Link>
               </li>
               <li>
-                <Link href={"/links"}>
-                  <Facebook />
+                <Link href={"https://www.instagram.com/esquareengenharia/"}>
+                  <Instagram />
                 </Link>
               </li>
             </ul>

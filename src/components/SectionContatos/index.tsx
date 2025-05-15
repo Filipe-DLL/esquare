@@ -40,7 +40,7 @@ export default function SectionContatos() {
               className="border:0 xl:h-400px shadow-md xl:w-full sm:w-screen"
             ></iframe>
             <Link
-              href={"/sobre"}
+              href={"https://www.google.com/maps?ll=-7.23859,-39.313055&z=19&t=m&hl=pt-PT&gl=BR&mapclient=embed&cid=10088137086235063501"}
               className="absolute bottom-0 flex items-center justify-center"
             >
               <div className="flex h-auto w-auto cursor-pointer items-center justify-center rounded-full bg-[#161c33] px-12 py-3 text-center text-2xl font-bold text-[#d9d9d9] transition-all ease-in-out hover:bg-[#263059]">
@@ -64,7 +64,7 @@ export default function SectionContatos() {
               className="-mb-10 md:w-full"
             ></iframe>
             <Link
-              href={"/sobre"}
+              href={"https://www.instagram.com/esquareengenharia/"}
               className="absolute bottom-0 flex items-center justify-center"
             >
               <div className="flex h-auto w-auto cursor-pointer items-center justify-center rounded-full bg-[#161c33] px-12 py-3 text-center text-2xl font-bold text-[#d9d9d9] transition-all ease-in-out hover:bg-[#263059]">
