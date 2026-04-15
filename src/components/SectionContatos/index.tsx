@@ -13,7 +13,7 @@ export default function SectionContatos() {
       <div className=" flex h-full items-center justify-center gap-20 xl:flex-col-reverse">
         {/* mapa */}
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1176.7271382575277!2d-39.31298331132939!3d-7.238269126610154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a179a12f7c7dff%3A0x8c00433b0e7c34cd!2sEsquare%20Engenharia%20%26%20Projetos!5e0!3m2!1spt-PT!2sbr!4v1710455936055!5m2!1spt-PT!2sbr"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d494.76671815715434!2d-39.32503369516667!3d-7.22558210744992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a18276c0a9f055%3A0xbae400f36e574d09!2sCentral%20Park%20Comercial!5e0!3m2!1spt-BR!2sbr!4v1776213463086!5m2!1spt-BR!2sbr"
           width="700"
           height="450"
           loading="lazy"
