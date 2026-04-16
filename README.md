@@ -68,8 +68,5 @@ npm run dev
 <img src="" title="gif do projeto">
 
 #### Mobile
-<<<<<<< test
 
-=======
->>>>>>> main
 <img src="" title="gif do projeto">
