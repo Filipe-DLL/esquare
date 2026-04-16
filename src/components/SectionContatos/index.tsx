@@ -35,7 +35,7 @@ export default function SectionContatos() {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d494.76671815715434!2d-39.32503369516667!3d-7.22558210744992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a18276c0a9f055%3A0xbae400f36e574d09!2sCentral%20Park%20Comercial!5e0!3m2!1spt-BR!2sbr!4v1776213463086!5m2!1spt-BR!2sbr"
               width="700"
-              height="680"
+              height="700"
               loading="lazy"
               className="border:0 xl:h-400px shadow-md xl:w-full sm:w-screen"
             ></iframe>
@@ -50,7 +50,7 @@ export default function SectionContatos() {
           </div>
 
           {/* insta */}
-          <div className="md:h-[700px] relative flex h-[700px] w-full max-w-[700px] flex-col items-center justify-center overflow-hidden">
+          <div className="md:h-[700px] relative flex h-[700px] w-full max-w-[700px] flex-col items-center justify-start overflow-hidden">
             <iframe
               src="https://64db68c8e44448a29883dc220f0998cc.elf.site"
               // src="https://be310cfd84404822a582b8af6450611f.elf.site"
