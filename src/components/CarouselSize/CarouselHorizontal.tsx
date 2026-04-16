@@ -17,11 +17,11 @@ export default function CarouselHorizontal() {
       orientation="vertical"
       className="hidden w-full sm:flex"
     >
-      <CarouselContent className="h-[650px] w-full">
+      <CarouselContent className="h-[650px] w-full ">
         {projectData.slice(1, 4).map((item, key) => (
           <CarouselItem
             key={key}
-            className="flex h-full w-auto items-center justify-center rounded-lg shadow-md"
+            className="flex h-full w-auto items-center justify-center rounded-lg shadow-md sm:mx-6"
           >
             <div className="flex flex-col items-center justify-center rounded-lg bg-[#fcfbff]">
               <div className="flex w-auto items-center justify-center overflow-hidden bg-cover">
@@ -38,7 +38,7 @@ export default function CarouselHorizontal() {
                 <h1 className="text-2xl font-bold 2md:text-xl">
                   <span>{item.titulo}</span>
                 </h1>
-                <p className="2md:text-sm">
+                {/* <p className="2md:text-sm">
                   <span className="font-semibold">ABRANGÊNCIA: </span>
                 </p>
                 <p className="2md:text-sm">
@@ -46,7 +46,7 @@ export default function CarouselHorizontal() {
                 </p>
                 <p className="2md:text-sm">
                   <span className="font-semibold">ATUAÇÃO: </span>
-                </p>
+                </p> */}
 
                 <p className="text-base font-medium  lg:text-justify 2md:text-sm">
                   <span className="font-semibold">DESTAQUES: </span>

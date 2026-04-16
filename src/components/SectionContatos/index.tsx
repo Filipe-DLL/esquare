@@ -24,7 +24,7 @@ export default function SectionContatos() {
         </div>
         {/* botão */}
         <Link href={"/sobre"} className="flex h-full">
-          <div className="flex h-full cursor-pointer items-center justify-center rounded-full bg-[#eeaa6b] p-3 px-12 text-center text-2xl font-bold uppercase text-black transition-all ease-in-out hover:bg-[#bb8554]">
+          <div className="flex h-full sm:h-16 cursor-pointer items-center justify-center rounded-full sm:text-lg bg-[#eeaa6b] mx-3 p-3 px-12 text-center text-2xl font-bold uppercase text-black transition-all ease-in-out hover:bg-[#bb8554]">
             Entre em contato
           </div>
         </Link>
@@ -35,7 +35,7 @@ export default function SectionContatos() {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d494.76671815715434!2d-39.32503369516667!3d-7.22558210744992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a18276c0a9f055%3A0xbae400f36e574d09!2sCentral%20Park%20Comercial!5e0!3m2!1spt-BR!2sbr!4v1776213463086!5m2!1spt-BR!2sbr"
               width="700"
-              height="680"
+              height="700"
               loading="lazy"
               className="border:0 xl:h-400px shadow-md xl:w-full sm:w-screen"
             ></iframe>
@@ -43,26 +43,26 @@ export default function SectionContatos() {
               href={"https://www.google.com/maps?ll=-7.23859,-39.313055&z=19&t=m&hl=pt-PT&gl=BR&mapclient=embed&cid=10088137086235063501"}
               className="absolute bottom-0 flex items-center justify-center"
             >
-              <div className="flex h-auto w-auto cursor-pointer items-center justify-center rounded-full bg-[#161c33] px-12 py-3 text-center text-2xl font-bold text-[#d9d9d9] transition-all ease-in-out hover:bg-[#263059]">
+              <div className="flex h-auto w-auto sm:h-16 mx-3 cursor-pointer items-center justify-center rounded-full bg-[#161c33] px-12 py-3 text-center text-2xl font-bold text-[#d9d9d9] transition-all ease-in-out hover:bg-[#263059]">
                 Como chegar ao nosso escritório
               </div>
             </Link>
           </div>
 
           {/* insta */}
-          <div className="md relative flex h-[700px] w-full max-w-[700px] flex-col items-center justify-center overflow-hidden">
+          <div className="md:h-[700px] relative flex h-[700px] w-full max-w-[700px] flex-col items-center justify-start overflow-hidden">
             <iframe
               src="https://64db68c8e44448a29883dc220f0998cc.elf.site"
               // src="https://be310cfd84404822a582b8af6450611f.elf.site"
               width="700"
               height="796"
-              className="sm:w-96 2md:w-auto -mb-10 overflow-x-hidden overflow-hidden">
+              className="sm:w-80 2md:w-auto h-full sm:h-[700px] -mb-10 overflow-x-hidden overflow-hidden">
             </iframe> 
             <Link
               href={"https://www.instagram.com/esquareengenharia/"}
               className="absolute bottom-0 flex items-center justify-center"
             >
-              <div className="flex h-auto w-auto cursor-pointer items-center justify-center rounded-full bg-[#161c33] px-12 py-3 text-center text-2xl font-bold text-[#d9d9d9] transition-all ease-in-out hover:bg-[#263059]">
+              <div className="flex h-auto sm:h-auto w-auto mx-3 cursor-pointer items-center justify-center rounded-full bg-[#161c33] px-12 py-3 text-center text-2xl font-bold text-[#d9d9d9] transition-all ease-in-out hover:bg-[#263059]">
                 Nos acompanhe no Instagram
               </div>
             </Link>
