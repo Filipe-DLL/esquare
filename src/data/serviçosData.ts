@@ -1,4 +1,4 @@
-import Orçamento from "@/assets/SectionServiços/Orçamento.jpg";
+import Cabeamento from "@/assets/SectionServiços/Cabeamento-Estruturado.jpg";
 import PPCI from "@/assets/SectionServiços/Prevenção-e-Combate-a-Incêndio-(PPCI).jpg";
 import Eletrico from "@/assets/SectionServiços/Projeto-Elétrico.jpg";
 import Estrutural from "@/assets/SectionServiços/Projeto-estrutural.jpg";
@@ -8,6 +8,7 @@ import { StaticImageData } from "next/image";
 
 interface serviçosDataTypes {
   categoria: StaticImageData;
+  id: number;
   titulo: string;
   descrição: string;
   imagens?: string[];
@@ -15,6 +16,7 @@ interface serviçosDataTypes {
 
 export const serviçosData: serviçosDataTypes[] = [
   {
+    id: 1,
     categoria: Estrutural,
     titulo: "Projeto Estrutural",
     descrição:
@@ -26,6 +28,7 @@ export const serviçosData: serviçosDataTypes[] = [
     ],
   },
   {
+        id: 2,
     categoria: Eletrico,
     titulo: "Projeto Elétrico",
     descrição:
@@ -37,6 +40,7 @@ export const serviçosData: serviçosDataTypes[] = [
     ],
   },
   {
+        id: 3,
     categoria: Hidrossanitário,
     titulo: "Projeto Hidrossanitário",
     descrição:
@@ -48,6 +52,7 @@ export const serviçosData: serviçosDataTypes[] = [
     ],
   },
   {
+        id: 4,
     categoria: PPCI,
     titulo: "PPCI",
     descrição:
@@ -59,14 +64,15 @@ export const serviçosData: serviçosDataTypes[] = [
     ],
   },
   {
-    categoria: Orçamento,
+    id: 5,
+    categoria: Cabeamento,
     titulo: "Cabeamento Estruturado",
     descrição:
-      "Projeto de infraestrutura de cabeamento de redes.",
+      "O projeto de cabeamento estruturado é um documento que sistematiza e detalha a infraestrutura necessária para garantir a organização, eficiência e confiabilidade das redes de dados, voz e imagem. Ele define a distribuição dos pontos, trajetos de cabos e dimensionamento dos componentes, permitindo a comunicação estável entre os sistemas e facilitando manutenções e expansões futuras. É necessário, conforme as normas técnicas vigentes, em instalações comerciais, industriais, prédios e ambientes corporativos que demandam conectividade. O não cumprimento das boas práticas e regulamentações pode resultar em falhas de comunicação, baixa performance e custos adicionais de manutenção..",
     imagens: [
-      "https://i.imgur.com/QDzqvj0.jpeg",
-      "https://i.imgur.com/J9bGBhr.jpeg",
-      "https://i.imgur.com/BZyxi37.jpeg",
+      "https://i.imgur.com/7doyaKk.jpeg",
+      "https://i.imgur.com/6Thety2.jpeg",
+      "https://i.imgur.com/UyJvrVy.jpeg",
     ],
   },
 ];

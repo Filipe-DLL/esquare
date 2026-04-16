@@ -14,13 +14,13 @@ export default function SectionQuemSomos() {
         {/* dados */}
         <div className="flex h-44 w-full items-center justify-center gap-4 bg-[#0f3090] text-7xl font-black text-[#546fad] xl:text-6xl lg:h-36 lg:text-5xl md:h-28 md:text-4xl sm:h-auto sm:flex-col sm:py-7">
           <p className="relative flex flex-col items-center">
-            +30.000m²{" "}
+            +12.000m²{" "}
             <span className="-mt-5 text-2xl font-black tracking-widest text-[#d9d9d9] xl:text-xl lg:text-lg md:text-base sm:-mt-3">
               PROJETADOS
             </span>
           </p>
           <p className="relative flex flex-col items-center">
-            +100{" "}
+            +65{" "}
             <span className="-mt-5 text-2xl font-black text-[#d9d9d9] xl:text-xl lg:text-lg md:text-base  sm:-mt-3">
               PROJETOS ENTREGUES
             </span>
@@ -29,7 +29,7 @@ export default function SectionQuemSomos() {
             <span className="z-10 -mb-5 text-2xl font-black tracking-widest text-[#d9d9d9] xl:text-xl lg:text-lg md:text-base sm:-mb-3">
               ATUAÇÃO EM
             </span>{" "}
-            20 Cidades
+            10 Cidades
           </p>
         </div>
 
@@ -57,9 +57,8 @@ export default function SectionQuemSomos() {
             alt="Sobre"
             width={500}
             height={500}
-            quality={100}
-            unoptimized={true}
-            priority={true}
+            quality={75}
+            priority
             className="-mt-12 w-1/2"
           />
         </div>

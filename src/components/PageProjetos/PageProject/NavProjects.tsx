@@ -10,7 +10,7 @@ interface dataType {
 export default function NavProjects({ id }: dataType) {
   return (
     <>
-      <div className="-mb-6 flex h-24 w-full items-center justify-around bg-zinc-300 text-azulPetrolio">
+      <div className="flex h-20 w-full items-center justify-around bg-zinc-300 text-azulPetrolio">
         {id <= 1 ? (
           <div></div>
         ) : (

@@ -1,5 +1,12 @@
 import { serviçosData } from "@/data/serviçosData";
 import { default as Image } from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Serviços | ESQUARE Engenharia",
+  description:
+    "Conheça os serviços de engenharia da ESQUARE: projetos estruturais, elétricos, hidrossanitários, PPCI e cabeamento estruturado.",
+};
 
 export default function Page() {
   return (
@@ -44,6 +51,7 @@ export default function Page() {
                     alt=""
                     width={300}
                     height={200}
+                    loading="lazy"
                     className="mb-8 h-56 w-auto rounded-3xl shadow-lg"
                   />
                 ))}

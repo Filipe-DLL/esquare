@@ -1,10 +1,17 @@
 import Img from "@/assets/PageProjetos/lista-projetos.jpg";
 import AllProjetos from "@/components/PageProjetos/AllProjetos/AllProjetos";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projetos | ESQUARE Engenharia",
+  description:
+    "Confira os projetos realizados pela ESQUARE Engenharia: +100 projetos entregues em 20 cidades.",
+};
 
 export default function Page() {
   return (
-    <section className="animate__fadeIn animate__animated flex h-full min-h-screen flex-col items-center justify-start overflow-x-hidden">
+    <section className="animate__fadeIn animate__animated flex h-full min-h-screen flex-col items-center justify-start overflow-x-hidden ">
       {/* Header */}
       <div className="flex h-96 w-full items-center justify-center overflow-hidden bg-cover">
         <div className="relative overflow-hidden bg-cover">

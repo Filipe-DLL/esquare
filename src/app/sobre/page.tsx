@@ -1,10 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import { Metadata } from "next";
 
 import IMG_1 from "@/assets/sobre/IMG_1.jpg";
 import IMG_2 from "@/assets/sobre/IMG_2.jpg";
 import IMG_3 from "@/assets/sobre/IMG_3.jpg";
 import IMG_4 from "@/assets/sobre/IMG_4.jpg";
+
+export const metadata: Metadata = {
+  title: "Sobre Nós | ESQUARE Engenharia",
+  description:
+    "Conheça a história da ESQUARE Engenharia & Projetos. Nossa missão é encontrar as melhores soluções de engenharia para garantir segurança e tranquilidade.",
+};
 
 export default function QuemSomos() {
   return (
@@ -15,6 +22,7 @@ export default function QuemSomos() {
           src={IMG_1}
           alt="Engenharia e Projetos"
           fill
+          priority
           className="object-cover opacity-70"
         />
         <div className="absolute inset-0 bg-black opacity-40"></div>
@@ -48,13 +56,17 @@ export default function QuemSomos() {
               <Image
                 src={IMG_2}
                 alt="Nossa História"
+                width={400}
                 height={400}
+                loading="lazy"
                 className="rounded-lg object-cover shadow-lg xl:w-6/12 md:w-full"
               />
               <Image
                 src={IMG_3}
                 alt="Equipe ESQUARE"
+                width={400}
                 height={400}
+                loading="lazy"
                 className="rounded-lg object-cover shadow-lg xl:w-6/12 md:w-full"
               />
             </div>
@@ -109,6 +121,7 @@ export default function QuemSomos() {
                 alt="Equipe ESQUARE"
                 width={500}
                 height={400}
+                loading="lazy"
                 className="rounded-lg shadow-lg"
               />
             </div>

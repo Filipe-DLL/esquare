@@ -2,6 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 interface props {
+  id: number;
   titulo: string;
   texto: string;
   imagem: StaticImageData;
@@ -12,7 +13,7 @@ export default function ServiçoItem(props: props) {
     <div className="group hover:-translate-y-3 hover:drop-shadow-md">
       <div className="sm:min-h-10 group relative h-96 w-64 rounded-2xl bg-[#d0d4da] text-[#1a2d92] shadow-md transition-all ease-in-out">
         <Link
-          href={`/servicos#${props.titulo}`}
+          href={`/servicos#${props.id}`}
           className="flex h-full flex-col items-center justify-start rounded-2xl p-5"
         >
           <div className="flex h-56 w-48 flex-col items-center justify-start">
@@ -20,6 +21,7 @@ export default function ServiçoItem(props: props) {
               src={props.imagem}
               alt=""
               width={120}
+              loading="lazy"
               className="min-w-[120px] overflow-hidden bg-cover object-cover sm:w-[20px]"
             />
 
