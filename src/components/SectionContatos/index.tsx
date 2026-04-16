@@ -7,6 +7,7 @@ export default function SectionContatos() {
       className="flex h-full w-full flex-col items-center justify-center bg-[#d4e2ff] py-20"
     >
       {/* container */}
+<<<<<<< test
       <div className="flex w-full flex-col items-center justify-center gap-8">
         {/* texto */}
         <div className="flex flex-col gap-8 text-center">
@@ -14,6 +15,23 @@ export default function SectionContatos() {
             Estamos ansiosos
             <br />
             para trabalhar com você!
+=======
+      <div className=" flex h-full items-center justify-center gap-20 xl:flex-col-reverse">
+        {/* mapa */}
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d494.76671815715434!2d-39.32503369516667!3d-7.22558210744992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a18276c0a9f055%3A0xbae400f36e574d09!2sCentral%20Park%20Comercial!5e0!3m2!1spt-BR!2sbr!4v1776213463086!5m2!1spt-BR!2sbr"
+          width="700"
+          height="450"
+          loading="lazy"
+          className="border:0 rounded-3xl shadow-md xl:w-5/6 sm:w-screen sm:rounded-none"
+        ></iframe>
+
+        {/* container */}
+        <div className="flex h-[28rem] flex-col items-center justify-between gap-10 xl:w-5/6 sm:gap-2">
+          {/* Titulo */}
+          <h1 className="flex items-center justify-center text-center text-3xl font-black uppercase">
+            ENTRE EM CONTATO
+>>>>>>> main
           </h1>
 
           <p className="text-4xl font-extrabold md:text-2xl">
