@@ -8,7 +8,6 @@ import { StaticImageData } from "next/image";
 
 interface serviçosDataTypes {
   categoria: StaticImageData;
-  id: number;
   titulo: string;
   descrição: string;
   imagens?: string[];
@@ -16,7 +15,6 @@ interface serviçosDataTypes {
 
 export const serviçosData: serviçosDataTypes[] = [
   {
-    id: 1,
     categoria: Estrutural,
     titulo: "Projeto Estrutural",
     descrição:
@@ -28,7 +26,6 @@ export const serviçosData: serviçosDataTypes[] = [
     ],
   },
   {
-        id: 2,
     categoria: Eletrico,
     titulo: "Projeto Elétrico",
     descrição:
@@ -40,7 +37,6 @@ export const serviçosData: serviçosDataTypes[] = [
     ],
   },
   {
-        id: 3,
     categoria: Hidrossanitário,
     titulo: "Projeto Hidrossanitário",
     descrição:
@@ -52,7 +48,6 @@ export const serviçosData: serviçosDataTypes[] = [
     ],
   },
   {
-        id: 4,
     categoria: PPCI,
     titulo: "PPCI",
     descrição:
@@ -64,7 +59,6 @@ export const serviçosData: serviçosDataTypes[] = [
     ],
   },
   {
-    id: 5,
     categoria: Cabeamento,
     titulo: "Cabeamento Estruturado",
     descrição:
