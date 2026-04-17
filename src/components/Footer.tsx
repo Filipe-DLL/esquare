@@ -88,9 +88,9 @@ export default function Footer() {
         <div className="flex flex-col xl:w-5/12 lg:items-center">
           <h2 className="mb-8 text-xl font-extrabold">Endereço</h2>
           <p className="font-medium">
-            Av. Eduardo Mclain, 390
+            R. Catulo da Paixão Cearense, 135
             <br />
-            Triângulo, Juazeiro do Norte - CE, 63041-175
+            Triângulo, Juazeiro do Norte - CE, 63041-162
          </p>
         </div>
       </div>
